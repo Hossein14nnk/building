@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "primary";
+  font-weight: 900;
+  src: url("../fonts/vazir/Vazir-Black.woff2"), url("../fonts/vazir/Vazir-Black.woff"), url("../fonts/vazir/Vazir-Black.ttf"), url("../fonts/vazir/Vazir-Black.eot");
+}
+@font-face {
+  font-family: "primary";
+  font-weight: 400;
+  src: url("../fonts/vazir/Vazir-Regular.woff2"), url("../fonts/vazir/Vazir-Regular.woff"), url("../fonts/vazir/Vazir-Regular.ttf"), url("../fonts/vazir/Vazir-Regular.eot");
+}
+@font-face {
+  font-family: "primary";
+  font-weight: 100;
+  src: url("../fonts/vazir/Vazir-Thin.woff2"), url("../fonts/vazir/Vazir-Thin.woff"), url("../fonts/vazir/Vazir-Thin.ttf"), url("../fonts/vazir/Vazir-Thin.eot");
+}
+.font-primary {
+  font-family: var("--font-primary"), sans-serif, "Courier New", Courier, monospace;
+}
+
+.hossein {
+  background-image: url("../media/images/logo.png");
+  color: var(--primary);
+}
+
+/*# sourceMappingURL=style.min.css.map */
