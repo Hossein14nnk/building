@@ -1,0 +1,10 @@
+@mixin visibility(){
+	.visibility-hidden{
+		visibility:hidden;
+	}
+	.visibility-visible{
+		visibility:visible;
+	}
+}
+
+// @include visibility();

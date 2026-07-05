@@ -1,0 +1,10 @@
+@mixin scroll-behavior(){
+    .scroll-behavior-smooth{
+        scroll-behavior: smooth;
+    }
+    .scroll-behavior-unset{
+        scroll-behavior: unset;
+    }
+}
+
+// @include scroll-behavior();
