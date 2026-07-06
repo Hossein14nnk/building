@@ -1,5 +1,4 @@
-<%- include('../layouts/components/head.ejs' , {title: 'miz'}); %>
-    
+
     <footer class="footer py-5 bg-on-primary-color secondary-color">
         <div class="container">
 
@@ -8,7 +7,7 @@
                 
                 <div class=" col-lg-3 col-md-6">
 
-                    <img src="../../../assets/media/images/logo.png" class="mb-4" width="210">
+                    <img src="<%- getMedia(lang, 'logo.png', 'images') %>" class="mb-4" >
 
                     <p class="footer-text">
                         We are a leading construction company providing high-quality
@@ -174,5 +173,3 @@
 
         </div>
     </footer>
-
-<%- include('../layouts/components/foot.ejs' , {title: 'miz'}); %>

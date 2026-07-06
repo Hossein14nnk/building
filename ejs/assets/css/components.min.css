@@ -1,17 +1,51 @@
-/* Error: no such file or directory
- *   ,
- * 2 | @forward "header";
- *   | ^^^^^^^^^^^^^^^^^
- *   '
- *   app\components\_index.scss 2:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: no such file or directory\a   \2577 \a 2 \2502  @forward "header";\d\a   \2502  ^^^^^^^^^^^^^^^^^\a   \2575 \a   app\\components\\_index.scss 2:1  root stylesheet';
+h1 {
+  color: red;
 }
+
+.footer li:hover {
+  color: #F6BC0B;
+  transform: translateX(0.2rem);
+}
+
+.footer li {
+  transition: all 200ms linear;
+}
+
+a img {
+  transition: all 300ms linear;
+}
+
+a img:hover {
+  transform: scale(1.04);
+}
+
+.social i {
+  transition: all 100ms ease-in-out;
+}
+
+.social i:hover {
+  color: #F6BC0B;
+}
+
+.quote-btn i {
+  transition: all 300ms ease-in-out;
+}
+
+.quote-btn:hover i {
+  transform: translateX(0.5rem);
+}
+
+.position-btn i {
+  transition: all 300ms ease-in-out;
+}
+
+.position-btn:hover i {
+  transform: translateX(0.5rem);
+}
+
+.account-features .icon {
+  width: 100px;
+  aspect-ratio: 1;
+}
+
+/*# sourceMappingURL=components.min.css.map */
