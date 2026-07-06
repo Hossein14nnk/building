@@ -1,8 +1,0 @@
-@use "../../miz/sass/global-functions/_images" as *;
-@use "../../miz/sass/global-functions/_colors" as *;
-
-
-.hossein {
-    background-image: url(get-image("logo.png"));
-    color: get-color("primary");
-}
