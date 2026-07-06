@@ -1,7 +1,9 @@
 {
 	"direction": "ltr",
 	"components": {
-		
+		"accountFeatures": {
+			
+		}
 	},
 	"pages": {
 		"homePage": {
