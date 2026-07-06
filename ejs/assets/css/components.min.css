@@ -1,5 +1,17 @@
-h1 {
-  color: red;
-}
+/* Error: no such file or directory
+ *   ,
+ * 2 | @forward "header";
+ *   | ^^^^^^^^^^^^^^^^^
+ *   '
+ *   app\components\_index.scss 2:1  root stylesheet */
 
-/*# sourceMappingURL=components.min.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: no such file or directory\a   \2577 \a 2 \2502  @forward "header";\d\a   \2502  ^^^^^^^^^^^^^^^^^\a   \2575 \a   app\\components\\_index.scss 2:1  root stylesheet';
+}
