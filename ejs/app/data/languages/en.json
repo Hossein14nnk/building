@@ -1,11 +1,20 @@
 {
 	"direction": "ltr",
 	"components": {
-		
-	},
-	"pages": {
-		"homePage": {
-			"title": "MIZ Framework"
+		"accountFeatures": {
+			"item": {
+				"title": "default"
+			}
+		},
+		"pages": {
+			"homePage": {
+				"components": {
+					"item": {
+						"title": "google"
+					}
+				},
+				"title": "MIZ Framework"
+			}
 		}
 	}
 }
