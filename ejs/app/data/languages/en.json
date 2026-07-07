@@ -38,6 +38,25 @@
 				"stateNumber": "120+",
 				"title": "Professional Team"
 			}
+		},
+		"ContactDetails": {
+			"itemOne": {
+				"title": "Address",
+				"value": "123 Construction Ave, New York, NY 10001, USA"
+			},
+			"itemTwo": {
+				"title": "Phone",
+				"value": "+1 212 555 7890"
+			},
+			"itemThree": {
+				"title": "Email",
+				"value": "info@buildex.com"
+			},
+			"itemFour": {
+				"title": "Working Hours",
+				"valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
+				"valueTwo": "Sunday: Closed"
+			}
 		}
 	},
 	"pages": {

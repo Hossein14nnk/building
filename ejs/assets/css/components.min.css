@@ -24,4 +24,12 @@
   color: var(--bs-primary);
 }
 
+.contact-details .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  aspect-ratio: 1;
+}
+
 /*# sourceMappingURL=components.min.css.map */
