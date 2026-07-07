@@ -11,4 +11,17 @@
   margin-bottom: 1rem;
 }
 
+.stats-counter .icon {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
+.stats-counter .hover h4 {
+  transition: all 200ms linear;
+}
+
+.stats-counter .hover:hover h4 {
+  color: var(--bs-primary);
+}
+
 /*# sourceMappingURL=components.min.css.map */

@@ -21,7 +21,24 @@
 				"subtitle": "Invite your team members and collaborate seamlessly on projects."
 			}
 		},
-		"statsCounter": {},
+		"statsCounter": {
+			"itemOne": {
+				"stateNumber": "25+",
+				"title": "Years Experience"
+			},
+			"itemTwo": {
+				"stateNumber": "1530+",
+				"title": "Projects Completed"
+			},
+			"itemThree": {
+				"stateNumber": "1310+",
+				"title": "Satisfied Clients"
+			},
+			"itemFour": {
+				"stateNumber": "120+",
+				"title": "Professional Team"
+			}
+		}
 	},
 	"pages": {
 		"homePage": {
