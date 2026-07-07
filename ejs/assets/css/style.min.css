@@ -17,6 +17,10 @@
   font-family: var("--font-primary"), sans-serif, "Courier New", Courier, monospace;
 }
 
+.transition {
+  transition: 0.3s 0s linear;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
