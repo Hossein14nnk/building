@@ -58,12 +58,20 @@
 				"valueTwo": "Sunday: Closed"
 			}
 		},
+
+		"newsBox": {
+				"category": "Construction",
+				"date": "Oct 15, 2026",
+				"title": "1. 10 Construction Trends Shaping the Future",
+				"description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
+				"txtButton": "Read more" 
 		"servicesCard": {
 			"title": "Construction Management",
 			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
 			"button": "LEARN MORE"
 		}
 	},
+
 	"pages": {
 		"homePage": {
 			"components": {
