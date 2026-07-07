@@ -10,18 +10,18 @@
         "dev": "node miz/pkg/server.js",
         "build-bootstrap": "concurrently \"sass --no-source-map --style=expanded assets/vendors/bootstrap/scss/bootstrap.scss:assets/vendors/bootstrap/dist/css/bootstrap.css\" \"sass --no-source-map --style=compressed assets/vendors/bootstrap/scss/bootstrap.scss:assets/vendors/bootstrap/dist/css/bootstrap.min.css\""
     },
-    "author":"",
-    "license":"ISC",
-    "devDependencies":{
-        "sass":"^1.77.8",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
         "concurrently": "^9.0.0",
+        "sass": "^1.77.8",
         "terser": "^5.28.1"
     },
     "dependencies": {
-        "ejs": "^5.0.1",
-        "ncp": "^2.0.0",
         "cheerio": "^1.1.2",
+        "ejs": "^5.0.1",
+        "express": "^5.1.0",
         "multer": "^2.0.2",
-        "express": "^5.1.0"
+        "ncp": "^2.0.0"
     }
 }
