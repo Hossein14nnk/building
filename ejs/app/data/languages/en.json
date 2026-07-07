@@ -21,15 +21,16 @@
 				"subtitle": "Invite your team members and collaborate seamlessly on projects."
 			}
 		},
-		"pages": {
-			"homePage": {
-				"components": {
-					"item": {
-						"title": "google"
-					}
-				},
-				"title": "MIZ Framework"
-			}
+		"statsCounter": {},
+	},
+	"pages": {
+		"homePage": {
+			"components": {
+				"item": {
+					"title": "google"
+				}
+			},
+			"title": "MIZ Framework"
 		}
 	}
 }
