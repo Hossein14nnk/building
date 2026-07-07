@@ -297,29 +297,32 @@ $cyans: (
 ) !default;
 // fusv-enable
 
+
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$primary: #FEBF01;
+$secondary: #FAFAFA;
+$success: #02B74A;
+$danger: #D70D0D;
+$warning: #FFB800;
+$info: #3761EB;
+$light: #F7F7F7;
+$dark: #000000;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  // "primary":    $primary,
-  // "secondary":  $secondary,
-  // "success":    $success,
-  // "info":       $info,
-  // "warning":    $warning,
-  // "danger":     $danger,
-  // "light":      $light,
-  // "dark":       $dark
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+) !default;
 
-  "primary":#FEBF01,
+$custom-colors: (
+ "primary":#FEBF01,
   "on-primary": #0F0F0F,
   "primary-light": #FCF0D6,
   "primary-dark": #00000000,
@@ -336,8 +339,7 @@ $theme-colors: (
   "section-title-text": #0C0B0C,
   "border": #FEBF01,
   "divider": #FEBF01,
-  "shadow": #F0F0F1,
-  "icon": #0C0B0C,
+  "icon": #FCEED2,
   "icon-hover": #00000000,
   "menu": #00000000,
   "card": #FFFFFF,
@@ -370,8 +372,12 @@ $theme-colors: (
   "information-dark": #2145BC,
   "border-secondary": #FFFFFF,
   "unCommon": #FFFFFF,
-) !default;
-// scss-docs-end theme-colors-map
+);
+
+$theme-colors: map-merge(
+  $theme-colors,
+  $custom-colors
+);
 
 // scss-docs-start theme-text-variables
 $primary-text-emphasis:   shade-color($primary, 60%) !default;
@@ -624,7 +630,7 @@ $border-radius-2xl:           $border-radius-xxl !default; // Deprecated in v5.3
 // fusv-enable
 
 // scss-docs-start box-shadow-variables
-$box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
+$box-shadow:                  0 2px 12px rgba(0, 0, 0, 0.06) !default;
 $box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
@@ -709,7 +715,7 @@ $h6-font-size:                $font-size-base !default;
 // scss-docs-start font-sizes
 $font-sizes: (
   "mega-title": 4rem,
-  "big-title": 3rem
+  "big-title": 3rem,
   "high-title": 2.5rem,
   "mid-title": 1.5rem,
   "title": 1rem,
