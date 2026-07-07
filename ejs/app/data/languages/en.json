@@ -21,15 +21,52 @@
 				"subtitle": "Invite your team members and collaborate seamlessly on projects."
 			}
 		},
-		"pages": {
-			"homePage": {
-				"components": {
-					"item": {
-						"title": "google"
-					}
-				},
-				"title": "MIZ Framework"
+		"statsCounter": {
+			"itemOne": {
+				"stateNumber": "25+",
+				"title": "Years Experience"
+			},
+			"itemTwo": {
+				"stateNumber": "1530+",
+				"title": "Projects Completed"
+			},
+			"itemThree": {
+				"stateNumber": "1310+",
+				"title": "Satisfied Clients"
+			},
+			"itemFour": {
+				"stateNumber": "120+",
+				"title": "Professional Team"
 			}
+		},
+		"ContactDetails": {
+			"itemOne": {
+				"title": "Address",
+				"value": "123 Construction Ave, New York, NY 10001, USA"
+			},
+			"itemTwo": {
+				"title": "Phone",
+				"value": "+1 212 555 7890"
+			},
+			"itemThree": {
+				"title": "Email",
+				"value": "info@buildex.com"
+			},
+			"itemFour": {
+				"title": "Working Hours",
+				"valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
+				"valueTwo": "Sunday: Closed"
+			}
+		}
+	},
+	"pages": {
+		"homePage": {
+			"components": {
+				"item": {
+					"title": "google"
+				}
+			},
+			"title": "MIZ Framework"
 		}
 	}
 }

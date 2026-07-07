@@ -11,4 +11,25 @@
   margin-bottom: 1rem;
 }
 
+.stats-counter .icon {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
+.stats-counter .hover h4 {
+  transition: all 200ms linear;
+}
+
+.stats-counter .hover:hover h4 {
+  color: var(--bs-primary);
+}
+
+.contact-details .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  aspect-ratio: 1;
+}
+
 /*# sourceMappingURL=components.min.css.map */
