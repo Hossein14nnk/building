@@ -32,6 +32,11 @@
   aspect-ratio: 1;
 }
 
+.services-card .img-size {
+  width: 70px;
+  aspect-ratio: 1;
+}
+
 .news-box a:hover {
   color: var(--bs-button);
 }
@@ -41,9 +46,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   aspect-ratio: 2/1;
-.services-card .img-size {
-  width: 70px;
-  aspect-ratio: 1;
 }
 
 /*# sourceMappingURL=components.min.css.map */
