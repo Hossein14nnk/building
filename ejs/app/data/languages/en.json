@@ -41,6 +41,13 @@
 				"title": "Clients Recommend Us",
 				"description": "We build lasting relationships through trust & results"			
 			}
+		},
+		"positionCard":
+		{
+			"subTitle": "BE PART OF OUR TEAM",
+			"title": "Build Your Career With Us",
+			"description": "We're always looking for talented and passionate individuals.",
+			"btn": "VIEW OPEN POSITIONS"
 		}
 		
 		
