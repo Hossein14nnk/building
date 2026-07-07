@@ -1,12 +1,46 @@
-h1 {
-  color: red;
+.account-features .icon {
+  width: 60px;
+  aspect-ratio: 1;
 }
 
-.card {
-  background-color: black;
-  width: 100px;
-  height: 200px;
-  color: white;
+.account-features .line {
+  width: 34px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: var(--bs-primary);
+  margin-bottom: 1rem;
+}
+
+.stats-counter .icon {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
+.stats-counter .hover h4 {
+  transition: all 200ms linear;
+}
+
+.stats-counter .hover:hover h4 {
+  color: var(--bs-primary);
+}
+
+.contact-details .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  aspect-ratio: 1;
+}
+
+.news-box a:hover {
+  color: var(--bs-button);
+}
+
+.news-box .image {
+  background-image: url(../../../assets/media/images/en/components/news.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 2/1;
 }
 
 /*# sourceMappingURL=components.min.css.map */

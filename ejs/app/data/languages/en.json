@@ -1,15 +1,78 @@
 {
 	"direction": "ltr",
 	"components": {
-		"item":{
-			"title": "default"
+		"accountFeatures": {
+			"title": "Build Your Future With Buildex",
+			"subtitle": "Create an account to access exclusive features and manage your projects easily.",
+			"itemOne": {
+				"title": "Manage Your Projects",
+				"subtitle": "Organize and track all your construction projects in one place."
+			},
+			"itemTwo": {
+				"title": "Get Custom Quotes",
+				"subtitle": "Request and save custom quotes for your upcoming projects."
+			},
+			"itemThree": {
+				"title": "Project Updates",
+				"subtitle": "Receive real-time updates and important notifications about your projects."
+			},
+			"itemFour": {
+				"title": "Team Collaboration",
+				"subtitle": "Invite your team members and collaborate seamlessly on projects."
+			}
+		},
+		"statsCounter": {
+			"itemOne": {
+				"stateNumber": "25+",
+				"title": "Years Experience"
+			},
+			"itemTwo": {
+				"stateNumber": "1530+",
+				"title": "Projects Completed"
+			},
+			"itemThree": {
+				"stateNumber": "1310+",
+				"title": "Satisfied Clients"
+			},
+			"itemFour": {
+				"stateNumber": "120+",
+				"title": "Professional Team"
+			}
+		},
+		"ContactDetails": {
+			"itemOne": {
+				"title": "Address",
+				"value": "123 Construction Ave, New York, NY 10001, USA"
+			},
+			"itemTwo": {
+				"title": "Phone",
+				"value": "+1 212 555 7890"
+			},
+			"itemThree": {
+				"title": "Email",
+				"value": "info@buildex.com"
+			},
+			"itemFour": {
+				"title": "Working Hours",
+				"valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
+				"valueTwo": "Sunday: Closed"
+			}
+		},
+
+		"newsBox": {
+				"category": "Construction",
+				"date": "Oct 15, 2026",
+				"title": "1. 10 Construction Trends Shaping the Future",
+				"description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
+				"txtButton": "Read more" 
 		}
 	},
+
 	"pages": {
 		"homePage": {
-			"components":{
+			"components": {
 				"item": {
-					"title":"google"
+					"title": "google"
 				}
 			},
 			"title": "MIZ Framework"
