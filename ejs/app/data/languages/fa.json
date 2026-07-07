@@ -1,0 +1,59 @@
+{
+	"direction": "ltr",
+	"components": {
+		"accountFeatures": {
+			"item": {
+				"title": "default"
+			}
+		},
+		"contactCard": {
+
+		}
+		
+		
+	},
+	"pages": {
+		"homePage": {
+			"components": {
+				"item": {
+					"title": "google"
+				}
+			},
+			"title": "MIZ Framework"
+		}
+	},
+	"footer": {
+		"description": "ما یک شرکت ساختمانی پیشرو هستیم که خدمات باکیفیتی را در بخش‌های مسکونی، تجاری و صنعتی در سراسر جهان ارائه می‌دهیم.",
+		"paragraph": "© ۲۰۲۴ شرکت ساختمانی Buildex. تمامی حقوق محفوظ است.",
+		"quickLinks": 
+		{
+			"txt": "لینک‌های سریع",
+			"home": "خانه",
+			"aboutUs": "درباره ما",
+			"services": "خدمات",
+			"projects": "پروژه‌ها",
+			"blogs": "وبلاگ",
+			"contactUs": "تماس با ما"
+		},
+		"ourSservices" : 
+		{
+			"txt": "خدمات ما",
+			"construction": "مدیریت ساخت",
+			"design": "طراحی و ساخت",
+			"renovation" : "بازسازی",
+			"interior": "طراحی داخلی",
+			"project": "مشاوره پروژه"
+		},
+		"contact": 
+		{
+			"txt": "اطلاعات تماس",
+			"address1": "خیابان Construction، پلاک ۱۲۳،",
+			"address2": "نیویورک، NY 10001، ایالات متحده",
+			"phoneNumber": "۷۸۹۰-۵۵۵-۲۱۲ ۱+",
+			"email" : "info@buildex.com",
+			"timeWork": "دوشنبه تا شنبه: ۸:۰۰ صبح تا ۶:۰۰ عصر"
+		},
+		"recent" : "پروژه‌های اخیر"
+
+	}
+}

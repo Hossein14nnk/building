@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../../app/components/tab/_index.scss","../../app/components/footer/_index.scss","../../app/components/quote-card/_index.scss","../../app/components/position-card/_index.scss","../../app/components/account-features/_index.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;ACtBJ;EACI;;;AAGJ;EACI;;;ACLJ;EACI;;;AAGJ;EACI;;;ACLJ;EACI;EACA","file":"components.min.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../../app/components/account-features/_index.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAEJ;EACI","file":"components.min.css"}
->>>>>>> becd3dfd3953e61563f98de838a9357ef7091060
+{"version":3,"sourceRoot":"","sources":["../../app/components/footer/_index.scss","../../app/components/quote-card/_index.scss","../../app/components/position-card/_index.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;ACtBJ;EACI;;;AAGJ;EACI;;;ACLJ;EACI;;;AAGJ;EACI","file":"components.min.css"}

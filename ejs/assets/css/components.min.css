@@ -1,8 +1,3 @@
-.account-features .icon {
-  width: 100px;
-  aspect-ratio: 1;
-}
-
 .footer li:hover {
   color: #F6BC0B;
   transform: translateX(0.2rem);
@@ -42,11 +37,6 @@ a img:hover {
 
 .position-btn:hover i {
   transform: translateX(0.5rem);
-}
-
-.account-features .icon {
-  width: 100px;
-  aspect-ratio: 1;
 }
 
 /*# sourceMappingURL=components.min.css.map */

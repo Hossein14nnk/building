@@ -6,15 +6,53 @@
 				"title": "default"
 			}
 		},
-		"pages": {
-			"homePage": {
-				"components": {
-					"item": {
-						"title": "google"
-					}
-				},
-				"title": "MIZ Framework"
-			}
+		"contactCard": 
+		{
+			"description": ""
+
 		}
+		
+		
+	},
+	"pages": {
+		"homePage": {
+			"components": {
+				"item": {
+					"title": "google"
+				}
+			},
+			"title": "MIZ Framework"
+		}
+	},
+	"footer": {
+		"description": "We are a leading construction company providing high-quality services across residential, commercial and industrial sectors worldwide.",
+		"paragraph": "© 2024 Buildex Construction. All Rights Reserved.",
+		"quickLinks": {
+			"txt": "QUICK LINKS",
+			"home": "Home",
+			"aboutUs": "About Us",
+			"services": "Services",
+			"projects": "Projects",
+			"blogs": "Blog",
+			"contactUs": "Contact Us"
+		},
+		"ourSservices" : {
+			"txt": "OUR SERVICES",
+			"construction": "Construction Management",
+			"design": "Design & Build",
+			"renovation" : "Renovation",
+			"interior": "Interior Design",
+			"project": "Project Consulting"
+		},
+		"contact": {
+			"txt": "CONTACT INFO",
+			"address1": "123 Construction Ave,",
+			"address2": "New York, NY 10001, USA",
+			"phoneNumber": "+1 212 555 7890",
+			"email" : "info@buildex.com",
+			"timeWork": "Mon – Sat: 8:00 AM – 6:00 PM"
+		},
+		"recent" : "RECENT PROJECTS"
+
 	}
 }
