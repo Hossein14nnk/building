@@ -37,6 +37,11 @@
   aspect-ratio: 1;
 }
 
+.services-overview .img-size {
+  width: 70px;
+  aspect-ratio: 1;
+}
+
 .news-box a:hover {
   color: var(--bs-button);
 }
