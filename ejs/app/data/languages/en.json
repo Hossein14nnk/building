@@ -70,7 +70,10 @@
 			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
 			"button": "LEARN MORE"
 		},
-		"servicesOverview": {}
+		"servicesOverview": {
+			"title": "Project Planning",
+			"text": "We develop detailed plans and strategies to ensure your project starts on the right track."
+		}
 	},
 	"pages": {
 		"homePage": {
