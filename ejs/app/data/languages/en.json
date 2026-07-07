@@ -8,8 +8,11 @@
 		},
 		"contactCard": 
 		{
-			"description": ""
-
+			"question": "Need Immediate Assistance?",
+			"txt1": "Call us directly or send us an email.",
+			"txt2": "Our team is ready to assist you right away.",
+			"call": "Call Us Now",
+			"number": "+1 212 555 7890"
 		}
 		
 		
