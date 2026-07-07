@@ -80,6 +80,25 @@
 			"itemOne": "+1 212 555 7890",
 			"itemTwo": "info@buildex.com",
 			"itemThree": "Mon-Sat: 8:00 AM - 6:00 PM"
+		},
+		"processTimeline": {
+			"title":"Our Approach",
+			"itemOne": {
+				"title": "Discover",
+				"text": "Understanding client goals and project requirements."
+			},
+			"itemTwo": {
+				"title": "Plan",
+				"text": "Detailed planning, design, and resource allocation."
+			},
+			"itemThree": {
+				"title": "Build",
+				"text": "Quality construction with regular progress updates."
+			},
+			"itemFour": {
+				"title": "Deliver",
+				"text": "Timely delivery with quality assurance and support."
+			}
 		}
 	},
 	"pages": {
