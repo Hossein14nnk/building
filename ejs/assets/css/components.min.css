@@ -1,18 +1,12 @@
-/* Error: expected "}".
- *   ,
- * 5 |     color: white;
- *   |                  ^
- *   '
- *   app\components\item\_index.scss 5:18  @forward
- *   app\components\_index.scss 2:1        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a   \2577 \a 5 \2502      color: white;\d\a   \2502                   ^\a   \2575 \a   app\\components\\item\\_index.scss 5:18  @forward\a   app\\components\\_index.scss 2:1        root stylesheet';
+h1 {
+  color: red;
 }
+
+.card {
+  background-color: black;
+  width: 100px;
+  height: 200px;
+  color: white;
+}
+
+/*# sourceMappingURL=components.min.css.map */
