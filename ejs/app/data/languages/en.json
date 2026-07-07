@@ -2,8 +2,23 @@
 	"direction": "ltr",
 	"components": {
 		"accountFeatures": {
-			"item": {
-				"title": "default"
+			"title": "Build Your Future With Buildex",
+			"subtitle": "Create an account to access exclusive features and manage your projects easily.",
+			"itemOne": {
+				"title": "Manage Your Projects",
+				"subtitle": "Organize and track all your construction projects in one place."
+			},
+			"itemTwo": {
+				"title": "Get Custom Quotes",
+				"subtitle": "Request and save custom quotes for your upcoming projects."
+			},
+			"itemThree": {
+				"title": "Project Updates",
+				"subtitle": "Receive real-time updates and important notifications about your projects."
+			},
+			"itemFour": {
+				"title": "Team Collaboration",
+				"subtitle": "Invite your team members and collaborate seamlessly on projects."
 			}
 		},
 		"pages": {
