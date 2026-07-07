@@ -13,6 +13,34 @@
 			"txt2": "Our team is ready to assist you right away.",
 			"call": "Call Us Now",
 			"number": "+1 212 555 7890"
+		},
+		"itemCard": 
+		{
+			"itemOne": 
+			{
+				"number": "4.9",
+				"percent": "/ 5",
+				"title": "Average Rating",
+				"description": "Based on 215+ Reviews"			
+			},
+			"itemTwo": 
+			{
+				"number": "215+",
+				"title": "Happy Clients",
+				"description": "Across Residential, Commercial & Industrial Projects"			
+			},
+			"itemThree": 
+			{
+				"number": "150+",
+				"title": "Projects Completed",
+				"description": "Successfully delivered with quality & on time"			
+			},
+			"itemFour": 
+			{
+				"number": "98%",
+				"title": "Clients Recommend Us",
+				"description": "We build lasting relationships through trust & results"			
+			}
 		}
 		
 		
