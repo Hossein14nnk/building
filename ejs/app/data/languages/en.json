@@ -73,6 +73,13 @@
 		"servicesOverview": {
 			"title": "Project Planning",
 			"text": "We develop detailed plans and strategies to ensure your project starts on the right track."
+		},
+		"needHelpCard": {
+			"title": "Need Help?",
+			"subtitle": "Our team is ready to answer your questions and help you get started.",
+			"itemOne": "+1 212 555 7890",
+			"itemTwo": "info@buildex.com",
+			"itemThree": "Mon-Sat: 8:00 AM - 6:00 PM"
 		}
 	},
 	"pages": {
