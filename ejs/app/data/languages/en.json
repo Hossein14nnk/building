@@ -59,7 +59,6 @@
       }
     },
 
-<<<<<<< HEAD
     "newsBox": {
       "category": "Construction",
       "date": "Oct 15, 2026",
@@ -67,20 +66,6 @@
       "description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
       "txtButton": "Read more"
     },
-=======
-		"newsBox": {
-				"category": "Construction",
-				"date": "Oct 15, 2026",
-				"title": "1. 10 Construction Trends Shaping the Future",
-				"description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
-				"txtButton": "Read more" 
-		"servicesCard": {
-			"title": "Construction Management",
-			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
-			"button": "LEARN MORE"
-		}
-	},
->>>>>>> dd128d8b8f54ed9e808986af6694fbfc9ea12fac
 
     "latestNews": {
       "src": "en/components/latest-news.jpg",
@@ -89,7 +74,7 @@
       "title": "Key Considerations for Commercial Construction",
       "txtButton": "Read more"
     },
-	  "teamCard": {
+    "teamCard": {
       "src": "en/components/teams.jpg",
       "name": "James Anderson",
       "job": "Project Manager"

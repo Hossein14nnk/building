@@ -1,5 +1,5 @@
 .account-features .icon {
-  width: 60px;
+  width: 600px;
   aspect-ratio: 1;
 }
 
@@ -41,9 +41,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   aspect-ratio: 2/1;
-.services-card .img-size {
-  width: 70px;
-  aspect-ratio: 1;
 }
 
 .latest-news > img {
@@ -53,6 +50,10 @@
 .team-card i {
   width: 30px;
   height: 30px;
+}
+
+.team-card {
+  background-color: red !important;
 }
 
 /*# sourceMappingURL=components.min.css.map */
