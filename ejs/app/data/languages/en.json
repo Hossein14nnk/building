@@ -201,7 +201,26 @@
     "comment": {
       "txt": "Buildex delivered our project on time and exceeded our expectations. Their attention to detail is unmatched.",
       "name": "- Emily Wilson"
-    }
+    },
+	"teamFeature":
+		{
+			"itemOne": {
+				"title": "Integrity",
+				"description": "We do what's right, always."
+			},
+			"itemTwo": {
+				"title": "Quality",
+				"description": "We build to last with uncompromised standards."
+			},
+			"itemThree": {
+				"title": "Innovation",
+				"description": "We embrace new ideas to deliver smarter solutions."
+			},
+			"itemFour": {
+				"title": "Teamwork",
+				"description": " We believe in collaboration and shared success."
+			}
+		}
   },
  	"pages": {
 		"homePage": {
