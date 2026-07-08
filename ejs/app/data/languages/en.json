@@ -99,6 +99,24 @@
 				"title": "Deliver",
 				"text": "Timely delivery with quality assurance and support."
 			}
+		},
+		"historyTimeline": {
+			"itemOne": {
+				"title": "1998 Company Founded",
+				"text": "Buildex Construction was established with a vision for excellence."
+			},
+			"itemTwo": {
+				"title": "2005 Expanded Services",
+				"text": "We expanded our services to include commercial and Industrial projects."
+			},
+			"itemThree": {
+				"title": "2012 National Recognition",
+				"text": "Received multiple awards for quality and construction excellence."
+			},
+			"itemFour": {
+				"title": "2020 Sustainable Future",
+				"text": "We embraced sustainable building practices for a better future."
+			}
 		}
 	},
 	"pages": {
