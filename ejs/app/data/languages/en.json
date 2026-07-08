@@ -117,6 +117,33 @@
 				"title": "2020 Sustainable Future",
 				"text": "We embraced sustainable building practices for a better future."
 			}
+		},
+		"projectOverview": {
+			"title": "Project Overview",
+			"itemOne": {
+				"title": "Client",
+				"value": "ABC Properties"
+			},
+			"itemTwo": {
+				"title": "Location",
+				"value": "New York, USA"
+			},
+			"itemThree": {
+				"title": "Category",
+				"value": "Commercial"
+			},
+			"itemFour": {
+				"title": "Project Size",
+				"value": "45,000 sq ft"
+			},
+			"itemFive": {
+				"title": "Duration",
+				"value": "14 Months"
+			},
+			"itemSix": {
+				"title": "Completed",
+				"value": "March 2024"
+			}
 		}
 	},
 	"pages": {

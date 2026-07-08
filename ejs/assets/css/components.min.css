@@ -161,4 +161,26 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.project-overview .little-line {
+  width: 35px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: var(--bs-primary);
+}
+
+.project-overview .line {
+  width: 100%;
+  height: 0.1rem;
+  border-radius: 100px;
+  background-color: rgba(128, 128, 128, 0.15);
+  margin-top: 0.5rem;
+}
+
+.project-overview .icon {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=components.min.css.map */
