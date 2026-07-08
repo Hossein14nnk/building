@@ -55,6 +55,13 @@
 			"title": "Let's Build Something Great Together",
 			"description": "Share your vision with us and we'll bring it to life.",
 			"btn": "GET A FREE QUOTE"
+		},
+		"subscribe": {
+			"title": "Subscribe To Our Newsletter",
+			"subTitle": "SUBSCRIBE",
+			"placeHolder" : "Your email address",
+			"description": "Get the latest updates, news and offers straight to your inbox.",
+			"law": "I agree to the Privacy Policy"
 		}
 		
 		
