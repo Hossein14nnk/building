@@ -219,7 +219,43 @@
 			"itemFour": {
 				"title": "Teamwork",
 				"description": " We believe in collaboration and shared success."
-			}
+			},
+			"coreServicesCard": {
+			"title": "Construction Management",
+			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
+			"button": "Describe More"
+		},
+		"coreServicesSecondaryCard": {
+			"title": "Construction Management",
+			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
+			"button": "Describe More"
+		},
+		"projectCard": {
+			"category": "commercial",
+			"title": "Skyline Tower",
+			"location": "Miami,USA",
+			"image": ""
+		},
+		"projectBanner": {
+			"title": "Building Dreams With Precision",
+			"description": "The construction industry is evolving faster than ever before. New technologies",
+			"button": "VIEW PROJECT",
+			"image": ""
+		},
+		"reviewsCart": {
+			"comment" : "Buildex Construction exceeded our expectations from start to finish. Their team was professional, transparent, and delivered our dream home on time and within budget.",
+			"star" : 5,
+			"name" : "Michael Anderson",
+			"position": "Homeowner",
+			"project": "Residential Project",
+			"image": "components/comment-profile.jpg"
+		},
+		"serviceWork" : {
+			"image": "projects/project-1.jpg",
+			"title": "Skyline Tower",
+			"location": "Dubai, UAE",
+			"link": "#"
+		}
 		}
   },
  	"pages": {
@@ -264,3 +300,8 @@
 
 	}
 }
+
+
+
+
+
