@@ -11,9 +11,34 @@
   margin-bottom: 1rem;
 }
 
-.stats-counter .icon {
+.stats-counter.column-style .icon {
   width: 60px;
   aspect-ratio: 1;
+}
+
+.stats-counter .hover h4 {
+  transition: all 200ms linear;
+}
+
+.stats-counter .hover:hover h4 {
+  color: var(--bs-primary);
+}
+
+.stats-counter.row-style .icon {
+  width: 60px;
+  aspect-ratio: 1;
+  background-color: var(--bs-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-counter.row-style .line {
+  height: 35px;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 3px;
+  border-radius: 100px;
 }
 
 .stats-counter .hover h4 {
@@ -32,6 +57,16 @@
   aspect-ratio: 1;
 }
 
+.services-card .img-size {
+  width: 70px;
+  aspect-ratio: 1;
+}
+
+.services-overview .img-size {
+  width: 70px;
+  aspect-ratio: 1;
+}
+
 .news-box a:hover {
   color: var(--bs-button);
 }
@@ -43,6 +78,7 @@
   aspect-ratio: 2/1;
 }
 
+<<<<<<< HEAD
 .latest-news > img {
   aspect-ratio: 2/1;
 }
@@ -54,6 +90,111 @@
 
 .team-card {
   background-color: red !important;
+=======
+.process-timeline .line {
+  width: 60px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: var(--bs-primary);
+}
+
+.process-timeline .line.little {
+  width: 30px;
+}
+
+.process-timeline .circle {
+  box-sizing: border-box;
+  background-color: var(--bs-black);
+  border-radius: 50%;
+  border: 1px solid var(--bs-primary);
+  aspect-ratio: 1;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-timeline .circle > i {
+  background-color: var(--bs-white);
+  width: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.process-timeline .dot-line {
+  height: 0;
+  width: 20px;
+  border-bottom: 2px dotted var(--bs-primary);
+}
+
+.process-timeline .space {
+  color: transparent;
+  user-select: none;
+}
+
+.process-timeline .vertical-dot-line {
+  height: 50px;
+  width: 0;
+  border-left: 2px dotted var(--bs-primary);
+  margin-left: 29px;
+}
+
+.history-timeline .line-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.history-timeline .line-box > .circle {
+  width: 15px;
+  aspect-ratio: 1;
+  background-color: var(--bs-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 gray;
+}
+
+.history-timeline .line-box > .line {
+  width: 100%;
+  background-image: linear-gradient(90deg, var(--bs-primary), rgba(128, 128, 128, 0.5));
+  height: 2px;
+}
+
+.history-timeline .line-box > .little-line {
+  width: 9px;
+  background-image: linear-gradient(-90deg, var(--bs-primary), rgba(128, 128, 128, 0.5));
+  height: 2px;
+}
+
+.history-timeline.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.project-overview .little-line {
+  width: 35px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: var(--bs-primary);
+}
+
+.project-overview .line {
+  width: 100%;
+  height: 0.1rem;
+  border-radius: 100px;
+  background-color: rgba(128, 128, 128, 0.15);
+  margin-top: 0.5rem;
+}
+
+.project-overview .icon {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 53c690ba118084c0dcd7f0d41fe39884ee5fe79d
 }
 
 /*# sourceMappingURL=components.min.css.map */
