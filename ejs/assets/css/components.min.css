@@ -1,5 +1,5 @@
 .account-features .icon {
-  width: 60px;
+  width: 600px;
   aspect-ratio: 1;
 }
 
@@ -57,16 +57,6 @@
   aspect-ratio: 1;
 }
 
-.services-card .img-size {
-  width: 70px;
-  aspect-ratio: 1;
-}
-
-.services-overview .img-size {
-  width: 70px;
-  aspect-ratio: 1;
-}
-
 .news-box a:hover {
   color: var(--bs-button);
 }
@@ -76,6 +66,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   aspect-ratio: 2/1;
+}
+
+.latest-news > img {
+  aspect-ratio: 2/1;
+}
+
+.team-card i {
+  width: 30px;
+  height: 30px;
+}
+
+.services-overview .img-size {
+  width: 70px;
+  aspect-ratio: 1;
 }
 
 .process-timeline .line {
@@ -183,6 +187,7 @@
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .footer li:hover {
   color: #F6BC0B;
   transform: translateX(0.2rem);
@@ -431,6 +436,37 @@ a img:hover {
 
 .pricing-table.popular-style .icon {
   background-color: rgba(128, 128, 128, 0.3);
+=======
+.pricing-area span {
+  width: 30px;
+  height: 30px;
+}
+
+.service-list .fa-regular.fa-arrow-right {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.service-list:hover {
+  background: var(--bs-secondary);
+  cursor: pointer;
+}
+
+.service-list:hover i {
+  color: var(--bs-primary);
+  background-color: unset;
+  border-bottom: 0px solid !important;
+}
+
+.categories span + span {
+  width: 30px;
+  height: 30px;
+}
+
+.project-list i {
+  width: 25px;
+  height: 25px;
+>>>>>>> 43d5ace67e6deccef09eb32c7a84427d7420f062
 }
 
 /*# sourceMappingURL=components.min.css.map */

@@ -283,7 +283,34 @@
 			"title": "Skyline Tower",
 			"location": "Dubai, UAE",
 			"link": "#"
-		}
+		},
+     "categories": {
+      "name": "Construction",
+      "number": "(8)"
+    },
+    "serviceList": {
+      "name": "Construction"
+    },
+    "projectList": {
+      "description": "modern artachiteck design"
+    },
+        "latestNews": {
+      "src": "en/components/latest-news.jpg",
+      "category": "Construction",
+      "date": "Oct 15, 2026",
+      "title": "Key Considerations for Commercial Construction",
+      "txtButton": "Read more"
+    },
+    "teamCard": {
+      "src": "en/components/teams.jpg",
+      "name": "James Anderson",
+      "job": "Project Manager"
+    },
+    "pricingArea": {
+      "number": "1",
+      "title": "share your project",
+      "subtitle": "tell us about your project requirement"
+    }
 		}
   },
  	"pages": {
