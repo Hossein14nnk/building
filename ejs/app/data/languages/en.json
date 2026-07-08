@@ -57,6 +57,14 @@
 				"valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
 				"valueTwo": "Sunday: Closed"
 			}
+		},
+		"reviewsCart": {
+			"comment" : "Buildex Construction exceeded our expectations from start to finish. Their team was professional, transparent, and delivered our dream home on time and within budget.",
+			"star" : 5,
+			"name" : "Michael Anderson",
+			"position": "Homeowner",
+			"project": "Residential Project",
+			"image": "components/comment-profile.jpg"
 		}
 	},
 	"pages": {
