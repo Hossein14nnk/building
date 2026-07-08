@@ -1,156 +1,228 @@
 {
-	"direction": "ltr",
-	"components": {
-		"accountFeatures": {
-			"title": "Build Your Future With Buildex",
-			"subtitle": "Create an account to access exclusive features and manage your projects easily.",
+  "direction": "ltr",
+  "components": {
+    "accountFeatures": {
+      "title": "Build Your Future With Buildex",
+      "subtitle": "Create an account to access exclusive features and manage your projects easily.",
+      "itemOne": {
+        "title": "Manage Your Projects",
+        "subtitle": "Organize and track all your construction projects in one place."
+      },
+      "itemTwo": {
+        "title": "Get Custom Quotes",
+        "subtitle": "Request and save custom quotes for your upcoming projects."
+      },
+      "itemThree": {
+        "title": "Project Updates",
+        "subtitle": "Receive real-time updates and important notifications about your projects."
+      },
+      "itemFour": {
+        "title": "Team Collaboration",
+        "subtitle": "Invite your team members and collaborate seamlessly on projects."
+      }
+    },
+    "statsCounter": {
+      "itemOne": {
+        "stateNumber": "25+",
+        "title": "Years Experience"
+      },
+      "itemTwo": {
+        "stateNumber": "1530+",
+        "title": "Projects Completed"
+      },
+      "itemThree": {
+        "stateNumber": "1310+",
+        "title": "Satisfied Clients"
+      },
+      "itemFour": {
+        "stateNumber": "120+",
+        "title": "Professional Team"
+      }
+    },
+    "ContactDetails": {
+      "itemOne": {
+        "title": "Address",
+        "value": "123 Construction Ave, New York, NY 10001, USA"
+      },
+      "itemTwo": {
+        "title": "Phone",
+        "value": "+1 212 555 7890"
+      },
+      "itemThree": {
+        "title": "Email",
+        "value": "info@buildex.com"
+      },
+      "itemFour": {
+        "title": "Working Hours",
+        "valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
+        "valueTwo": "Sunday: Closed"
+      }
+    },
+    "newsBox": {
+      "category": "Construction",
+      "date": "Oct 15, 2026",
+      "title": "1. 10 Construction Trends Shaping the Future",
+      "description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
+      "txtButton": "Read more"
+    },
+    "servicesCard": {
+      "title": "Construction Management",
+      "text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
+      "button": "LEARN MORE"
+    },
+    "servicesOverview": {
+      "title": "Project Planning",
+      "text": "We develop detailed plans and strategies to ensure your project starts on the right track."
+    },
+    "needHelpCard": {
+      "title": "Need Help?",
+      "subtitle": "Our team is ready to answer your questions and help you get started.",
+      "itemOne": "+1 212 555 7890",
+      "itemTwo": "info@buildex.com",
+      "itemThree": "Mon-Sat: 8:00 AM - 6:00 PM"
+    },
+    "processTimeline": {
+      "title": "Our Approach",
+      "itemOne": {
+        "title": "Discover",
+        "text": "Understanding client goals and project requirements."
+      },
+      "itemTwo": {
+        "title": "Plan",
+        "text": "Detailed planning, design, and resource allocation."
+      },
+      "itemThree": {
+        "title": "Build",
+        "text": "Quality construction with regular progress updates."
+      },
+      "itemFour": {
+        "title": "Deliver",
+        "text": "Timely delivery with quality assurance and support."
+      }
+    },
+    "historyTimeline": {
+      "itemOne": {
+        "title": "1998 Company Founded",
+        "text": "Buildex Construction was established with a vision for excellence."
+      },
+      "itemTwo": {
+        "title": "2005 Expanded Services",
+        "text": "We expanded our services to include commercial and Industrial projects."
+      },
+      "itemThree": {
+        "title": "2012 National Recognition",
+        "text": "Received multiple awards for quality and construction excellence."
+      },
+      "itemFour": {
+        "title": "2020 Sustainable Future",
+        "text": "We embraced sustainable building practices for a better future."
+      }
+    },
+    "projectOverview": {
+      "title": "Project Overview",
+      "itemOne": {
+        "title": "Client",
+        "value": "ABC Properties"
+      },
+      "itemTwo": {
+        "title": "Location",
+        "value": "New York, USA"
+      },
+      "itemThree": {
+        "title": "Category",
+        "value": "Commercial"
+      },
+      "itemFour": {
+        "title": "Project Size",
+        "value": "45,000 sq ft"
+      },
+      "itemFive": {
+        "title": "Duration",
+        "value": "14 Months"
+      },
+      "itemSix": {
+        "title": "Completed",
+        "value": "March 2024"
+      }
+    },
+    "planFeatures": {
+      "title": "On-Time Delivery",
+      "text": "We deliver projects on schedule."
+    },
+    "contactCard": {
+      "question": "Need Immediate Assistance?",
+      "txt1": "Call us directly or send us an email.",
+      "txt2": "Our team is ready to assist you right away.",
+      "call": "Call Us Now",
+      "number": "+1 212 555 7890"
+    },
+    "itemCard": {
+      "itemOne": {
+        "number": "4.9",
+        "percent": "/ 5",
+        "title": "Average Rating",
+        "description": "Based on 215+ Reviews"
+      },
+      "itemTwo": {
+        "number": "215+",
+        "title": "Happy Clients",
+        "description": "Across Residential, Commercial & Industrial Projects"
+      },
+      "itemThree": {
+        "number": "150+",
+        "title": "Projects Completed",
+        "description": "Successfully delivered with quality & on time"
+      },
+      "itemFour": {
+        "number": "98%",
+        "title": "Clients Recommend Us",
+        "description": "We build lasting relationships through trust & results"
+      }
+    },
+    "positionCard": {
+      "subTitle": "BE PART OF OUR TEAM",
+      "title": "Build Your Career With Us",
+      "description": "We're always looking for talented and passionate individuals.",
+      "btn": "VIEW OPEN POSITIONS"
+    },
+    "quoteCode": {
+      "subTitle": "Have A Project In Mind?",
+      "title": "Let's Build Something Great Together",
+      "description": "Share your vision with us and we'll bring it to life.",
+      "btn": "GET A FREE QUOTE"
+    },
+    "subscribe": {
+      "title": "Subscribe To Our Newsletter",
+      "subTitle": "SUBSCRIBE",
+      "placeHolder": "Your email address",
+      "description": "Get the latest updates, news and offers straight to your inbox.",
+      "law": "I agree to the Privacy Policy"
+    },
+    "comment": {
+      "txt": "Buildex delivered our project on time and exceeded our expectations. Their attention to detail is unmatched.",
+      "name": "- Emily Wilson"
+    },
+	"teamFeature":
+		{
 			"itemOne": {
-				"title": "Manage Your Projects",
-				"subtitle": "Organize and track all your construction projects in one place."
+				"title": "Integrity",
+				"description": "We do what's right, always."
 			},
 			"itemTwo": {
-				"title": "Get Custom Quotes",
-				"subtitle": "Request and save custom quotes for your upcoming projects."
+				"title": "Quality",
+				"description": "We build to last with uncompromised standards."
 			},
 			"itemThree": {
-				"title": "Project Updates",
-				"subtitle": "Receive real-time updates and important notifications about your projects."
+				"title": "Innovation",
+				"description": "We embrace new ideas to deliver smarter solutions."
 			},
 			"itemFour": {
-				"title": "Team Collaboration",
-				"subtitle": "Invite your team members and collaborate seamlessly on projects."
+				"title": "Teamwork",
+				"description": " We believe in collaboration and shared success."
 			}
-		},
-		"statsCounter": {
-			"itemOne": {
-				"stateNumber": "25+",
-				"title": "Years Experience"
-			},
-			"itemTwo": {
-				"stateNumber": "1530+",
-				"title": "Projects Completed"
-			},
-			"itemThree": {
-				"stateNumber": "1310+",
-				"title": "Satisfied Clients"
-			},
-			"itemFour": {
-				"stateNumber": "120+",
-				"title": "Professional Team"
-			}
-		},
-		"ContactDetails": {
-			"itemOne": {
-				"title": "Address",
-				"value": "123 Construction Ave, New York, NY 10001, USA"
-			},
-			"itemTwo": {
-				"title": "Phone",
-				"value": "+1 212 555 7890"
-			},
-			"itemThree": {
-				"title": "Email",
-				"value": "info@buildex.com"
-			},
-			"itemFour": {
-				"title": "Working Hours",
-				"valueOne": "Mon-Sat: 8:00 AM 6:00 PM",
-				"valueTwo": "Sunday: Closed"
-			}
-		},
-		"newsBox": {
-			"category": "Construction",
-			"date": "Oct 15, 2026",
-			"title": "1. 10 Construction Trends Shaping the Future",
-			"description": "The construction industry is evolving faster than ever before. New technologies, sustainable materials, and digital workflows are transforming how buildings are designed and constructed. From smart buildings powered by IoT to modular construction techniques that reduce waste and project timelines, innovation continues to reshape the industry.",
-			"txtButton": "Read more"
-		},
-		"servicesCard": {
-			"title": "Construction Management",
-			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
-			"button": "LEARN MORE"
-		},
-		"servicesOverview": {
-			"title": "Project Planning",
-			"text": "We develop detailed plans and strategies to ensure your project starts on the right track."
-		},
-		"needHelpCard": {
-			"title": "Need Help?",
-			"subtitle": "Our team is ready to answer your questions and help you get started.",
-			"itemOne": "+1 212 555 7890",
-			"itemTwo": "info@buildex.com",
-			"itemThree": "Mon-Sat: 8:00 AM - 6:00 PM"
-		},
-		"processTimeline": {
-			"title":"Our Approach",
-			"itemOne": {
-				"title": "Discover",
-				"text": "Understanding client goals and project requirements."
-			},
-			"itemTwo": {
-				"title": "Plan",
-				"text": "Detailed planning, design, and resource allocation."
-			},
-			"itemThree": {
-				"title": "Build",
-				"text": "Quality construction with regular progress updates."
-			},
-			"itemFour": {
-				"title": "Deliver",
-				"text": "Timely delivery with quality assurance and support."
-			}
-		},
-		"historyTimeline": {
-			"itemOne": {
-				"title": "1998 Company Founded",
-				"text": "Buildex Construction was established with a vision for excellence."
-			},
-			"itemTwo": {
-				"title": "2005 Expanded Services",
-				"text": "We expanded our services to include commercial and Industrial projects."
-			},
-			"itemThree": {
-				"title": "2012 National Recognition",
-				"text": "Received multiple awards for quality and construction excellence."
-			},
-			"itemFour": {
-				"title": "2020 Sustainable Future",
-				"text": "We embraced sustainable building practices for a better future."
-			}
-		},
-		"projectOverview": {
-			"title": "Project Overview",
-			"itemOne": {
-				"title": "Client",
-				"value": "ABC Properties"
-			},
-			"itemTwo": {
-				"title": "Location",
-				"value": "New York, USA"
-			},
-			"itemThree": {
-				"title": "Category",
-				"value": "Commercial"
-			},
-			"itemFour": {
-				"title": "Project Size",
-				"value": "45,000 sq ft"
-			},
-			"itemFive": {
-				"title": "Duration",
-				"value": "14 Months"
-			},
-			"itemSix": {
-				"title": "Completed",
-				"value": "March 2024"
-			}
-		},
-		"planFeatures": {
-			"title": "On-Time Delivery",
-			"text": "We deliver projects on schedule."
 		}
-	},
-	"pages": {
+  },
+ 	"pages": {
 		"homePage": {
 			"components": {
 				"item": {
@@ -159,5 +231,36 @@
 			},
 			"title": "MIZ Framework"
 		}
+	},
+	"footer": {
+		"description": "We are a leading construction company providing high-quality services across residential, commercial and industrial sectors worldwide.",
+		"paragraph": "© 2024 Buildex Construction. All Rights Reserved.",
+		"quickLinks": {
+			"txt": "QUICK LINKS",
+			"home": "Home",
+			"aboutUs": "About Us",
+			"services": "Services",
+			"projects": "Projects",
+			"blogs": "Blog",
+			"contactUs": "Contact Us"
+		},
+		"ourSservices" : {
+			"txt": "OUR SERVICES",
+			"construction": "Construction Management",
+			"design": "Design & Build",
+			"renovation" : "Renovation",
+			"interior": "Interior Design",
+			"project": "Project Consulting"
+		},
+		"contact": {
+			"txt": "CONTACT INFO",
+			"address1": "123 Construction Ave,",
+			"address2": "New York, NY 10001, USA",
+			"phoneNumber": "+1 212 555 7890",
+			"email" : "info@buildex.com",
+			"timeWork": "Mon – Sat: 8:00 AM – 6:00 PM"
+		},
+		"recent" : "RECENT PROJECTS"
+
 	}
 }
