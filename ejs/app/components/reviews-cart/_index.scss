@@ -1,6 +1,7 @@
-.card {
-    margin: 20px !important;
-    background-color: red;
+.review-card-item{
+    img{
+        width: 50px;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
 }
-
-
