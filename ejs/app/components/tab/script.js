@@ -1,56 +1,3 @@
-//  Theme Scripts
-// Auto-generated file
-
-
-// File: account-features\script.js
-
-
-// File: categories\script.js
-
-
-// File: contact-details\script.js
-
-
-// File: history-timeline\script.js
-
-
-// File: latest-news\script.js
-
-
-// File: need-help-card\script.js
-
-
-// File: news-box\script.js
-
-
-// File: plan-features\script.js
-
-
-// File: pricing-area\script.js
-
-
-// File: process-timeline\script.js
-
-
-// File: project-list\script.js
-
-
-// File: project-overview\script.js
-
-
-// File: service-list\script.js
-
-
-// File: services-overview\script.js
-
-
-// File: stats-counter\column\script.js
-
-
-// File: stats-counter\row\script.js
-
-
-// File: tab\script.js
 class Tabs {
     constructor() {
         this.init();
@@ -121,6 +68,3 @@ class Tabs {
 }
 
 new Tabs();
-
-// File: team-card\script.js
-

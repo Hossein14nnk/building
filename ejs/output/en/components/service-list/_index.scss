@@ -1,0 +1,16 @@
+.service-list .fa-regular.fa-arrow-right {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.service-list:hover {
+  background: var(--bs-secondary);
+  cursor: pointer;
+}
+
+.service-list:hover i {
+  color: var( --bs-primary);
+  background-color: unset;
+  border-bottom: 0px solid !important;
+}
+
