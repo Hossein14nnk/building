@@ -43,4 +43,13 @@
   aspect-ratio: 2/1;
 }
 
+.latest-news > img {
+  aspect-ratio: 2/1;
+}
+
+.team-card i {
+  width: 30px;
+  height: 30px;
+}
+
 /*# sourceMappingURL=components.min.css.map */
