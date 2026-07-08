@@ -183,6 +183,7 @@
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .footer li:hover {
   color: #F6BC0B;
   transform: translateX(0.2rem);
@@ -417,6 +418,20 @@ a img:hover {
   top: 50%;
   right: 50%;
   transform: translateX(50%) translateY(-50%);
+=======
+.pricing-table .icon {
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bs-icon);
+}
+
+.pricing-table.popular-style .icon {
+  background-color: rgba(128, 128, 128, 0.3);
+>>>>>>> 7460f61b36dc1a386298543834cfbeec1db7747b
 }
 
 /*# sourceMappingURL=components.min.css.map */

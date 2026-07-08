@@ -255,7 +255,34 @@
 			"title": "Skyline Tower",
 			"location": "Dubai, UAE",
 			"link": "#"
-		}
+		},
+    "pricingTable": {
+			"defaultStyle": {
+				"title": "BASIC",
+				"subtitle": "Perfect for small projects and renovations.",
+				"priceText": " / project",
+				"price": "$499",
+				"itemOneText": "Project Consultation",
+				"itemTwoText": "Basic Planning",
+				"itemThreeText": "Material Recommendation",
+				"itemFourText": "On-site Visit (1 time)",
+				"itemFiveText": "Email Support",
+				"btnText": "CHOOSE PLAN"
+			},
+			"popularStyle": {
+				"popularText": "MOST POPULAR",
+				"title": "STANDARD",
+				"subtitle": "Ideal for medium-sized residential projects.",
+				"priceText": " / project",
+				"price": "$999",
+				"itemOneText": "Everything in Basic",
+				"itemTwoText": "Detailed Planning",
+				"itemThreeText": "30 Design & Visualization",
+				"itemFourText": "On-site Visits (3 times)",
+				"itemFiveText": "Progress Monitoring",
+				"itemSixText": "Priority Email & Phone Support",
+				"btnText": "CHOOSE PLAN"
+			}
 		}
   },
  	"pages": {
