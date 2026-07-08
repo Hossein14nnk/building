@@ -144,6 +144,10 @@
 				"title": "Completed",
 				"value": "March 2024"
 			}
+		},
+		"planFeatures": {
+			"title": "On-Time Delivery",
+			"text": "We deliver projects on schedule."
 		}
 	},
 	"pages": {
