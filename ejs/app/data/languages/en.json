@@ -148,6 +148,11 @@
 		"planFeatures": {
 			"title": "On-Time Delivery",
 			"text": "We deliver projects on schedule."
+		},
+		"bannerCTA":{
+			"text":"Have a similar project?",
+			"title":"Let's Build It Together",
+			"buttonText":"Get A Free Quote"
 		}
 	},
 	"pages": {

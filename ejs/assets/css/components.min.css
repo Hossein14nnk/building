@@ -183,4 +183,15 @@
   justify-content: center;
 }
 
+#bannerCTA {
+  border-radius: 10px;
+}
+
+#btnCTA {
+  width: fit-content;
+  text-decoration: none;
+  padding: 9px 1.5rem;
+  border-radius: 4px;
+}
+
 /*# sourceMappingURL=components.min.css.map */
