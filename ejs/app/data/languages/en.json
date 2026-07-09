@@ -173,10 +173,6 @@
         "value": "March 2024"
       }
     },
-    "planFeatures": {
-      "title": "On-Time Delivery",
-      "text": "We deliver projects on schedule."
-    },
     "contactCard": {
       "question": "Need Immediate Assistance?",
       "txt1": "Call us directly or send us an email.",
@@ -230,8 +226,7 @@
       "txt": "Buildex delivered our project on time and exceeded our expectations. Their attention to detail is unmatched.",
       "name": "- Emily Wilson"
     },
-	"teamFeature":
-		{
+	"teamFeature":{
 			"itemOne": {
 				"title": "Integrity",
 				"description": "We do what's right, always."
@@ -247,8 +242,9 @@
 			"itemFour": {
 				"title": "Teamwork",
 				"description": " We believe in collaboration and shared success."
-			},
-			"coreServicesCard": {
+			}
+  	},
+	"coreServicesCard": {
 			"title": "Construction Management",
 			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
 			"button": "Describe More"
@@ -320,7 +316,7 @@
 		"title":"Let's Build It Together",
 		"buttonText":"Get A Free Quote"
 	}
-  },
+},
  	"pages": {
 		"homePage": {
 			"components": {
@@ -361,5 +357,4 @@
 		},
 		"recent" : "RECENT PROJECTS"
 	}
-}
 }
