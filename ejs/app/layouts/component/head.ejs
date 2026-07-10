@@ -8,14 +8,13 @@
     <link rel="icon" type="image/png" href="./assets/media/images/logo-web3.webp">
     <%_ let address = basePathComponents(); -%>
     <%_ for(let i = 1; i <= addCount; i++) {
-        address += "../"
+        address += "./"
     } -%>
     <base href="<%= address %>">
-    <link rel="stylesheet" href="./assets/vendors/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/miz.min.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/components.min.css">
     <link rel="stylesheet" href="./assets/css/style.min.css">
 </head>
 
-<body class="font-<%= lang %>-primary">
+<body class="font-<%= lang %>-primary bg-background">
