@@ -187,7 +187,7 @@
 }
 
 .footer li:hover {
-  color: var(--bs-primary);
+  color: #F6BC0B;
   transform: translateX(0.2rem);
 }
 
@@ -195,6 +195,20 @@
   transition: all 200ms linear;
 }
 
+a img {
+  transition: all 300ms linear;
+}
+
+a img:hover {
+  transform: scale(1.04);
+}
+
+.social i {
+  transition: all 100ms ease-in-out;
+}
+
+.social i:hover {
+  color: #F6BC0B;
 .footer a img {
   transition: all 300ms linear;
 }
@@ -227,6 +241,54 @@
   transform: translateX(0.5rem);
 }
 
+.footer li:hover {
+  color: #F6BC0B;
+  transform: translateX(0.2rem);
+}
+
+.footer li {
+  transition: all 200ms linear;
+}
+
+a img {
+  transition: all 300ms linear;
+}
+
+a img:hover {
+  transform: scale(1.04);
+}
+
+.social i {
+  transition: all 100ms ease-in-out;
+}
+
+.social i:hover {
+  color: #F6BC0B;
+}
+
+.footer li:hover {
+  color: #F6BC0B;
+  transform: translateX(0.2rem);
+}
+
+.footer li {
+  transition: all 200ms linear;
+}
+
+a img {
+  transition: all 300ms linear;
+}
+
+a img:hover {
+  transform: scale(1.04);
+}
+
+.social i {
+  transition: all 100ms ease-in-out;
+}
+
+.social i:hover {
+  color: #F6BC0B;
 .team-feature input:focus {
   border-color: var(--bs-primary) !important;
 }
@@ -342,6 +404,43 @@
   color: var(--bs-button);
 }
 
+.secondary-project-card .card-button {
+  width: 50px;
+  aspect-ratio: 1;
+  position: relative;
+  border: 1px solid var(--bs-primary);
+}
+.secondary-project-card .card-button:hover {
+  background-color: var(--bs-primary);
+}
+.secondary-project-card .card-button:hover i {
+  color: #fff !important;
+}
+.secondary-project-card .card-button i {
+  transform-origin: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%) rotate(-45deg);
+}
+
+.secondary-project-card {
+  aspect-ratio: 1/1;
+}
+.secondary-project-card > img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.secondary-project-card > div {
+  background-color: rgba(31, 31, 31, 0.74);
+  backdrop-filter: blur(11px);
+}
+
+.project-card a:hover {
+  color: var(--bs-button);
+}
+
+.secondary-project-card2 .card-button {
 .project-card .image {
   background-image: url(../../assets/media/images/en/components/news.jpg);
   background-size: cover;
@@ -361,6 +460,17 @@
   aspect-ratio: 1;
   position: relative;
   border: 1px solid var(--bs-primary);
+  background-color: rgba(254, 191, 1, 0.2705882353);
+}
+.secondary-project-card2 .card-button:hover {
+  background-color: var(--bs-primary);
+}
+.secondary-project-card2 .card-button:hover i {
+  color: #fff !important;
+  transform: translateX(50%) translateY(-50%) rotate(-45deg);
+}
+.secondary-project-card2 .card-button i {
+  transform-origin: center;
 }
 .project-card .card-button:hover {
   background-color: var(--bs-primary);
@@ -374,6 +484,18 @@
   top: 50%;
   right: 50%;
   transform: translateX(50%) translateY(-50%);
+}
+
+.secondary-project-card2 {
+  aspect-ratio: 1/1;
+}
+.secondary-project-card2 > img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.secondary-project-card2 > div {
+  background-color: rgba(31, 31, 31, 0.74);
+  backdrop-filter: blur(11px);
 }
 
 .pricing-table .icon {
