@@ -68,6 +68,24 @@
 		"subscribe":{
 			"title":"Subscribe to Our Newsletter",
 			"subtitle":"Get the latest updates, insights, and news delivered to your inbox."
+	},
+		"secondFeatureCards":{
+		"itemOne":{
+			"title":"Expert Team",
+			"subtitle":"Skilled professionals dedicated to excellence."
+		},
+		"itemTwo":{
+			"title":"Quality Materials",
+			"subtitle":"We use only the best materials for lasting durability."
+		},
+		"itemThree":{
+			"title":"On-Time Delivery",
+			"subtitle":"We value your time and deliver projects on schedule."
+		},
+		"itemFour":{
+			"title":"Client Satisfaction",
+			"subtitle":"Your satisfaction is our goal, every step of the way."
+		}
 	}
 },
  	"pages": {
