@@ -1,23 +1,13 @@
-#bannerCTA {
-  border-radius: 7px;
+#btnCTA {
+  width: fit-content;
+  text-decoration: none;
+  padding: 9px 1.5rem;
 }
 
 #btnCTA {
   width: fit-content;
   text-decoration: none;
   padding: 9px 1.5rem;
-  border-radius: 4px;
-}
-
-#iconBannerCTA {
-  border-radius: 7px;
-}
-
-#btnCTA {
-  width: fit-content;
-  text-decoration: none;
-  padding: 9px 1.5rem;
-  border-radius: 4px;
 }
 
 .icon {
@@ -26,7 +16,6 @@
 
 #featureCard {
   background-color: #F4F4F4;
-  border-radius: 4px;
 }
 
 .feature-card {
@@ -44,10 +33,6 @@
 
 .feature-icon {
   height: 45px;
-}
-
-.text {
-  color: #858588;
 }
 
 @media (max-width: 767px) {
@@ -152,6 +137,14 @@
     right: 0px;
     width: 50%;
   }
+}
+.subscribe-icon .icon {
+  width: 35px;
+}
+
+.subscribe-icon {
+  width: 60px;
+  aspect-ratio: 1;
 }
 
 /*# sourceMappingURL=components.min.css.map */
