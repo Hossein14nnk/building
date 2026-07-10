@@ -19,6 +19,11 @@
     height:45px;
 }
 
+.second-feature-card .line{
+    width:40px;
+    height: 2px;
+    background-image: linear-gradient(90deg,transparent 0%, #FDCE43 50%,transparent 100%);
+}
 
 @media (max-width: 767px){
 
