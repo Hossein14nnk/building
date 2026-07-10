@@ -46,6 +46,24 @@
 			"title":"Handover",
 			"subtitle":"We deliver the project and ensure your complete satisfaction."
 		}
+	},
+		"secondCycleCards":{
+		"itemOne":{
+			"title":"Consultation",
+			"subtitle":"We listen to your needs and understand your goals."
+		},
+		"itemTwo":{
+			"title":"Planning",
+			"subtitle":"We develop a detailed plan tailored to your project."
+		},
+		"itemThree":{
+			"title":"Execution",
+			"subtitle":"We manage every aspect of construction with precision."
+		},
+		"itemFour":{
+			"title":"Handover",
+			"subtitle":"We deliver the project and ensure your complete satisfaction."
+		}
 	}
 },
  	"pages": {
