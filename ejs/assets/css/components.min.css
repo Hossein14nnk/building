@@ -99,15 +99,15 @@
   width: 50%;
 }
 
-@media (max-width: 767px) {
-  .cycle-card:nth-child(even) {
-    width: 50% !important;
+@media (max-width: 991px) {
+  .cycle-card:nth-child(even) .line {
+    width: 50%;
     left: 0px;
     right: unset;
   }
-  .cycle-card:nth-child(odd) {
-    left: unset !important;
-    right: 0px !important;
+  .cycle-card:nth-child(odd) .line {
+    left: unset;
+    right: 0px;
     width: 50%;
   }
 }
