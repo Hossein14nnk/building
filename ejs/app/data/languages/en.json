@@ -220,7 +220,6 @@
 				"title": "Teamwork",
 				"description": " We believe in collaboration and shared success."
 			}
-<<<<<<< HEAD
 		},
 		"statsCounter": {
 			"itemOne": {
@@ -385,8 +384,6 @@
 		"planFeatures": {
 			"title": "On-Time Delivery",
 			"text": "We deliver projects on schedule."
-=======
->>>>>>> 910a867d49f2f8f26ef3800b76f19ec35265400c
 		}
   },
  	"pages": {
