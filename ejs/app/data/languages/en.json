@@ -247,8 +247,9 @@
 			"itemFour": {
 				"title": "Teamwork",
 				"description": " We believe in collaboration and shared success."
-			},
-			"coreServicesCard": {
+			}
+    },
+    	"coreServicesCard": {
 			"title": "Construction Management",
 			"text": "We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.",
 			"button": "Describe More"
@@ -302,7 +303,6 @@
       "txtButton": "Read more"
     },
     "teamCard": {
-      "src": "en/components/teams.jpg",
       "name": "James Anderson",
       "job": "Project Manager"
     },
@@ -311,7 +311,6 @@
       "title": "share your project",
       "subtitle": "tell us about your project requirement"
     }
-		}
   },
  	"pages": {
 		"homePage": {

@@ -1,5 +1,5 @@
 <div class="team-card shadow bg-white d-flex flex-column gap-3">
-    <img class="w-100 ratio-1x1 object-fit-cover" src="./assets/media/images/<%= teamCard.src %>" alt="">
+    <img class="w-100 ratio-1x1 object-fit-cover" src="<%- getMedia(lang, 'components/teams.jpg', 'images') %>" alt="">
     <div class="d-flex flex-column gap-3 p-3">
         <h3 class="fs-title fw-bold text-title-text mb-0"><%- teamCard.name %></h3>
         <span class="fs-big fw-semibold text-text"><%- teamCard.job %></span>
