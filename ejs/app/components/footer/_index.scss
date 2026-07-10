@@ -1,5 +1,5 @@
 .footer li:hover {
-    color: #F6BC0B;
+    color: var(--bs-primary);
     transform: translateX(0.2rem);
 }
 
@@ -7,18 +7,18 @@
     transition: all 200ms linear;
 }
 
-a img {
+.footer a img {
     transition: all 300ms linear;
 }
 
-a img:hover {
+.footer a img:hover {
     transform: scale(1.04);
 }
 
-.social i {
+.footer .social i {
     transition: all 100ms ease-in-out;
 }
 
-.social i:hover {
-    color: #F6BC0B;
+.footer .social i:hover {
+    color: var(--bs-primary);
 }
