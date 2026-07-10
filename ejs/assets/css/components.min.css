@@ -209,6 +209,20 @@ a img:hover {
 
 .social i:hover {
   color: #F6BC0B;
+.footer a img {
+  transition: all 300ms linear;
+}
+
+.footer a img:hover {
+  transform: scale(1.04);
+}
+
+.footer .social i {
+  transition: all 100ms ease-in-out;
+}
+
+.footer .social i:hover {
+  color: var(--bs-primary);
 }
 
 .quote-btn i {
@@ -275,6 +289,8 @@ a img:hover {
 
 .social i:hover {
   color: #F6BC0B;
+.team-feature input:focus {
+  border-color: var(--bs-primary) !important;
 }
 
 .review-card-item img {
@@ -425,6 +441,21 @@ a img:hover {
 }
 
 .secondary-project-card2 .card-button {
+.project-card .image {
+  background-image: url(../../assets/media/images/en/components/news.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 2/1;
+}
+
+.project-card .cat-badg {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.5803921569) !important;
+  backdrop-filter: blur(9px);
+  padding: 9px 15px !important;
+}
+
+.project-card .card-button {
   width: 50px;
   aspect-ratio: 1;
   position: relative;
@@ -440,6 +471,15 @@ a img:hover {
 }
 .secondary-project-card2 .card-button i {
   transform-origin: center;
+}
+.project-card .card-button:hover {
+  background-color: var(--bs-primary);
+}
+.project-card .card-button:hover i {
+  color: #fff !important;
+}
+.project-card .card-button i {
+  color: #000 !important;
   position: absolute;
   top: 50%;
   right: 50%;
