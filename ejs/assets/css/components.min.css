@@ -72,8 +72,16 @@
   aspect-ratio: 2/1;
 }
 
+.news-box a span:hover {
+  color: var(--bs-button) !important;
+}
+
 .latest-news > img {
   aspect-ratio: 2/1;
+}
+
+.latest-news a span:hover {
+  color: var(--bs-button) !important;
 }
 
 .team-card i {
@@ -436,27 +444,6 @@
 }
 
 .pricing-area span {
-  width: 30px;
-  height: 30px;
-}
-
-.service-list .fa-regular.fa-arrow-right {
-  width: 30px !important;
-  height: 30px !important;
-}
-
-.service-list:hover {
-  background: var(--bs-secondary);
-  cursor: pointer;
-}
-
-.service-list:hover i {
-  color: var(--bs-primary);
-  background-color: unset;
-  border-bottom: 0px solid !important;
-}
-
-.categories span + span {
   width: 30px;
   height: 30px;
 }
