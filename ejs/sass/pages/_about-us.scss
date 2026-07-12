@@ -37,3 +37,34 @@
     border-bottom-left-radius: 5px;
 }
 
+.wrapper {
+    width: 300vw;
+} 
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 200vw !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        width: 200vw !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 100vw !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        width: 80vw !important;
+    }
+}
+
+
+
+

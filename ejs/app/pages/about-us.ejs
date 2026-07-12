@@ -109,7 +109,7 @@
                         <h2 class="fw-bold">Milstones That Define Our Path</h2>
                     </div>
 
-                    <div class="col-12 col-xxl-9 col-xl-9">
+                    <div class="col-12 col-xxl-9 col-xl-9 overflow-x-scroll">
                         <%- include('../components/history-timeline/content.ejs' , {historyTimeline: t.components.historyTimeline}); -%>
 
                     </div>
@@ -119,32 +119,37 @@
 
         <section class="values py-20 bg-dark">
             <div class="container ">
-                <div class=" d-flex gap-10">
-                    <div class="d-flex flex-column gap-10 col-4">
+                <div class=" d-flex gap-10 flex-column flex-xxl-row flex-xl-row ">
+
+                    <div class="d-flex flex-column gap-10 col-12 col-xxl-4 col-xl-4">
                         <span class="text-primary fw-bold ">OUR VALUES</span>
 
                         <h2 class="fw-bold text-light" >The Principles That Guide Everything We Do</h2>
                     </div>
-                    <div class="col-8">
+
+                    <div class="col-12 col-xxl-8 col-xl-8">
                         <%- include('../components/team-feature/content.ejs' , {teamFeature: t.components.teamFeature}); -%>
 
                     </div>
+
                 </div>
         </section>
 
         <section class="introduction py-20 bg-specific">
-            <div class="container d-flex justify-content-between">
-                <div class="col-3">
-                    <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
-                </div>
-                <div class="col-3">
-                    <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
-                </div>
-                <div class="col-3">
-                    <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
-                </div>
-                <div class="col-3">
-                    <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+            <div class="container overflow-x-scroll">
+                <div class="wrapper d-flex gap-4">
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
                 </div>
             </div>
 
@@ -152,22 +157,35 @@
 
         <section class="team py-20">
             <div class="container d-flex flex-column gap-10">
-                <div class=" d-flex gap-6 justify-content-between align-items-end">
-                    <div class="d-flex flex-column gap-4 col-3">
+
+                <div class=" d-flex gap-6 justify-content-between align-items-end flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
+                    <div class="d-flex flex-column gap-4 col-12 col-xxl-3 col-xl-4 col-lg-4 col-md-5">
                         <span class="text-primary fw-bold ">OUR Team</span>
 
                         <h2 class="fw-bold">Meet The People Behind Our success</h2>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-xxl-5 col-xl-5 col-lg-7 col-md-7">
                         <p  class=""> Our strength lies in our people. Our team brings together engineers, project managers, designers, and specialists who are passionate about building a better tomorrow.</p>
                     </div>
                 </div>
-                <div class="d-flex gap-4">
-                    <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
-                    <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
-                    <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
-                    <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
-                    <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                
+                <div class="gap-4 row justify-content-center">
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    
                 </div>
         </section>
 
