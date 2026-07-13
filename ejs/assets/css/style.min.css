@@ -1,107 +1,20 @@
-@font-face {
-  font-family: "primary";
-  font-weight: 900;
-  src: url("../fonts/vazir/Vazir-Black.woff2"), url("../fonts/vazir/Vazir-Black.woff"), url("../fonts/vazir/Vazir-Black.ttf"), url("../fonts/vazir/Vazir-Black.eot");
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 400;
-  src: url("../fonts/vazir/Vazir-Regular.woff2"), url("../fonts/vazir/Vazir-Regular.woff"), url("../fonts/vazir/Vazir-Regular.ttf"), url("../fonts/vazir/Vazir-Regular.eot");
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 100;
-  src: url("../fonts/vazir/Vazir-Thin.woff2"), url("../fonts/vazir/Vazir-Thin.woff"), url("../fonts/vazir/Vazir-Thin.ttf"), url("../fonts/vazir/Vazir-Thin.eot");
-}
-.font-primary {
-  font-family: var("--font-primary"), sans-serif, "Courier New", Courier, monospace;
-}
+/* Error: Undefined mixin.
+ *     ,
+ * 568 | @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+ *     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   assets\vendors\bootstrap\scss\_variables.scss 568:1  @use
+ *   sass\pages\_about-us.scss 1:1                        @forward
+ *   sass\pages\_index.scss 2:1                           @forward
+ *   sass\style.scss 4:1                                  root stylesheet */
 
-.transition {
-  transition: 0.3s 0s linear;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a     \2577 \a 568 \2502  @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");\d\a     \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   assets\\vendors\\bootstrap\\scss\\_variables.scss 568:1  @use\a   sass\\pages\\_about-us.scss 1:1                        @forward\a   sass\\pages\\_index.scss 2:1                           @forward\a   sass\\style.scss 4:1                                  root stylesheet';
 }
-
-.hossein {
-  background-image: url("../media/images/logo.png");
-  color: var(--primary);
-}
-
-.hossein {
-  background-image: url("../media/images/logo.png");
-  color: var(--primary);
-}
-
-#about-us .hero {
-  background-image: url("../media/images/en/about-us/photo-1486406146926-c627a92ad1ab.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-#about-us .hero a i {
-  transition: all 300ms ease-in-out;
-}
-
-#about-us .hero a:hover i {
-  transform: translateX(0.5rem);
-}
-
-#about-us .about::after {
-  content: ".";
-  z-index: 2;
-  bottom: 50%;
-}
-
-#about-us .experience-box {
-  width: 250px;
-  border-bottom-left-radius: 5px;
-}
-
-#about-us .wrapper {
-  width: 300vw;
-}
-
-@media (min-width: 768px) {
-  #about-us .wrapper {
-    width: 200vw !important;
-  }
-}
-@media (min-width: 992px) {
-  #about-us .wrapper {
-    width: 200vw !important;
-  }
-}
-@media (min-width: 1200px) {
-  #about-us .wrapper {
-    width: 100vw !important;
-  }
-}
-@media (min-width: 1400px) {
-  #about-us .wrapper {
-    width: 80vw !important;
-  }
-}
-#register {
-  background-color: #F9F9F9;
-}
-
-#register input:checked {
-  background-color: var(--bs-primary);
-  color: white;
-}
-
-#register .register .check-button i {
-  transition: all 300ms ease-in-out;
-}
-
-#register .register .check-button:hover i {
-  transform: translateX(0.5rem);
-}
-
-#register {
-  background-image: url("../media/images/en/register/building.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 55% 45%;
-}
-
-/*# sourceMappingURL=style.min.css.map */
