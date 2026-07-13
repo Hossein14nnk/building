@@ -37,30 +37,30 @@
     border-bottom-left-radius: 5px;
 }
 
-.wrapper {
+#about-us .wrapper {
     width: 300vw;
 } 
 
 @media (min-width: 768px) {
-    .wrapper {
+    #about-us .wrapper {
         width: 200vw !important;
     }
 }
 
 @media (min-width: 992px) {
-    .wrapper {
+    #about-us .wrapper {
         width: 200vw !important;
     }
 }
 
 @media (min-width: 1200px) {
-    .wrapper {
+    #about-us .wrapper {
         width: 100vw !important;
     }
 }
 
 @media (min-width: 1400px) {
-    .wrapper {
+    #about-us .wrapper {
         width: 80vw !important;
     }
 }
