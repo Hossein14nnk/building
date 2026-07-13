@@ -80,6 +80,11 @@
     width: 80vw !important;
   }
 }
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
