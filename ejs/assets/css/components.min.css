@@ -525,6 +525,7 @@
 .cycle-icon {
   width: 60px;
   aspect-ratio: 1;
+  z-index: 2;
 }
 
 #cycleCards {
@@ -534,7 +535,7 @@
 .cycle-card .line {
   border-top: 1px dashed;
   top: 30px;
-  z-index: -1;
+  z-index: 1 !important;
   right: 0px;
   width: 100%;
 }
