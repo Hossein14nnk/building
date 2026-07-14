@@ -405,7 +405,25 @@
 				}
 			},
 			"title": "MIZ Framework"
-		}
+		},
+    "aboutUs":{
+      "subtitleHero":"ABOUT US",
+      "titleHero":"Building More Than Structures",
+      "descriptionHero":" We are a leading construction company delivering innovative and sustainable solutions across residential, commercial and industrial sectors.",
+      "btnHero":"WORK WITH US",
+      "sectiontwoTextimage":"Years of Experience",
+      "sectiontwosubtitle":"WHO WE ARE",
+      "sectiontwoTitle":"Dedicated to Quality. Driven by Integrity.",
+      "sectiontwotext1":"Founded with a vision to raise the standards of construction,Builders Construction has grown into a trusted partner for clientswho value quality, transparency, and results.",
+      "sectiontwotext2":"Our experienced professionals work collaboratively to bring ideas to life—on time, on budget, and beyond expectations.",
+      "sectiontreeSubtitle":"OUR  JOURNEY",
+      "sectiiontreeTitle":"Milstones That Define Our Path",
+      "sectionfourSubtitle":"OUR VALUES",
+      "sectionfourTitle":"The Principles That Guide Everything We Do",
+      "sectionteamSubtitle":"OUR Team",
+      "sectionteamTitle":"Meet The People Behind Our success",
+      "sectionteamDescription":"Our strength lies in our people. Our team brings together engineers, project managers, designers, and specialists who are passionate about building a better tomorrow."
+    }
 	},
 	"footer": {
 		"description": "We are a leading construction company providing high-quality services across residential, commercial and industrial sectors worldwide.",
