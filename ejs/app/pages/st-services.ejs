@@ -15,9 +15,9 @@
 
 <body class="font-primary">
 
-    <main class="d-flex flex-column bg-background" id="st-services">
+    <main class="d-flex flex-column bg-background " id="st-services">
 
-        <section class="hero bg-dark text-secondary py-5 position-relative py-20 position-relative">
+        <section class="hero bg-dark text-secondary position-relative py-8 position-relative">
 
             <div class="container py-4 d-flex flex-column gap-6">
 
@@ -33,7 +33,7 @@
                     <span class="text-secondary">Construction Management</span>
                 </div>
 
-                <div class="row col-5">
+                <div class="row col-11 col-xxl-5 col-xl-7 col-lg-10 col-md-10 ">
 
                     <div class=" d-flex flex-column gap-5">
 
@@ -62,9 +62,9 @@
         </section>
 
 
-        <div class="container justify-content-center d-flex gap-10">
+        <div class="container justify-content-center d-flex gap-10 flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
 
-            <div class="col-9">
+            <div class="col-11 col-xxl-9 col-xl-9 col-lg-8 col-md-7 align-self-center">
                 <section class="overview py-8 d-flex flex-column gap-4">
                     <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm" alt="">
                     
@@ -94,24 +94,24 @@
                 <section class="offer py-8 d-flex flex-column gap-4">
                     <h2 class="fw-bold">What We Offer</h2>
 
-                    <div class="row gap-3">
+                    <div class="row ">
 
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 ">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
-                        <div class="col-5">
+                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
                             <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
                         </div>
 
@@ -121,14 +121,12 @@
                     <h2 class="fw-bold">What We Offer</h2>
 
                     <div class="col-12 gap-3">
-
                             <%- include('../components/cycle-cards/content.ejs', {cycleCards: t.components.cycleCards}); -%> 
-
                     </div>
                 </section>
             </div>
 
-            <aside class="col-3 py-8 d-flex flex-column justify-content-between">
+            <aside class="col-11 col-xxl-3 col-xl-3 col-lg-4 col-md-5 py-8 d-flex flex-column justify-content-between align-self-center">
                 <div>
                     <%- include('../components/icon-banner-CTA/content.ejs', {iconBannerCTA: t.components.iconBannerCTA}); -%> 
                 </div>
@@ -190,7 +188,7 @@
                 <div>
                     <%- include('../components/need-help-card/content.ejs', {needHelpCard: t.components.needHelpCard}); -%>
                 </div>
-                <div>
+                <div class="overflow-hidden rounded">
                     <%- include('../components/project-banner/content.ejs', {projectBanner: t.components.projectBanner}); -%>
                 </div>
             </aside>
@@ -199,9 +197,9 @@
 
    
         <section class="feature py-8 d-flex">
-            <div class="container d-flex rounded-4 py-8 px-4">
+            <div class="container d-flex rounded-4 py-8 px-4 align-items-center flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
 
-                <div class="col-3 second-feature-card container-fluid d-flex flex-column gap-4 justify-content-start py-4 col-lg-3 col-md-6">
+                <div class="col-11 col-xxl-3 col-xl-3 col-lg-3 col-md-4 second-feature-card container-fluid d-flex flex-column gap-4 justify-content-start py-4" >
                     <h2 class="fs-mid-title fw-bold">Why Choose Us</h2>
                     <p class="fs-title text-text fw-medium">We combine experience, expertise, and dedication to deliver exceptional construction management services.</p>
                     <a href="#" class="bg-primary py-2 fw-bold text-uppercase rounded d-flex gap-5 justify-content-center align-items-center px-4 w-fit-content">
