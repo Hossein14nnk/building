@@ -650,5 +650,8 @@
     border-bottom: 0;
   }
 }
+.image-post {
+  width: 100px;
+}
 
 /*# sourceMappingURL=components.min.css.map */
