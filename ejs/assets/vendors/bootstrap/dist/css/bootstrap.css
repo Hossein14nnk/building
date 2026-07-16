@@ -794,8 +794,7 @@ button {
 
 input,
 textarea,
-button,
-select {
+button {
   appearance: none;
   -webkit-appearance: none;
 }

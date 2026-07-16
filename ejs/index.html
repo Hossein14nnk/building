@@ -15,12 +15,20 @@
         #hero {
             min-height: 500px;
         }
+
+        .news-box .image {
+            background-image: url(./assets/media/images/en/components/news.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            aspect-ratio: 2/1;
+        }
     </style>
 </head>
 
 <body class="bg-background">
     <main>
-        <section id="hero" class="conainer-flouds bg-on-secondary d-flex align-items-center">
+        <section id="hero" class="conainer-fluid bg-on-secondary d-flex align-items-center">
+
             <div class="container d-flex gap-4 flex-column">
                 <span class="text-primary fw-bold fs-normal">OUR BLOG</span>
                 <h1 class="text-light fw-bold fs-big-title">Insights, Ideas & Inspiration
@@ -28,224 +36,274 @@
                 </h1>
                 <p class="text-text fw-medium fs-title">Stay updated with the latest trends, expert insights, and
                     practical tips from the construction industry.</p>
+                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+                <div class="small ">
+                    <a href="#" class="text-decoration-none text-secondary">Home</a>
+
+                    <span class="text-secondary">&gt;</span>
+
+                    <a href="#" class="text-decoration-none text-secondary">Blog</a>
+
+                    <span class="text-secondary">&gt;</span>
+
+                    <span class="text-secondary">10 Construction Trends Shaping the Future</span>
+                </div>
             </div>
         </section>
-        <section id="" class="conainer-flouds">
+        <section id="" class="container-fluid">
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-xl-7 gap-3">
-                        <div class="d-flex flex-column gap-5">
-                            <div class="d-flex flex-column">
-                                <span class="text-primary fw-bold fs-normal">OUR BLOG</span>
-                                <h2 class="fw-bold">were here to help</h2>
+                <div class="row g-6 align-items-start">
+                    <div class="col-xl-9 g-2">
+                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text">
+                            Construction</span>
+                        <h2 class="fs-mid-title fw-bold text-title-text mb-0">1. 10 Construction
+                            Trends
+                            Shaping
+                            the Future<div></div>
+                        </h2>
+                        <div class="d-flex align-items-center gap-5">
+                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                <i class="fa-solid fa-calendar text-text"></i>
+                                <span class="text-text fs-normal"> Oct 15, 2026</span>
                             </div>
-                            <form>
-                                <div class="d-flex gap-5 flex-column">
-                                    <div class="d-flex w-100 gap-5">
-                                        <div class="d-flex flex-column w-50">
-                                            <label class="fw-semibold small mb-2">
-                                                Full Name <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="email" class="bg-fields border-border-fields border p-2"
-                                                placeholder="Enter your full name">
-                                        </div>
-                                        <div class="d-flex flex-column w-50">
-                                            <label class="fw-semibold small mb-2">
-                                                Email Address <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="email" class="bg-fields border-border-fields border p-2"
-                                                placeholder="Enter your email">
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex w-100 gap-5">
-                                        <div class="d-flex flex-column w-50">
-                                            <label class="form-label fw-semibold small mb-2">
-                                                Phone Number
-                                            </label>
-                                            <input type="tel" class="bg-fields border-border-fields border p-2"
-                                                placeholder="Enter your phone number">
-                                        </div>
-
-                                        <div class="d-flex flex-column w-50">
-                                            <label class="form-label fw-semibold small mb-2">
-                                                Subject <span class="text-danger">*</span>
-                                            </label>
-                                            <select class="bg-fields border-border-fields border p-2">
-                                                <option selected>Select a subject</option>
-                                                <option>Construction</option>
-                                                <option>Interior Design</option>
-                                                <option>Consulting</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex flex-column">
-                                        <label class="form-label fw-semibold small mb-2">
-                                            Project Type
-                                        </label>
-                                        <select class="bg-fields border-border-fields border p-2">
-                                            <option selected>Select project type</option>
-                                            <option>Residential</option>
-                                            <option>Commercial</option>
-                                            <option>Industrial</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="d-flex flex-column">
-                                        <label class="form-label fw-semibold small mb-2">
-                                            Message <span class="text-danger">*</span>
-                                        </label>
-                                        <textarea rows="6" class="bg-fields border-border-fields border p-2"
-                                            placeholder="Tell us about your project..."></textarea>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button type="submit"
-                                            class="bg-button fw-semibold border-border-fields border p-2">
-                                            Send Message
-                                            <i class="fa-solid fa-arrow-right ms-2"></i>
-                                        </button>
-                                    </div>
-
-                                </div>
-
-                            </form>
+                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                <i class="fa-solid fa-user text-text"></i>
+                                <span class="text-text fs-normal">By Admin</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                <i class="fa-solid fa-comments text-text"></i>
+                                <span class="text-text fs-normal"> 5 comments</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xl-5">
-
-                        <div class="h-100 d-flex flex-column gap-3">
-                           <div class="d-flex flex-column">
-                             <span class="text-primary fw-bold fs-normal">
-                                GET IN TOUCH
+                        <img src="./assets/media/images/en/components/projects.jpg" alt="" class="w-100 rounded-2 ratio-21x9">
+                        <div>
+                            <p class="text-text">The construction industry is constantly evolving. New technologies, innovative materials, and a stronger focus on sustainability are reshaping the way we build. Here are the top trends that are defining the future of construction.</p>
+                            <h3 class="fs-mid-title fw-bold text-title-text">1. Sustainable Building Practices</h3>
+                            <p class="text-text">Sustainability is no longer an option—it's a necessity. Green building materials, energy-efficient designs, and waste reduction practices are helping reduce environmental impact while lowering long-term costs.</p>
+                            <h3 class="fs-mid-title fw-bold text-title-text">2. Building Information Modeling (BIM)</h3>
+                            <p class="text-text">BIM technology allows teams to create digital representations of physical and functional characteristics of a facility. It improves collaboration, reduces errors, and enhances project outcomes.</p>
+                            <h3 class="fs-mid-title fw-bold text-title-text">3. Modular Construction</h3>
+                            <p class="text-text">Off-site construction and prefabrication are speeding up project timelines and improving quality control. Modular building is becoming a mainstream solution for various sectors.</p>
+                            <p class="text-text">These trends are more than just buzzwords—they are transforming the industry and creating better outcomes for clients, communities, and the environment.</p>
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                            <span class="fs-title fw-bold text-title-text">
+                                The future of construction is built on innovation, sustainability, and collaboration.
                             </span>
-                            <h2 class="fw-bold mb-5">
-                                Contact Information
-                            </h2>
-                           </div>
-                            <div class="contact-details d-flex flex-column gap-3">
-                                <div class="bg-white rounded p-4 d-flex align-items-center gap-4">
-                                    <i class="fa-solid fa-location-dot fs-2 text-primary"></i>
-                                    <div>
-                                        <h5 class="fw-bold mb-1">Address</h5>
-                                        <p class="mb-0">
-                                            123 Construction Ave,<br>
-                                            New York
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="bg-white rounded p-4 d-flex align-items-center gap-4">
+                        </div>
+                        <div>
+                            <span>Share this post:</span>
+                            <div class="social d-none gap-2 d-xxl-flex d-xl-flex d-lg-flex align-items-center">
 
-                                    <i class="fa-solid fa-phone fs-2 text-primary"></i>
+                        <a href="./output/en/pages/" style="width: 30px; height: 30px;" class="rounded d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
 
-                                    <div>
+                        <a href="./output/en/pages/" style="width: 30px; height: 30px;" class="rounded d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                            <i class="fab fa-linkedin-in "></i>
+                        </a>
 
-                                        <h5 class="fw-bold mb-1">Phone</h5>
+                        <a href="./output/en/pages/" style="width: 30px; height: 30px;" class="rounded d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                            <i class="fab fa-instagram "></i>
+                        </a>
 
-                                        <p class="mb-0">+1 212 555 7890</p>
+                        <a href="./output/en/pages/" style="width: 30px; height: 30px;" class="rounded d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                            <i class="fab fa-youtube "></i>
+                        </a>
 
-                                    </div>
-
-                                </div>
-                                <div class="bg-white rounded p-4 d-flex align-items-center gap-4">
-
-                                    <i class="fa-solid fa-envelope fs-2 text-primary"></i>
-
-                                    <div>
-
-                                        <h5 class="fw-bold mb-1">Email</h5>
-
-                                        <p class="mb-0">info@buildex.com</p>
-
-                                    </div>
-
-                                </div>
-                                <div class="bg-white rounded p-4 d-flex align-items-center gap-4">
-
-                                    <i class="fa-solid fa-clock fs-2 text-primary"></i>
-
-                                    <div>
-
-                                        <h5 class="fw-bold mb-1">Working Hours</h5>
-
-                                        <p class="mb-0">Mon - Sat : 8AM - 6PM</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="mt-auto pt-4">
-
-                                <h6 class="fw-bold mb-3">
-                                    Let's Connect
-                                </h6>
-
-                                <div class="social gap-2 d-flex flex-row align-items-center">
-
-                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
-                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset border">
-                                        <i class="fab fa-facebook-f "></i>
-                                    </a>
-
-                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
-                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset border">
-                                        <i class="fab fa-linkedin-in "></i>
-                                    </a>
-
-                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
-                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset border">
-                                        <i class="fab fa-instagram "></i>
-                                    </a>
-
-                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
-                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset border">
-                                        <i class="fab fa-youtube "></i>
-                                    </a>
-
-                                </div>
-
+                    </div>
+                        </div>
+                        <div>
+                            <span>tags:</span>
+                            <div>
+                                <span class="fs-normal border rounded-1 p-2 text-button-text">
+                            Construction</span>
+                            <span class="fs-normal border rounded-1 p-2 text-button-text">
+                            Construction</span>
+                            <span class="fs-normal border rounded-1 p-2 text-button-text">
+                            Construction</span>
+                            <span class="fs-normal border rounded-1 p-2 text-button-text">
+                            Construction</span>
+                            <span class="fs-normal border rounded-1 p-2 text-button-text">
+                            Construction</span>
                             </div>
 
                         </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <i class="fab fa-youtube "></i>
+                                    <span>PREVIOUS POST</span>
+                                </div>
+                                <p>How Effective Planning Ensures Project Success</p>
+                            </div>
+                             <div>
+                                <div>
+                                    <i class="fab fa-youtube "></i>
+                                    <span>PREVIOUS POST</span>
+                                </div>
+                                <p>How Effective Planning Ensures Project Success</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 m-0">
+                        <div class="d-flex flex-column gap-5">
+                            <div class="w-100 d-flex flex-row justify-content-between bg-white rounded-2 p-3">
+                                <input type="text" placeholder="search blogs...">
+                                <button>
+                                    <i class="fa-light fa-search fs-normal p-2 bg-primary rounded-1"></i>
+                                </button>
+                            </div>
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-2 bg-white">
+
+                                <h4 class="fw-bold fs-title">Categories</h4>
+
+                                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+
+                                <ul class="list-group d-flex flex-column gap-3">
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center ">
+                                            Construction Management
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            Design &amp; Build
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            Renovation &amp; Restoration
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            Interior Design
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            Project Consulting
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            Construction Maintenance
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-2 bg-white">
+
+                                <h4 class="fw-bold fs-title">Popular Blog</h4>
+
+                                <div class="border-bottom border-primary border-3 mt-1" style="width:50px"></div>
+
+                                <div class="pooular-post d-flex align-items-stretch gap-3">
+                                    <div class="image-post"> <img src="./assets/media/images/en/components/news.jpg"
+                                            alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                    <div class="d-flex gap-2 flex-column">
+                                        <a href="#" class="fs-big fw-bold text-title-text mb-0">1. 10
+                                            Construction
+                                            Trends
+                                            Shaping the Future</a>
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-primary"></i>
+                                            <span class="text-text fs-normal"> Oct 15, 2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pooular-post d-flex align-items-stretch gap-2">
+                                    <div class="image-post"> <img src="./assets/media/images/en/components/news.jpg"
+                                            alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                    <div class="d-flex gap-2 flex-column">
+                                        <a href="#" class="fs-big fw-bold text-title-text mb-0">1. 10
+                                            Construction
+                                            Trends
+                                            Shaping the Future</a>
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-primary"></i>
+                                            <span class="text-text fs-normal"> Oct 15, 2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pooular-post d-flex align-items-stretch gap-2">
+                                    <div class="image-post"> <img src="./assets/media/images/en/components/news.jpg"
+                                            alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                    <div class="d-flex gap-2 flex-column">
+                                        <a href="#" class="fs-big fw-bold text-title-text mb-0">1. 10
+                                            Construction
+                                            Trends
+                                            Shaping the Future</a>
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-primary"></i>
+                                            <span class="text-text fs-normal"> Oct 15, 2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pooular-post d-flex align-items-stretch gap-2">
+                                    <div class="image-post"> <img src="./assets/media/images/en/components/news.jpg"
+                                            alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                    <div class="d-flex gap-2 flex-column">
+                                        <a href="#" class="fs-big fw-bold text-title-text mb-0">1. 10
+                                            Construction
+                                            Trends
+                                            Shaping the Future</a>
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-primary"></i>
+                                            <span class="text-text fs-normal"> Oct 15, 2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="subscribeCard"
+                                class="d-flex flex-column gap-2 align-items-center justify-content-between bg-black rounded-1 p-4">
+                                <div
+                                    class="subscribe-icon rounded-circle border border-primary d-flex justify-content-center align-items-center">
+                                    <img src="./assets/media/images/en/components/subscribe-icon.png" alt=""
+                                        class="icon">
+                                </div>
+                                <h3 class="fs-title text-white text-center">Subscribe to Our Newsletter</h3>
+                                <p class="fs-subtitle text-center text-secondary-text">Get the latest updates,
+                                    insights,
+                                    and
+                                    news delivered to your inbox.</p>
+                                <form action="" class="d-flex flex-column gap-2 container-fluid">
+                                    <input type="text" placeholder="Enter your email"
+                                        class="fs-subtitle bg-transparent container border rounded-1 border-white px-3 py-2 text-white fw-medium">
+                                    <button type="submit"
+                                        class="bg-primary text-black d-flex align-items-center gap-4 rounded-1 container-fluid justify-content-center py-2"
+                                        href="#">
+                                        <span class="fs-small fw-semibold">SUBSCRIBE NOW</span>
+                                        <i class="fas fa-arrow-right-long fs-small"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
 
                     </div>
+
                 </div>
-        </section>
-        <section class="conainer-flouds">
-            <div class="container">
-                <iframe class="w-100"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12951.109024056112!2d51.218427!3d35.7562792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8de5006a0ba159%3A0x6ef7e9cb611a8298!2sivahid!5e0!3m2!1sen!2s!4v1728657276517!5m2!1sen!2s"
-                    width="600" style="border: 0" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-        <section class="conainer-flouds">
-            <div class="container">
-                <div
-                    class="contact-card text-secondary bg-dark rounded-3 shadow-lg gap-2 px-5 py-3 d-flex flex-column align-items-center justify-content-between flex-sm-column flex-md-column flex-lg-row ">
-                    <div class="col-lg-7 col-10 col-xxl-7 col-xl-7">
-                        <div class="d-flex align-items-center gap-4">
-                            <div class=" fs-high-title">
-                                <i class="fa-solid fa-headphones text-primary"></i>
-                            </div>
-                            <div class="d-flex flex-column gap-1">
-                                <h3 class="fw-bold mb-3">Need Immediate Assistance?</h3>
-                                <span class="text-text">Call us directly or send us an email.</span>
-                                <span class="text-text">Our team is ready to assist you right away.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-8 col-xxl-3 col-xl-3 border rounded-2 p-4 d-flex align-items-center gap-3">
-                        <i class="fa-solid fa-phone-volume fs-mid-title  text-primary"></i>
-                        <div class="d-flex flex-column ">
-                            <span class="fw-semibold">Call Us Now</span>
-                            <span class=" fs-3 fw-bold text-nowrap text-primary">+1 212 555 7890</span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </section>
     </main>

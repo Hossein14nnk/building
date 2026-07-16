@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "primary";
   font-weight: 900;
@@ -19,6 +20,10 @@
 
 .transition {
   transition: 0.3s 0s linear;
+}
+
+body {
+  background: var(--bs-background);
 }
 
 section {
@@ -236,6 +241,58 @@ section {
   background-color: #F4F4F4;
 }
 
+#contact-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+#blog-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-limit-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.select-box {
+  position: relative;
+  width: 250px;
+  /* یا 100% */
+}
+
+@media (max-width: 1200px) {
+  #weblogs .wrapper {
+    width: 100% !important;
+  }
+}
+#st-blog-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+#descriotion-blog .image-blog {
+  aspect-ratio: 2/1;
+}
+
+#descriotion-blog .number {
+  width: 30px;
+  height: 29px;
 #gallery div:has(> img) {
   height: 250px;
 }
