@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html dir="<%= t.direction %>" lang="<%= t.language %>">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pages</title>
+    <link rel="icon" type="image/png" href="<%= getMedia(lang, 'single/logo-web3.webp', 'images') %>">
+    <base href="<%= basePathPages() %>">
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/components.min.css">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body class="font-primary">
+
+    <main class="d-flex flex-column" id="about-us">
+
+        <section class="hero py-20 pt-20 text-secondary-text ">
+            <div class="container">
+                <div class="align-items-start col-lg-5 d-flex flex-column gap-8 ">
+
+                    <span class="text-warning fw-bold fs-high-title">ABOUT US</span>
+
+                    <h1 class="fw-semibold">Building More Than Structures</h1>
+
+                    <p class="fw-medium fs-title">
+                        We are a leading construction company delivering innovative and
+                        sustainable solutions across residential, commercial and industrial sectors.
+                    </p>
+
+                    <a class="rounded-3 bg-button px-5 py-2 text-button-text mt-2 d-flex gap-6 align-items-center fw-semibold">
+                        <span class="" >WORK WITH US</span>
+                        <i class="fa-solid fa-arrow-right text-dark"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about py-20">
+
+            <div class="container d-flex gap-20 flex-column flex-xxl-row flex-xl-row flex-lg-row">
+
+                <div class="row align-items-center g-5  position-relative col-12 col-xxl-6 col-xl-6 col-lg-6">
+
+                    <img src="../../assets/media/images/en/about-us/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="p-0 m-0 img-fluid rounded w-100 h-100">
+
+                    <div class="experience-box position-absolute bottom-0 start-0 bg-dark text-light fw-bold d-flex align-items-center p-4 gap-4">
+
+                        <img class="w-20" src="../../assets/media/images/en/about-us/ChatGPT Image Jul 12, 2026, 01_52_17 AM.png">
+
+                        <div class="d-flex flex-column">
+
+                            <span class="fs-mid-title">25+</span>
+
+                            <span>Years of Experience</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-xxl-4 col-xl-4 col-lg-5 d-flex flex-column gap-5">
+
+                    <span class="text-primary fw-bold ">WHO WE ARE</span>
+
+                    <h2 class="fw-bold">
+                        Dedicated to Quality.
+                        Driven by Integrity.
+                    </h2>
+
+                    <p class="fw-semibold">
+                        Founded with a vision to raise the standards of construction,
+                        Builders Construction has grown into a trusted partner for clients
+                        who value quality, transparency, and results.
+                    </p>
+
+                    <p class="fw-semibold">
+                        Our experienced professionals work collaboratively to bring ideas
+                        to life—on time, on budget, and beyond expectations.
+                    </p>
+
+                    <ul class="check-list d-flex flex-column gap-2">
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="journey py-20 bg-specific">
+            <div class="container ">
+                <div class=" d-flex gap-6 flex-column flex-xxl-row flex-xl-row">
+
+                    <div class="d-flex flex-column gap-4 col-12 col-xxl-3 col-xl-3">
+                        <span class="text-primary fw-bold ">OUR  JOURNEY</span>
+
+                        <h2 class="fw-bold">Milstones That Define Our Path</h2>
+                    </div>
+
+                    <div class="col-12 col-xxl-9 col-xl-9 overflow-x-scroll">
+                        <%- include('../components/history-timeline/content.ejs' , {historyTimeline: t.components.historyTimeline}); -%>
+
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="values py-20 bg-dark">
+            <div class="container ">
+                <div class=" d-flex gap-10 flex-column flex-xxl-row flex-xl-row ">
+
+                    <div class="d-flex flex-column gap-10 col-12 col-xxl-4 col-xl-4">
+                        <span class="text-primary fw-bold ">OUR VALUES</span>
+
+                        <h2 class="fw-bold text-light" >The Principles That Guide Everything We Do</h2>
+                    </div>
+
+                    <div class="col-12 col-xxl-8 col-xl-8">
+                        <%- include('../components/team-feature/content.ejs' , {teamFeature: t.components.teamFeature}); -%>
+
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="introduction py-20 bg-specific">
+            <div class="container overflow-x-scroll">
+                <div class="wrapper d-flex gap-4">
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="team py-20">
+            <div class="container d-flex flex-column gap-10">
+
+                <div class=" d-flex gap-6 justify-content-between align-items-end flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
+                    <div class="d-flex flex-column gap-4 col-12 col-xxl-3 col-xl-4 col-lg-4 col-md-5">
+                        <span class="text-primary fw-bold ">OUR Team</span>
+
+                        <h2 class="fw-bold">Meet The People Behind Our success</h2>
+                    </div>
+                    <div class="col-12 col-xxl-5 col-xl-5 col-lg-7 col-md-7">
+                        <p  class=""> Our strength lies in our people. Our team brings together engineers, project managers, designers, and specialists who are passionate about building a better tomorrow.</p>
+                    </div>
+                </div>
+                
+                <div class="gap-4 row justify-content-center">
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    
+                </div>
+        </section>
+
+    </main>
+
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+
+    
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>
