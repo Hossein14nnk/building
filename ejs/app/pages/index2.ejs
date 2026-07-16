@@ -154,10 +154,10 @@
         </div>
     </section>
 
-    <section class="about py-0 bg-dark">
-            <div class="row ps-20">
+    <section class="about py-0 ">
+            <div class="row bg-dark flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row ps-0 ps-xxl-20 ps-xl-20 ps-lg-20 ps-md-10">
 
-                <div class="col-lg-5 text-secondary py-8">
+                <div class="px-8 text-secondary py-8 bg-dark col-12 col-xxl-5 col-xl-5 col-lg-5 col-md-5 ">
                     <div class="d-flex flex-column gap-3 align-items-start">
 
                         <span class="text-uppercase text-secondary fs-big">About Our Company</span>
@@ -176,7 +176,7 @@
 
                         <div class="row g-4 my-1">
 
-                            <div class="col-6 col-md-3 text-center d-flex flex-column gap-3 border-end ">
+                            <div class="col-6 col-xxl-3 col-xl-3 text-center d-flex flex-column gap-3 border-end ">
                                 <i class="fa-solid fa-shield-halved text-primary"></i>
                                 <p class="fw-semibold fs-big px-3">
                                     Quality
@@ -184,7 +184,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-6 col-md-3 text-center d-flex flex-column gap-3 border-end ">
+                            <div class="col-6 col-xxl-3 col-xl-3 text-center d-flex flex-column gap-3 border-end ">
                                 <i class="fa-solid fa-seedling text-primary"></i>
                                 <p class="fw-semibold fs-big px-3">
                                     Sustainable
@@ -192,7 +192,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-6 col-md-3 text-center d-flex flex-column gap-3 border-end ">
+                            <div class="col-6 col-xxl-3 col-xl-3 text-center d-flex flex-column gap-3 border-end ">
                                 <i class="fa-solid fa-helmet-safety text-primary"></i>
                                 <p class="fw-semibold fs-big px-3">
                                     Skilled
@@ -200,7 +200,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-6 col-md-3 text-center d-flex flex-column gap-3 ">
+                            <div class="col-6 col-xxl-3 col-xl-3 text-center d-flex flex-column gap-3 ">
                                 <i class="fa-regular fa-clock text-primary"></i>
                                 <p class="fw-semibold fs-big px-3">
                                     On-Time
@@ -210,7 +210,7 @@
 
                         </div>
 
-                        <a href="#" class="mt-2 service px-4 py-2 fw-semibold rounded-1 bg-primary text-dark fs-big d-flex justify-content-center align-items-center gap-2 border-primary border">
+                        <a href="#" class="mt-2 button px-4 py-2 fw-semibold rounded-1 bg-primary text-dark fs-big d-flex justify-content-center align-items-center gap-2 border-primary border">
                             MORE ABOUT US
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -218,11 +218,44 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column col-lg-7">
+                <div class="px-0 d-flex flex-column col-12 col-xxl-7 col-xl-7 col-lg-7 col-md-7">
 
-                    <img src="../../assets/media/images/en/demo2/ChatGPT6.png" alt="Building" class="img-fluid h-100 ">
+                    <div class="contain-img position-relative h-100 w-100 p-20"></div>
 
+                    <div class="text-light d-flex bg-specific p-4">
+                        
+                        <div class=" d-flex line justify-content-center gap-6">
+                            <img src="<%= getMedia(lang, 'components/cycle-icon1.png', 'images'); %>" width="30">
+                            <div  class="d-flex flex-column gap-2">
+                                <span class="fw-bold text-muted">850+</span>
+                                <span class="text-muted">Project Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 d-flex line justify-content-center gap-6">
+                            <img src="<%= getMedia(lang, 'components/cycle-icon2.png', 'images'); %>" width="30">
+                            <div  class="d-flex flex-column gap-2">
+                                <span class="fw-bold text-muted">120+</span>
+                                <span class="text-muted">Expert Employers</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 d-flex line justify-content-center gap-6">
+                            <img src="<%= getMedia(lang, 'components/cycle-icon3.png', 'images'); %>" width="30">
+                            <div  class="d-flex flex-column gap-2">
+                                <span class="fw-bold text-muted">25+</span>
+                                <span class="text-muted">Awards Won</span>
+                            </div>
+                        </div>
 
+                        <div class="col-md-3 d-flex line justify-content-center gap-6">
+                            <img src="<%= getMedia(lang, 'components/cycle-icon4.png', 'images'); %>" width="30">
+                            <div  class="d-flex flex-column gap-2">
+                                <span class="fw-bold text-muted">98%</span>
+                                <span class="text-muted">Happy Clients</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

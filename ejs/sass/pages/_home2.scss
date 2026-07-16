@@ -66,3 +66,20 @@
 #second-demo .wrapper2 img {
   filter: grayscale(1);
 }
+
+
+#second-demo .about .contain-img {
+    background-image: url("../media/images/en/demo2/ChatGPT6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#second-demo .about .button {
+    transition: all 150ms ease-in-out;
+}
+
+#second-demo .about .button:hover {
+    background-color: transparent !important;
+    color: var(--bs-secondar) !important;
+}
