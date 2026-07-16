@@ -161,10 +161,12 @@ section {
 
 #contact-hero {
   min-height: 500px !important;
+  margin-bottom: 2rem;
 }
 
 #blog-hero {
   min-height: 500px !important;
+  margin-bottom: 2rem;
 }
 
 .number {
@@ -196,6 +198,19 @@ section {
   #weblogs .wrapper {
     width: 100% !important;
   }
+}
+#st-blog-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+#descriotion-blog .image-blog {
+  aspect-ratio: 2/1;
+}
+
+#descriotion-blog .number {
+  width: 30px;
+  height: 29px;
 }
 
 /*# sourceMappingURL=style.min.css.map */
