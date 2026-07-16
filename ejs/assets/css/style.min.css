@@ -293,6 +293,8 @@ section {
 #descriotion-blog .number {
   width: 30px;
   height: 29px;
+}
+
 #gallery div:has(> img) {
   height: 250px;
 }
