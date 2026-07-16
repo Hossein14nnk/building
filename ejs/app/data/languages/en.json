@@ -400,6 +400,12 @@
 			"title":"Client Satisfaction",
 			"subtitle":"Your satisfaction is our goal, every step of the way."
 		}
+  },
+  "statistics":{
+    "text1":"Years Experience",
+    "text2":"Projects Completed",
+    "text3":"Happy Customers",
+    "text4":" Professional Awards"
   }
   },
  	"pages": {
@@ -428,6 +434,66 @@
       "sectionteamSubtitle":"OUR Team",
       "sectionteamTitle":"Meet The People Behind Our success",
       "sectionteamDescription":"Our strength lies in our people. Our team brings together engineers, project managers, designers, and specialists who are passionate about building a better tomorrow."
+    },
+    "register":{
+      "subtitle":"Create Account",
+      "title":"Register",
+      "description":"Join Buildex Construction and get started today.",
+      "firstname":"First Name ",
+      "placeHolderFirst":"Enter your first name",
+      "lastname":"Last Name",
+      "placeHolderLastname":"Enter your last name",
+      "email":"Email Address",
+      "placeHolderemail":"Enter your email address",
+      "phone":" Phone Number",
+      "placeHolderphone":"Enter your phone number",
+      "password":" Password ",
+      "placeHolderPassword":"Create a password",
+      "confirm":"Confirm Password",
+      "placeHolderconfirm":"Confirm your password",
+      "privacy1":" I agree to the",
+      "privacy2":"Terms & Conditions",
+      "privacy3":"and",
+      "privacy4":"Privacy Policy",
+      "btnRegister":"REGISTER NOW",
+      "or":"OR",
+      "btnGoogle":" Continue with Google",
+      "btnLinkedin":"Continue with LinkedIn",
+      "question":" Already have an account?",
+      "signIn":"Sign In"
+    },
+    "gallery":{
+      "breadcromp1":"Home",
+      "breadcromp2":"Pages",
+      "breadcromp3":"Gallery",
+      "heroTitle1":" A Glimpse Of Our ",
+      "heroTitle2":"Work & Achievements",
+      "heroDescription":" Explore our gallery to see the quality, craftsmanship, and attention to detail that define every project we build.",
+      "filter1":"All Galleries",
+      "filter2":"Residential",
+      "filter3":"Commercial",
+      "filter4":"Industrial",
+      "filter5":"Interior",
+      "filter6":"Infrastructure",
+      "option1":"Latest First",
+      "option2":"Oldest First",
+      "btnLoud":"LOAD MORE IMAGES",
+      "sectionEndsubtitle":"LET'S BUILD TOGETHER",
+      "sectionEndtitle":"Have A Project In Mind?",
+      "sectionEndDescription":"We're here to help you turn your ideas into reality with quality and precision.",
+      "sectionEnbtn":"GET A QUOTE"
+    },
+    "homeOne":{
+      "subtitleslider":"WE BUILD FUTURE",
+      "sliderTitle1":"Build.",
+      "sliderTitle2":"Invest.",
+      "sliderTitle3":"Innovate.",
+      "sliderDescription":"we deliver exceptional construction services with a focus on quality,sefety and innovation.",
+      "btnslider1":"OUR PROJECTS",
+      "btnslider2":"CET A QUOTE",
+      "components":{
+        
+      }
     }
 	},
 	"footer": {
