@@ -1,0 +1,39 @@
+@use "../../miz/sass/global-functions/_images" as *;
+@use "../../miz/sass/global-functions/_colors" as *;
+
+
+#blog-hero {
+    min-height: 500px !important;
+    margin-bottom: 2rem;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-limit-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.select-box {
+    position: relative;
+    width: 250px;
+    /* یا 100% */
+}
+
+@media (max-width: 1200px) {
+    #weblogs .wrapper {
+        width: 100% !important;
+    }
+}
