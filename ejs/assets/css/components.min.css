@@ -650,5 +650,8 @@
     border-bottom: 0;
   }
 }
+.line {
+  border-right: 1px dashed gray !important;
+}
 
 /*# sourceMappingURL=components.min.css.map */
