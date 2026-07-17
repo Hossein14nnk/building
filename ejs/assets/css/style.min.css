@@ -396,4 +396,94 @@ section {
   height: 29px;
 }
 
+#gallery div:has(> img) {
+  height: 250px;
+}
+
+#gallery ul li:checked {
+  background-color: red;
+}
+
+#gallery .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/gallery/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#gallery .project-cta > .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#stProject .overview img {
+  aspect-ratio: 16/7;
+}
+
+#stProject hr {
+  background-color: var(--bs-divider);
+  width: 10%;
+  margin: 0;
+  height: 2px;
+}
+
+#stProject .hero::after {
+  content: "";
+  bottom: 0px;
+  right: 0%;
+  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%, 15px 17px;
+  width: 40%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, transparent 20%, rgb(0, 0, 0) 75% 100%), radial-gradient(rgba(254, 191, 1, 0.368627451) 10%, rgba(254, 191, 1, 0) 10% 100%);
+}
+
+#stProject .list-group li {
+  transition: all 300ms ease-in-out;
+}
+
+#stProject .list-group li i {
+  transition: all 300ms ease-in-out;
+}
+
+#stProject .list-group li:hover {
+  background-color: var(--bs-specific);
+}
+
+#stProject .list-group li:hover i {
+  color: var(--bs-primary);
+}
+
+#stProject .feature .container {
+  background-color: #F4F4F4;
+}
+
+#stProject .project-gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+#stProject .project-gallery img {
+  min-height: 160px;
+}
+
+#Reviews div:has(> img) {
+  height: 250px;
+}
+
+#Reviews ul li:checked {
+  background-color: red;
+}
+
+#Reviews .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/Reviews/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#Reviews .project-cta > .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 /*# sourceMappingURL=style.min.css.map */
