@@ -200,11 +200,7 @@
 }
 
 .footer li:hover {
-<<<<<<< HEAD
-  color: #F6BC0B;
-=======
   color: var(--bs-primary);
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
   transform: translateX(0.2rem);
 }
 
@@ -212,22 +208,6 @@
   transition: all 200ms linear;
 }
 
-<<<<<<< HEAD
-a img {
-  transition: all 300ms linear;
-}
-
-a img:hover {
-  transform: scale(1.04);
-}
-
-.social i {
-  transition: all 100ms ease-in-out;
-}
-
-.social i:hover {
-  color: #F6BC0B;
-=======
 .footer a img {
   transition: all 300ms linear;
 }
@@ -242,7 +222,6 @@ a img:hover {
 
 .footer .social i:hover {
   color: var(--bs-primary);
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
 }
 
 .quote-btn i {
@@ -272,59 +251,6 @@ a img:hover {
 
 .team-feature input:focus {
   border-color: var(--bs-primary) !important;
-<<<<<<< HEAD
-.footer li:hover {
-  color: #F6BC0B;
-  transform: translateX(0.2rem);
-}
-
-.footer li {
-  transition: all 200ms linear;
-}
-
-a img {
-  transition: all 300ms linear;
-}
-
-a img:hover {
-  transform: scale(1.04);
-}
-
-.social i {
-  transition: all 100ms ease-in-out;
-}
-
-.social i:hover {
-  color: #F6BC0B;
-}
-
-.footer li:hover {
-  color: #F6BC0B;
-  transform: translateX(0.2rem);
-}
-
-.footer li {
-  transition: all 200ms linear;
-}
-
-a img {
-  transition: all 300ms linear;
-}
-
-a img:hover {
-  transform: scale(1.04);
-}
-
-.social i {
-  transition: all 100ms ease-in-out;
-}
-
-.social i:hover {
-  color: #F6BC0B;
-=======
-.team-feature input:focus {
-  border-color: var(--bs-primary) !important;
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
 }
 
 .review-card-item img {
@@ -439,31 +365,11 @@ a img:hover {
 }
 
 .secondary-project-card .card-button {
-<<<<<<< HEAD
-.secondary-project-card .card-button {
-=======
-.project-card .image {
-  background-image: url(../../assets/media/images/en/components/news.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  aspect-ratio: 2/1;
-}
-
-.project-card .cat-badg {
-  color: #fff !important;
-  background: rgba(0, 0, 0, 0.5803921569) !important;
-  backdrop-filter: blur(9px);
-  padding: 9px 15px !important;
-}
-
-.project-card .card-button {
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
   width: 50px;
   aspect-ratio: 1;
   position: relative;
   border: 1px solid var(--bs-primary);
 }
-<<<<<<< HEAD
 .secondary-project-card .card-button:hover {
   background-color: var(--bs-primary);
 }
@@ -510,23 +416,12 @@ a img:hover {
 }
 .secondary-project-card2 .card-button i {
   transform-origin: center;
-=======
-.project-card .card-button:hover {
-  background-color: var(--bs-primary);
-}
-.project-card .card-button:hover i {
-  color: #fff !important;
-}
-.project-card .card-button i {
-  color: #000 !important;
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
   position: absolute;
   top: 50%;
   right: 50%;
   transform: translateX(50%) translateY(-50%);
 }
 
-<<<<<<< HEAD
 .secondary-project-card2 {
   aspect-ratio: 1/1;
 }
@@ -539,8 +434,6 @@ a img:hover {
   backdrop-filter: blur(11px);
 }
 
-=======
->>>>>>> 8390ceab8cf141fbd8248cfacbca187b09dd3af0
 .pricing-table .icon {
   width: 60px;
   aspect-ratio: 1;
@@ -756,6 +649,13 @@ a img:hover {
   .second-feature-card:nth-last-child(-n+2) {
     border-bottom: 0;
   }
+}
+.image-post {
+  width: 100px;
+}
+
+.line {
+  border-right: 1px dashed gray !important;
 }
 
 /*# sourceMappingURL=components.min.css.map */

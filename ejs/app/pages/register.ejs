@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html dir="<%= t.direction %>" lang="<%= t.language %>">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pages</title>
-    <link rel="icon" type="image/png" href="<%= getMedia(lang, 'single/logo-web3.webp', 'images') %>">
-    <base href="<%= basePathPages() %>">
-    <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/components.min.css">
-    <link rel="stylesheet" href="./assets/css/style.min.css">
-</head>
-
-<body class="font-primary">
+<%- include('../layouts/page/head.ejs' , {title: "register", addCount: 0}); -%>
 
     <main class="d-flex flex-column" id="register">
 
@@ -26,22 +11,22 @@
 
                 <div class="card bg-light rounded-4 shadow-sm p-5 d-flex flex-column gap-4">
 
-                    <span class="text-primary fw-bold text-uppercase small">Create Account</span>
+                    <span class="text-primary fw-bold text-uppercase small"><%- t.pages.register.subtitle %></span>
 
-                    <h1 class="fw-bold display-5">Register</h1>
+                    <h1 class="fw-bold display-5"><%- t.pages.register.title %></h1>
 
-                    <p class="text-muted">Join Buildex Construction and get started today.</p>
+                    <p class="text-muted"><%- t.pages.register.description %></p>
 
 
                     <form class="d-flex flex-column gap-4">
 
                         <div class="">
                             <label for="name" class="fw-semibold">
-                                First Name <span class="text-danger">*</span>
+                                <%- t.pages.register.firstname %> <span class="text-danger">*</span>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="name" type="text" class=" py-3" placeholder="Enter your first name">
+                                <input id="name" type="text" class=" py-3" placeholder="<%- t.pages.register.placeHolderFirst %>">
                                     <span class="">
                                         <i class="fa-solid fa-user text-text"></i>
                                     </span>
@@ -50,11 +35,11 @@
 
                         <div class="">
                             <label for="family" class=" fw-semibold">
-                                Last Name <span class="text-danger">*</span>
+                                <%- t.pages.register.lastname %> <span class="text-danger">*</span>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="family" type="text" class=" py-3" placeholder="Enter your last name">
+                                <input id="family" type="text" class=" py-3" placeholder="<%- t.pages.register.placeHolderLastname %>">
 
                                     <i class="fa-solid fa-user text-text"></i>
                             </div>
@@ -62,11 +47,11 @@
 
                         <div class="">
                             <label for="email" class=" fw-semibold">
-                                Email Address <span class="text-danger">*</span>
+                                <%- t.pages.register.email %> <span class="text-danger">*</span>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="email" type="email" class=" py-3" placeholder="Enter your email address">
+                                <input id="email" type="email" class=" py-3" placeholder="<%- t.pages.register.placeHolderemail %>">
 
                                     <i class="fa-solid fa-envelope text-text"></i>
                             </div>
@@ -74,11 +59,11 @@
 
                         <div class="">
                             <label for="phone" class=" fw-semibold">
-                                Phone Number
+                                <%- t.pages.register.phone %>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="phone" type="text" class=" py-3" placeholder="Enter your phone number">
+                                <input id="phone" type="text" class=" py-3" placeholder="<%- t.pages.register.placeHolderphone %>">
 
                                     <i class="fa-solid fa-light fa-phone text-text"></i>
                             </div>
@@ -86,11 +71,11 @@
 
                         <div class="">
                             <label for="password" class=" fw-semibold">
-                                Password <span class="text-danger">*</span>
+                                <%- t.pages.register.password %> <span class="text-danger">*</span>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="password" type="password" class=" py-3 " placeholder="Create a password">
+                                <input id="password" type="password" class=" py-3 " placeholder="<%- t.pages.register.placeHolderPassword %>">
 
                                 <div class="d-flex align-items-center gap-4">
                                     <i class="fa-solid fa-lock text-text"></i>
@@ -103,11 +88,11 @@
 
                         <div class="">
                             <label for="password2" class=" fw-semibold">
-                                Confirm Password <span class="text-danger">*</span>
+                               <%- t.pages.register.confirm %> <span class="text-danger">*</span>
                             </label>
 
                             <div class="rounded-2 border px-2 d-flex align-items-center justify-content-between">
-                                <input id="password2" type="password" class=" py-3" placeholder="Confirm your password">
+                                <input id="password2" type="password" class=" py-3" placeholder="<%- t.pages.register.placeHolderconfirm %>">
 
                                  <div class="d-flex align-items-center gap-4">
                                     <i class="fa-solid fa-lock text-text"></i>
@@ -121,43 +106,43 @@
                            <input class="form-check-input p-2 border rounded" type="checkbox" id="check">
 
                             <label for="check" class="" >
-                                I agree to the
+                                <%- t.pages.register.privacy1 %>
                                 <a href="#" class="text-warning text-decoration-none">
-                                    Terms & Conditions
+                                    <%- t.pages.register.privacy2 %>
                                 </a>
-                                and
+                                <%- t.pages.register.privacy3 %>
                                 <a href="#" class="text-warning text-decoration-none">
-                                    Privacy Policy
+                                    <%- t.pages.register.privacy4 %>
                                 </a>
                             </label>
 
                         </div>
 
                         <button class="check-button bg-primary mt-2 w-100 py-3 fw-bold text-uppercase rounded-2 d-flex gap-5 justify-content-center align-items-center">
-                            <span class="">Register Now</span>
+                            <span class=""><%- t.pages.register.btnRegister %></span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
 
                         <div class="d-flex align-items-center ">
                             <hr class="flex-grow-1 bg-dark">
-                            <span class="mx-3 text-muted fs-small">OR</span>
+                            <span class="mx-3 text-muted fs-small"><%- t.pages.register.or %></span>
                             <hr class="flex-grow-1 bg-dark">
                         </div>
 
                         <button class="w-100 py-3 border rounded-2 fw-bold">
                            <i class="fa-brands fa-google text-primary fs-mid-title"></i>
-                            Continue with Google
+                            <%- t.pages.register.btnGoogle %>
                         </button>
 
                         <button class="w-100 py-3 border rounded-2 fw-bold">
                             <i class="fa-brands fa-linkedin text-primary fs-mid-title"></i>
-                            Continue with LinkedIn
+                            <%- t.pages.register.btnLinkedin %>
                         </button>
 
                         <p class="text-center">
-                            Already have an account?
+                            <%- t.pages.register.question %>
                             <a href="#" class="text-primary text-decoration-none fw-semibold">
-                                Sign In
+                                <%- t.pages.register.signIn %>
                             </a>
                         </p>
 
