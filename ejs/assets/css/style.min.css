@@ -118,6 +118,26 @@ section {
   height: 35px;
 }
 
+.play-btn {
+  width: 60px;
+  height: 60px;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  max-height: 350px;
+}
+
+.image-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
