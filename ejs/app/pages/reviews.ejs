@@ -1,173 +1,130 @@
-<!DOCTYPE html>
-<html dir="<%= t.direction %>" lang="<%= t.language %>">
+<%- include('../layouts/page/head.ejs' , {title: "Reviews", addCount: 0}); -%>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pages</title>
-    <link rel="icon" type="image/png" href="<%= getMedia(lang, 'single/logo-web3.webp', 'images') %>">
-    <base href="<%= basePathPages() %>">
-    <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/components.min.css">
-    <link rel="stylesheet" href="./assets/css/style.min.css">
-</head>
+    <main class="d-flex flex-column" id="Reviews">
 
-<body class="font-primary">
+        <section class="hero py-20 text-secondary-text d-flex justify-content-start">
+            <div class="container d-flex ">
+                <div class="d-flex flex-column gap-4 col-10 col-xxl-5 col-xl-6 col-lg-8 align-items-start">
+                    <div class="small ">
+                        <a href="#"><%- t.pages.Reviews.breadcromp1 %></a>
+                        <span class="mx-2">›</span>
 
-    <main class="d-flex flex-column bg-background " id="stProject">
+                        <a href="#"><%- t.pages.Reviews.breadcromp2 %></a>
+                        <span class="mx-2">›</span>
 
-        <section class="hero bg-dark text-secondary position-relative py-8 position-relative">
-
-            <div class="container py-4 d-flex flex-column gap-6">
-
-                <div class="small gap-3 d-flex">
-                    <a href="#" class="text-decoration-none text-secondary">Home</a>
-
-                    <span class="text-secondary">></span>
-
-                    <a href="#" class="text-decoration-none text-secondary">Services</a>
-
-                    <span class="text-secondary">></span>
-
-                    <span class="text-secondary">Construction Management</span>
-                </div>
-
-                <div class="row col-11 col-xxl-5 col-xl-7 col-lg-10 col-md-10 ">
-
-                    <div class=" d-flex flex-column gap-5">
-
-                        <span class="text-primary fw-bold text-uppercase">Our Service</span>
-
-                        <h1 class="fs-big-title fw-bold">
-
-                            Construction
-                            <span class="text-primary">Management</span>
-                        </h1>
-
-                        <div class="bg-primary" style="width:60px;height:3px;"></div>
-
-                        <p class="text-secondary lh-lg fs-title">
-                            We oversee every phase of construction to ensure your
-                            project is delivered on time, on budget,
-                            and to the highest quality standards.
-                        </p>
-
+                        <span><%- t.pages.Reviews.breadcromp3 %></span>
                     </div>
+                    <span class="text-primary fw-bold text-uppercase border-secondary border-start px-3 border-3 lh-1">Our Gallery</span>
 
+                    <h1 class="fs-big-title fw-bold">
+                       <%- t.pages.Reviews.heroTitle1 %> <br>
+                        <span class="text-primary"><%- t.pages.Reviews.heroTitle2 %></span>
+                    </h1>
+
+                    <p class="text-secondary fs-mid-title">
+                        <%- t.pages.Reviews.heroDescription %>
+                    </p>
                 </div>
-
             </div>
-
         </section>
 
+        <section class="reviews container py-8 d-flex flex-column gap-8 align-items-center d-flex">
+             
+            <div class="d-flex align-items-center justify-content-between w-100">
 
-        <div class="container justify-content-center d-flex gap-10 flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
+                <ul class="reviews-filter d-flex align-items-center fw-semibold fs-small">
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class=" active" href="#">
+                            <%- t.pages.Reviews.filter1 %>
+                        </a>
+                    </li>
 
-            <div class="col-11 col-xxl-9 col-xl-9 col-lg-8 col-md-7 align-self-center">
-                <section class="overview py-8 d-flex flex-column gap-4">
-                    <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm" alt="">
-                    
-                    <h2 class="fw-bold">About The Project</h2>
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class="" href="#">
+                            <%- t.pages.Reviews.filter2 %>
+                        </a>
+                    </li>
 
-                    <hr>
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class="" href="#">
+                            <%- t.pages.Reviews.filter3 %>
+                        </a>
+                    </li>
 
-                    <p class="text-dark lh-lg">
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class="" href="#">
+                            <%- t.pages.Reviews.filter4 %>
+                        </a>
+                    </li>
 
-                        Our construction management services provide
-                        comprehensive oversight of your project from planning to
-                        completion. We coordinate all aspects of construction,
-                        including budgeting, scheduling, resource allocation,
-                        and quality control, to ensure seamless execution and
-                        successful outcomes.
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class="" href="#">
+                            <%- t.pages.Reviews.filter5 %>
+                        </a>
+                    </li>
 
-                    </p>
+                    <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                        <a class="" href="#">
+                            <%- t.pages.Reviews.filter6 %>
+                        </a>
+                    </li>
+                </ul>
 
-                    <p class="text-dark lh-lg">
+                <div class="text-lg-end d-flex gap-6 align-items-center border rounded px-4 py-1 fs-small">
+                    <select class="form-select sort-select">
+                        <option><%- t.pages.Reviews.option1 %></option>
+                        <option><%- t.pages.Reviews.option2 %></option>
+                    </select>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
 
-                        With a focus on safety, efficiency, and transparent
-                        communication, we act as your trusted partner every step
-                        of the way.
-
-                    </p>
-
-                </section>
-                <section class="offer py-8 d-flex flex-column gap-4">
-                    <h2 class="fw-bold"> Key Feature</h2>
-                    <hr >  
-                    <div class="row ">
-
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 ">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-                        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6">
-                            <%- include('../components/services-overview/content.ejs', {servicesOverview: t.components.servicesOverview}); -%>
-                        </div>
-
-                    </div>
-                </section>
-                <section class="process py-8 d-flex flex-column gap-4">
-                    <h2 class="fw-bold">What We Offer</h2>
-                    <hr>
-                    <div class="project-gallery gap-2 d-grid"> 
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="../../assets/media/images/en/services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png" class="img-fluid rounded-3 shadow-sm " alt="">
-                    </div>
-                </section>
             </div>
 
-            <aside class="col-11 col-xxl-3 col-xl-3 col-lg-4 col-md-5 py-8 d-flex flex-column justify-content-between align-self-center gap-4">
-                <div>
-                    <%- include('../components/project-overview/content.ejs', {projectOverview: t.components.projectOverview}); -%>
+
+            <div class="row align-items-stretch justify-content-center">
+                <div class="col-4">
+                    <%- include('../components/reviews-card/content.ejs', {reviewsCart: t.components.reviewsCart}); -%>
                 </div>
-                <div>
-                    <%- include('../components/icon-banner-CTA/content.ejs', {iconBannerCTA: t.components.iconBannerCTA}); -%> 
+            </div> 
+
+            <button class="seeMore d-flex gap-8 px-3 py-2 rounded border fs-small fw-bold align-items-center">
+                <span class="text-uppercase"><%- t.pages.Reviews.btnLoud %></span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </button> 
+        </section>
+ 
+        <section class="project-cta py-0 text-light">
+            <div class="container py-8 px-20">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-xxl-row  flex-xl-row gap-4">
+
+                    <div class="d-flex flex-column gap-4">
+                        <span class="text-primary"><%- t.pages.Reviews.sectionEndsubtitle %></span>
+
+                        <h4 class="fw-bold fs-high-title"><%- t.pages.Reviews.sectionEndtitle %></h4>
+
+                        <p class="text-text">
+                           <%- t.pages.Reviews.sectionEndDescription %>
+                        </p>
+                    </div>
+
+                    <div class="text-lg-end">
+                        <a href="#" class="cta-btn d-flex align-items-center gap-2">
+                            <span class=""><%- t.pages.Reviews.sectionEnbtn %></span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
                 </div>
-
-                <div class="card-body px-4 py-8 order-0 shadow-sm rounded-3 d-flex flex-column gap-8">
-
-                    <h4 class="fw-bold">Project Highlights</h4>
-
-                    <div class="border-bottom border-primary border-3" style="width:50px"></div>
-
-                    <ul class="list-group d-flex flex-column">
-
-                        <%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%>
-
-                    </ul>
-
-                </div>
-
-               
-                <div class="overflow-hidden rounded">
-                    <%- include('../components/process-timeline/content.ejs', {processTimeline: t.components.processTimeline}); -%>
-                </div>
-            </aside> 
-
-        </div>
+            </div>
+        </section>
+        
 
     </main>
 
     <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
 
-    
     <script src="./assets/js/mizchin.min.js"></script>
 </body>
 
 </html>
+
