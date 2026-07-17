@@ -47,7 +47,7 @@
 			"subtitle":"We deliver the project and ensure your complete satisfaction."
 		}
 	},
-		"secondCycleCards":{
+	"secondCycleCards":{
 		"itemOne":{
 			"title":"Consultation",
 			"subtitle":"We listen to your needs and understand your goals."
@@ -65,11 +65,11 @@
 			"subtitle":"We deliver the project and ensure your complete satisfaction."
 		}
 	},
-		"subscribe":{
+	"subscribe":{
 			"title":"Subscribe to Our Newsletter",
 			"subtitle":"Get the latest updates, insights, and news delivered to your inbox."
 	},
-		"secondFeatureCards":{
+	"secondFeatureCards":{
 		"itemOne":{
 			"title":"Expert Team",
 			"subtitle":"Skilled professionals dedicated to excellence."
@@ -86,7 +86,27 @@
 			"title":"Client Satisfaction",
 			"subtitle":"Your satisfaction is our goal, every step of the way."
 		}
+	},
+	"popularPosts":{
+		"sectionTitle":"Popular Posts",
+		"itemOne":{
+			"title":"10 Construction Trends Shaping the Future",
+			"date":"May 12, 2024"
+		},
+		"itemTwo":{
+			"title":"How Effective Planning Ensures Project Success",
+			"date":"May 5, 2024"
+		},
+		"itemThree":{
+			"title":"Modern Interior Design Trends for 2024",
+			"date":"April 28, 2024"
+		},
+		"itemFour":{
+			"title":"Sustainable Building Practices for a Greener Tomorrow",
+			"date":"April 20, 2024"
+		}
 	}
+
 },
  	"pages": {
 	},
