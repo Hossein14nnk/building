@@ -8,3 +8,7 @@
     background-repeat: no-repeat;
     aspect-ratio: 2/1;
 }
+
+.news-box a span:hover {
+  color: var(--bs-button) !important;
+}

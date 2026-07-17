@@ -310,7 +310,92 @@
       "number": "1",
       "title": "share your project",
       "subtitle": "tell us about your project requirement"
-    }
+    },"bannerCTA":{
+		"text":"Have a similar project?",
+		"title":"Let's Build It Together",
+		"buttonText":"Get A Free Quote"
+	},
+	"iconBannerCTA":{
+		"text":"Have a similar project?",
+		"title":"Let's Build It Together",
+		"buttonText":"Get A Free Quote"
+	},
+	"featureCards":{
+		"itemOne":{
+			"title":"Experienced Team",
+			"subtitle":"Skilled professionals with years of industry experience."
+		},
+		"itemTwo":{
+			"title":"Client-Focused",
+			"subtitle":"We prioritize your goals and work closely with you."
+		},
+		"itemThree":{
+			"title":"Transparent Communication",
+			"subtitle":"Clear and open communication at every stage."
+		},
+		"itemFour":{
+			"title":"Proven Track Record",
+			"subtitle":"A history of successful projects and satisfied clients."
+		}
+	},
+	"cycleCards":{
+		"itemOne":{
+			"title":"Consultation",
+			"subtitle":"We listen to your needs and understand your goals."
+		},
+		"itemTwo":{
+			"title":"Planning",
+			"subtitle":"We develop a detailed plan tailored to your project."
+		},
+		"itemThree":{
+			"title":"Execution",
+			"subtitle":"We manage every aspect of construction with precision."
+		},
+		"itemFour":{
+			"title":"Handover",
+			"subtitle":"We deliver the project and ensure your complete satisfaction."
+		}
+	},
+		"secondCycleCards":{
+		"itemOne":{
+			"title":"Consultation",
+			"subtitle":"We listen to your needs and understand your goals."
+		},
+		"itemTwo":{
+			"title":"Planning",
+			"subtitle":"We develop a detailed plan tailored to your project."
+		},
+		"itemThree":{
+			"title":"Execution",
+			"subtitle":"We manage every aspect of construction with precision."
+		},
+		"itemFour":{
+			"title":"Handover",
+			"subtitle":"We deliver the project and ensure your complete satisfaction."
+		}
+	},
+		"subscribe":{
+			"title":"Subscribe to Our Newsletter",
+			"subtitle":"Get the latest updates, insights, and news delivered to your inbox."
+	},
+		"secondFeatureCards":{
+		"itemOne":{
+			"title":"Expert Team",
+			"subtitle":"Skilled professionals dedicated to excellence."
+		},
+		"itemTwo":{
+			"title":"Quality Materials",
+			"subtitle":"We use only the best materials for lasting durability."
+		},
+		"itemThree":{
+			"title":"On-Time Delivery",
+			"subtitle":"We value your time and deliver projects on schedule."
+		},
+		"itemFour":{
+			"title":"Client Satisfaction",
+			"subtitle":"Your satisfaction is our goal, every step of the way."
+		}
+  }
   },
  	"pages": {
 		"homePage": {
@@ -320,7 +405,25 @@
 				}
 			},
 			"title": "MIZ Framework"
-		}
+		},
+    "aboutUs":{
+      "subtitleHero":"ABOUT US",
+      "titleHero":"Building More Than Structures",
+      "descriptionHero":" We are a leading construction company delivering innovative and sustainable solutions across residential, commercial and industrial sectors.",
+      "btnHero":"WORK WITH US",
+      "sectiontwoTextimage":"Years of Experience",
+      "sectiontwosubtitle":"WHO WE ARE",
+      "sectiontwoTitle":"Dedicated to Quality. Driven by Integrity.",
+      "sectiontwotext1":"Founded with a vision to raise the standards of construction,Builders Construction has grown into a trusted partner for clientswho value quality, transparency, and results.",
+      "sectiontwotext2":"Our experienced professionals work collaboratively to bring ideas to life—on time, on budget, and beyond expectations.",
+      "sectiontreeSubtitle":"OUR  JOURNEY",
+      "sectiiontreeTitle":"Milstones That Define Our Path",
+      "sectionfourSubtitle":"OUR VALUES",
+      "sectionfourTitle":"The Principles That Guide Everything We Do",
+      "sectionteamSubtitle":"OUR Team",
+      "sectionteamTitle":"Meet The People Behind Our success",
+      "sectionteamDescription":"Our strength lies in our people. Our team brings together engineers, project managers, designers, and specialists who are passionate about building a better tomorrow."
+    }
 	},
 	"footer": {
 		"description": "We are a leading construction company providing high-quality services across residential, commercial and industrial sectors worldwide.",

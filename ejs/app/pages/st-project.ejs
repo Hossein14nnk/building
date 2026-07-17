@@ -1,0 +1,179 @@
+<%- include('../layouts/page/head.ejs' , {title: "about-us", addCount: 0}); -%>
+
+    <main class="d-flex flex-column" id="stProject">
+
+        <section class="hero py-20 pt-20 text-secondary-text ">
+            <div class="container">
+                <div class="align-items-start col-lg-5 d-flex flex-column gap-8 ">
+
+                    <span class="text-warning fw-bold fs-high-title"><%- t.pages.aboutUs.subtitleHero %></span>
+
+                    <h1 class="fw-semibold"><%- t.pages.aboutUs.titleHero %></h1>
+
+                    <p class="fw-medium fs-title">
+                       <%- t.pages.aboutUs.descriptionHero %>
+                    </p>
+
+                    <a class="rounded-3 bg-button px-5 py-2 text-button-text mt-2 d-flex gap-6 align-items-center fw-semibold">
+                        <span class="" ><%- t.pages.aboutUs.btnHero %></span>
+                        <i class="fa-solid fa-arrow-right text-dark"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section> 
+
+        <section class="about py-20">
+
+            <div class="container d-flex gap-20 flex-column flex-xxl-row flex-xl-row flex-lg-row">
+
+                <div class="row align-items-center g-5  position-relative col-12 col-xxl-6 col-xl-6 col-lg-6">
+
+                    <img src="<%= getMedia(lang, 'about-us/ChatGPT Image Jul 12, 2026, 03_39_32 AM.webp', 'images'); %>" class="p-0 m-0 img-fluid rounded w-100 h-100">
+
+                    <div class="experience-box position-absolute bottom-0 start-0 bg-dark text-light fw-bold d-flex align-items-center p-4 gap-4">
+
+                        <img class="w-20" src="<%= getMedia(lang, 'about-us/ChatGPT Image Jul 12, 2026, 01_52_17 AM.webp', 'images'); %>">
+
+                        <div class="d-flex flex-column">
+
+                            <span class="fs-mid-title">25+</span>
+
+                            <span><%- t.pages.aboutUs.sectiontwoTextimage %></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-xxl-4 col-xl-4 col-lg-5 d-flex flex-column gap-5">
+
+                    <span class="text-primary fw-bold "><%- t.pages.aboutUs.sectiontwosubtitle %></span>
+
+                    <h2 class="fw-bold">
+                        <%- t.pages.aboutUs.sectiontwoTitle %>
+                    </h2>
+
+                    <p class="fw-semibold">
+                        <%- t.pages.aboutUs.sectiontwotext1 %>
+                    </p>
+
+                    <p class="fw-semibold">
+                        <%- t.pages.aboutUs.sectiontwotext2 %>
+                    </p>
+
+                    <ul class="check-list d-flex flex-column gap-2">
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                        <li><%- include('../components/project-list/content.ejs', {projectList: t.components.projectList}); -%></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="journey py-20 bg-specific">
+            <div class="container ">
+                <div class=" d-flex gap-6 flex-column flex-xxl-row flex-xl-row">
+
+                    <div class="d-flex flex-column gap-4 col-12 col-xxl-3 col-xl-3">
+                        <span class="text-primary fw-bold "><%- t.pages.aboutUs.sectiontreeSubtitle %></span>
+
+                        <h2 class="fw-bold"><%- t.pages.aboutUs.sectiiontreeTitle %></h2>
+                    </div>
+
+                    <div class="col-12 col-xxl-9 col-xl-9 overflow-x-scroll">
+                        <%- include('../components/history-timeline/content.ejs' , {historyTimeline: t.components.historyTimeline}); -%>
+
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="values py-20 bg-dark">
+            <div class="container ">
+                <div class=" d-flex gap-10 flex-column flex-xxl-row flex-xl-row ">
+
+                    <div class="d-flex flex-column gap-10 col-12 col-xxl-4 col-xl-4">
+                        <span class="text-primary fw-bold "><%- t.pages.aboutUs.sectionfourSubtitle %></span>
+
+                        <h2 class="fw-bold text-light" ><%- t.pages.aboutUs.sectionfourTitle %></h2>
+                    </div>
+
+                    <div class="col-12 col-xxl-8 col-xl-8">
+                        <%- include('../components/team-feature/content.ejs' , {teamFeature: t.components.teamFeature}); -%>
+
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="introduction py-20 bg-specific">
+            <div class="container overflow-x-scroll">
+                <div class="wrapper d-flex gap-4">
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                    <div class="col-3">
+                        <%- include('../components/services-overview/content.ejs' , {servicesOverview: t.components.servicesOverview}); -%>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="team py-20">
+            <div class="container d-flex flex-column gap-10">
+
+                <div class=" d-flex gap-6 justify-content-between align-items-end flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
+                    <div class="d-flex flex-column gap-4 col-12 col-xxl-3 col-xl-4 col-lg-4 col-md-5">
+                        <span class="text-primary fw-bold "><%- t.pages.aboutUs.sectionteamSubtitle %></span>
+
+                        <h2 class="fw-bold"><%- t.pages.aboutUs.sectionteamTitle %></h2>
+                    </div>
+                    <div class="col-12 col-xxl-5 col-xl-5 col-lg-7 col-md-7">
+                        <p  class=""> <%- t.pages.aboutUs.sectionteamDescription %></p>
+                    </div>
+                </div>
+                
+                <div class="gap-4 row justify-content-center">
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    <div class="col-5 col-xxl-2 col-xl-2 col-lg-3 col-md-4 ">
+                        <%- include('../components/team-card/content.ejs', {teamCard: t.components.teamCard}); -%>
+                    </div>
+                    
+                </div>
+        </section>
+
+    </main>
+
+
+    
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>
