@@ -5,6 +5,7 @@
 .cycle-icon{
     width:60px;
     aspect-ratio:1;
+    z-index: 2;
 }
 
 #cycleCards{
@@ -15,10 +16,8 @@
     border-top:1px dashed;
     top: 30px;
     z-index: -1;
-    right:0px;
     width:100%
 }
-
 .cycle-card:first-child .line{
     width:50%;
 }
