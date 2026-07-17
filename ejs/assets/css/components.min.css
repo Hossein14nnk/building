@@ -650,7 +650,11 @@
     border-bottom: 0;
   }
 }
+<<<<<<< HEAD
 .pooular-post .image-post {
+=======
+.image-post {
+>>>>>>> 590e98047a409823493f3281b2070a4c13d6cc06
   width: 100px;
 }
 
