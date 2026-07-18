@@ -31,6 +31,26 @@ section {
   color: var(--primary);
 }
 
+#home-one .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.26)), url("../media/images/en/home-one/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#home-one .hero a i {
+  transition: all 300ms ease-in-out;
+}
+
+#home-one .hero a:hover i {
+  transform: translateX(0.5rem);
+}
+
+#home-one .about::after {
+  content: ".";
+  z-index: 2;
+  bottom: 50%;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
