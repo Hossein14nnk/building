@@ -395,6 +395,12 @@
 			"title":"Client Satisfaction",
 			"subtitle":"Your satisfaction is our goal, every step of the way."
 		}
+  },
+  "statistics":{
+    "text1":"Years Experience",
+    "text2":"Projects Completed",
+    "text3":"Happy Customers",
+    "text4":" Professional Awards"
   }
   },
  	"pages": {
@@ -451,6 +457,27 @@
       "question":" Already have an account?",
       "signIn":"Sign In"
     },
+    "gallery":{
+      "breadcromp1":"Home",
+      "breadcromp2":"Pages",
+      "breadcromp3":"Gallery",
+      "heroTitle1":" A Glimpse Of Our ",
+      "heroTitle2":"Work & Achievements",
+      "heroDescription":" Explore our gallery to see the quality, craftsmanship, and attention to detail that define every project we build.",
+      "filter1":"All Galleries",
+      "filter2":"Residential",
+      "filter3":"Commercial",
+      "filter4":"Industrial",
+      "filter5":"Interior",
+      "filter6":"Infrastructure",
+      "option1":"Latest First",
+      "option2":"Oldest First",
+      "btnLoud":"LOAD MORE IMAGES",
+      "sectionEndsubtitle":"LET'S BUILD TOGETHER",
+      "sectionEndtitle":"Have A Project In Mind?",
+      "sectionEndDescription":"We're here to help you turn your ideas into reality with quality and precision.",
+      "sectionEnbtn":"GET A QUOTE"
+    },
     "homeOne":{
       "subtitleslider":"WE BUILD FUTURE",
       "sliderTitle1":"Build.",
@@ -458,7 +485,10 @@
       "sliderTitle3":"Innovate.",
       "sliderDescription":"we deliver exceptional construction services with a focus on quality,sefety and innovation.",
       "btnslider1":"OUR PROJECTS",
-      "btnslider2":"CET A QUOTE"
+      "btnslider2":"CET A QUOTE",
+      "components":{
+        
+      }
     }
 	},
 	"footer": {

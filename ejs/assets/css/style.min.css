@@ -22,8 +22,8 @@
 }
 
 section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .hossein {
@@ -37,11 +37,11 @@ section {
   background-size: 100% 100%;
 }
 
-#home-one .hero a i {
+#home-one .btn-hover i {
   transition: all 300ms ease-in-out;
 }
 
-#home-one .hero a:hover i {
+#home-one .btn-hover:hover i {
   transform: translateX(0.5rem);
 }
 
@@ -51,13 +51,75 @@ section {
   bottom: 50%;
 }
 
+#home-one .statistics-hero {
+  transform: translateY(50%);
+}
+
+#home-one .border-play {
+  border: 1px solid var(--bs-primary);
+  width: 65px;
+  height: 65px;
+}
+
+.card-play {
+  max-width: 350px;
+  backdrop-filter: blur(5px);
+}
+
+.image-wrapper {
+  min-height: 650px;
+}
+
+.dots {
+  left: -40px;
+  top: 90px;
+  width: 140px;
+  height: 140px;
+  background-image: radial-gradient(#FFC107 2px, transparent 2px);
+  background-size: 18px 18px;
+  z-index: 2;
+}
+
+.building-img {
+  left: 40px;
+  top: 30px;
+  width: 72%;
+  height: 520px;
+  object-fit: cover;
+  z-index: 3;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+}
+
+.mission-card {
+  right: 10px;
+  bottom: 20px;
+  width: 360px;
+  background: #151515;
+  color: #fff;
+  padding: 50px;
+  z-index: 4;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.yellow-line {
+  width: 55px;
+  height: 4px;
+  margin-bottom: 20px;
+}
+
+.mission-footer {
+  border: 1px solid #FFC107;
+  width: 35px;
+  height: 35px;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
 }
 
 #about-us .hero {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.26)), url("../media/images/en/about-us/photo-1486406146926-c627a92ad1ab.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/about-us/photo-1486406146926-c627a92ad1ab.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -132,6 +194,66 @@ section {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 55% 45%;
+}
+
+#st-services .overview img {
+  aspect-ratio: 16/7;
+}
+
+#st-services hr {
+  background-color: var(--bs-dark);
+}
+
+#st-services .hero::after {
+  content: "";
+  bottom: 0px;
+  right: 0%;
+  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%, 10px 12px;
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, transparent 20%, rgb(0, 0, 0) 75% 100%), radial-gradient(rgba(254, 191, 1, 0.368627451) 10%, rgba(254, 191, 1, 0) 10% 100%);
+}
+
+#st-services .list-group li {
+  transition: all 300ms ease-in-out;
+}
+
+#st-services .list-group li i {
+  transition: all 300ms ease-in-out;
+}
+
+#st-services .list-group li:hover {
+  background-color: var(--bs-specific);
+}
+
+#st-services .list-group li:hover i {
+  color: var(--bs-primary);
+}
+
+#st-services .feature .container {
+  background-color: #F4F4F4;
+}
+
+#gallery div:has(> img) {
+  height: 250px;
+}
+
+#gallery ul li:checked {
+  background-color: red;
+}
+
+#gallery .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/gallery/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#gallery .project-cta > .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=style.min.css.map */
