@@ -1,0 +1,355 @@
+<%- include('../layouts/page/head.ejs' , {title: "our-blog" , addCount: 0}); -%>
+
+    <main>
+        <section id="blog-hero" class="conainer-fluid bg-on-secondary d-flex align-items-center">
+            <div class="container d-flex gap-4 flex-column">
+                <span class="text-primary fw-bold fs-normal"><%- t.pages.ourBlog.heroSubtitle %></span>
+                <h1 class="text-light fw-bold fs-big-title"><%- t.pages.ourBlog.heroTitle1 %>
+                    <br><span class="text-primary"><%- t.pages.ourBlog.heroTitle2 %></span>
+                </h1>
+                <p class="text-text fw-medium fs-title"><%- t.pages.ourBlog.heroDescription %></p>
+            </div>
+        </section>
+        <section id="weblogs" class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-6 align-items-start">
+                    <div class="wrapper d-flex justify-content-between align-items-center mb-4 w-75">
+                        <span><%- t.pages.ourBlog.countShowing %></span>
+                        <select class="p-3 rounded-1 border bg-white pe-5">
+                            <option selected><%- t.pages.ourBlog.Select %></option>
+                            <option><%- t.pages.ourBlog.option1 %></option>
+                            <option><%- t.pages.ourBlog.option2 %></option>
+                            <option><%- t.pages.ourBlog.option3 %></option>
+                        </select>
+                    </div>
+                    <div class="col-xl-9 g-2">
+                        <div class="row g-4">
+						
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white ">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category1 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date1 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title1 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category2 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date2 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title2 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category3 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date3 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title3 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category4 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date4 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title4 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category5 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date5 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title5 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category6 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date6 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title6 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category7 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date7 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title7 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category8 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date8 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title8 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4 d-flex">
+                                <div class="news-box shadow bg-white">
+                                    <div class="image p-3">
+                                        <span class="fs-normal bg-primary rounded-1 p-2 text-button-text"> <%- t.pages.ourBlog.category9 %></span>
+                                    </div>
+                                    <div class="d-flex gap-3 p-3 flex-column">
+                                        <div class="d-flex align-items-center gap-2 fs-normal">
+                                            <i class="fa-solid fa-calendar text-text"></i>
+                                            <span class="text-text fs-normal"> <%- t.pages.ourBlog.date9 %></span>
+                                        </div>
+                                        <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.pages.ourBlog.title9 %></h3>
+                                        <p class="fs-big text-text lh-lg mb-0"><%- t.pages.ourBlog.description %></p>
+                                        <a href="" class="fs-title fw-bold text-decoration-none d-flex gap-2 align-items-center">
+                                            <span class="fs-big fw-semibold text-button-text transition"><%- t.pages.ourBlog.txtButton %></span>
+                                            <i class="fa-regular fa-arrow-right fs-normal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-5 justify-content-center mt-5 mb-5">
+                            <span class="number rounded-1 bg-primary">1</span>
+                            <span class="number rounded-1 bg-white">2</span>
+                            <span class="number rounded-1 bg-white">3</span>
+                            <span class="number rounded-1 bg-white">...</span>
+                            <span class="number rounded-1 bg-white">8</span>
+                            <a href="">
+                                <i class="fa-light fa-arrow-right fs-normal p-2 bg-primary rounded-1 bg-white"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 m-0">
+                        <div class="d-flex flex-column gap-5">
+                            <div class="w-100 d-flex flex-row justify-content-between bg-white rounded-2 p-3">
+                                <input type="text" placeholder="search blogs...">
+                                <button>
+                                    <i class="fa-light fa-search fs-normal p-2 bg-primary rounded-1"></i>
+                                </button>
+                            </div>
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-2 bg-white">
+
+                                <h4 class="fw-bold fs-title"><%- t.pages.ourBlog.Categories %></h4>
+
+                                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+
+                                <ul class="list-group d-flex flex-column gap-3">
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center ">
+                                           <%- t.pages.ourBlog.categorys1 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                           <%- t.pages.ourBlog.categorys2 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.ourBlog.categorys3 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.ourBlog.categorys4 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.ourBlog.categorys5 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.ourBlog.categorys4 %>
+                                            <i class="fa-solid fa-arrow-right bg-background p-2 rounded-1"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-4 bg-white">
+                                <h4 class="fw-bold fs-title"><%- t.pages.ourBlog.PopularBlog %></h4>
+                                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+                                <div class="d-flex flex-column gap-5">
+                                    <div class="pooular-post d-flex align-items-stretch gap-3">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/news.jpg', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.ourBlog.blog1 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.ourBlog.date1 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-3">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/projects.jpg', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.ourBlog.blog2 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"><%- t.pages.ourBlog.date2 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/ChatGPT2.png', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.ourBlog.blog3 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.ourBlog.date11 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/ChatGPT3.png', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.ourBlog.blog4 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.ourBlog.date4 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/ChatGPT2.png', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.ourBlog.blog5 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"><%- t.pages.ourBlog.date5 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <%- include('../components/subscribe/content.ejs', {subscribe: t.components.subscribe}); -%>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+
+    <script src="./assets/js/mizchin.min.js"></script>
+    </body>
+
+    </html>

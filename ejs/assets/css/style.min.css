@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "primary";
   font-weight: 900;
@@ -17,9 +18,514 @@
   font-family: var("--font-primary"), sans-serif, "Courier New", Courier, monospace;
 }
 
+.transition {
+  transition: 0.3s 0s linear;
+}
+
+body {
+  background: var(--bs-background);
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
+}
+
+#home-one #main-hero {
+  background-image: linear-gradient(to right, rgba(15, 18, 22, 0.78) 0%, rgba(15, 18, 22, 0.52) 35%, rgba(15, 18, 22, 0.18) 65%, rgba(15, 18, 22, 0) 100%), url("../media/images/en/single/herohomepage.png");
+  background-size: 100% 100%;
+  min-height: 500px !important;
+}
+
+.btn-hover i {
+  transition: all 300ms ease-in-out;
+}
+
+.btn-hover:hover i {
+  transform: translateX(0.5rem);
+}
+
+#home-one .about::after {
+  content: ".";
+  z-index: 2;
+  bottom: 50%;
+}
+
+#home-one .statistics-hero {
+  transform: translateY(50%);
+}
+
+#home-one .border-play {
+  border: 1px solid var(--bs-primary);
+  width: 65px;
+  height: 65px;
+}
+
+.card-play {
+  max-width: 350px;
+  backdrop-filter: blur(5px);
+}
+
+.image-wrapper {
+  min-height: 570px;
+}
+
+.dots {
+  left: -40px;
+  top: 90px;
+  width: 140px;
+  height: 140px;
+  background-image: radial-gradient(#FFC107 2px, transparent 2px);
+  background-size: 18px 18px;
+  z-index: 2;
+}
+
+.building-img {
+  left: 40px;
+  top: 30px;
+  width: 72%;
+  height: 520px;
+  object-fit: cover;
+  z-index: 3;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+}
+
+.mission-card {
+  right: 10px;
+  bottom: 20px;
+  width: 360px;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 50px;
+  z-index: 4;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.yellow-line {
+  width: 55px;
+  height: 4px;
+  margin-bottom: 20px;
+}
+
+.mission-footer {
+  border: 1px solid #FFC107;
+  width: 35px;
+  height: 35px;
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+}
+
+.signature {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  max-height: 350px;
+}
+
+.image-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
+#testimonials .comment > div {
+  background: #232323 !important;
+}
+
+#testimonials .slider-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.client-logo {
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.client-logo:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  #main-hero .card-play {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+.mission-btn:hover {
+  background: var(--bs-primary);
+}
+
+.mission-btn:hover .fa-solid.fa-arrow-right {
+  color: var(--bs-dark) !important;
+  transform: rotate(-45deg);
+}
+
+.hossein {
+  background-image: url("../media/images/logo.png");
+  color: var(--primary);
+}
+
+#about-us .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/about-us/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#about-us .hero a i {
+  transition: all 300ms ease-in-out;
+}
+
+#about-us .hero a:hover i {
+  transform: translateX(0.5rem);
+}
+
+#about-us .about::after {
+  content: ".";
+  z-index: 2;
+  bottom: 50%;
+}
+
+#about-us .experience-box {
+  width: 250px;
+  border-bottom-left-radius: 5px;
+}
+
+#about-us .wrapper {
+  width: 300vw;
+}
+
+@media (min-width: 768px) {
+  #about-us .wrapper {
+    width: 200vw !important;
+  }
+}
+@media (min-width: 992px) {
+  #about-us .wrapper {
+    width: 200vw !important;
+  }
+}
+@media (min-width: 1200px) {
+  #about-us .wrapper {
+    width: 100vw !important;
+  }
+}
+@media (min-width: 1400px) {
+  #about-us .wrapper {
+    width: 80vw !important;
+  }
+}
+.hossein {
+  background-image: url("../media/images/logo.png");
+  color: var(--primary);
+}
+
+#register {
+  background-color: #F9F9F9;
+}
+
+#register input:checked {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+#register .register .check-button i {
+  transition: all 300ms ease-in-out;
+}
+
+#register .register .check-button:hover i {
+  transform: translateX(0.5rem);
+}
+
+#register {
+  background-image: url("../media/images/en/register/building.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 55% 45%;
+}
+
+#st-services .overview img {
+  aspect-ratio: 16/7;
+}
+
+#st-services hr {
+  background-color: var(--bs-dark);
+}
+
+#st-services .hero::after {
+  content: "";
+  bottom: 0px;
+  right: 0%;
+  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%, 10px 12px;
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, transparent 20%, rgb(0, 0, 0) 75% 100%), radial-gradient(rgba(254, 191, 1, 0.368627451) 10%, rgba(254, 191, 1, 0) 10% 100%);
+}
+
+#st-services .list-group li {
+  transition: all 300ms ease-in-out;
+}
+
+#st-services .list-group li i {
+  transition: all 300ms ease-in-out;
+}
+
+#st-services .list-group li:hover {
+  background-color: var(--bs-specific);
+}
+
+#st-services .list-group li:hover i {
+  color: var(--bs-primary);
+}
+
+#st-services .feature .container {
+  background-color: #F4F4F4;
+}
+
+#gallery div:has(> img) {
+  height: 250px;
+}
+
+#gallery ul li:checked {
+  background-color: red;
+}
+
+#gallery .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/gallery/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#gallery .project-cta > .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#second-demo .hero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.327)), url("../media/images/en/demo2/ChatGPT1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#second-demo .hero .view {
+  transition: all 150ms ease-in-out;
+}
+
+#second-demo .hero .view:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-black);
+}
+
+#second-demo .hero .view i {
+  transition: all 150ms ease-in-out;
+}
+
+#second-demo .hero .view:hover i {
+  color: var(--bs-black) !important;
+}
+
+#second-demo .hero .service {
+  transition: all 150ms ease-in-out;
+}
+
+#second-demo .hero .service:hover {
+  background-color: transparent !important;
+  color: var(--bs-secondar) !important;
+}
+
+#second-demo .hero .wrapper1 {
+  animation: move1 20s linear infinite both;
+  transform: translateX(0vw);
+}
+
+@keyframes move1 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+#second-demo .hero .wrapper2 {
+  animation: move2 20s linear infinite both;
+  transform: translateX(-100vw);
+}
+
+@keyframes move2 {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+#second-demo .wrapper1 img {
+  filter: grayscale(1);
+}
+
+#second-demo .wrapper2 img {
+  filter: grayscale(1);
+}
+
+#second-demo .about .contain-img {
+  background-image: url("../media/images/en/demo2/ChatGPT6.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#second-demo .about .button {
+  transition: all 150ms ease-in-out;
+}
+
+#second-demo .about .button:hover {
+  background-color: transparent !important;
+  color: var(--bs-secondar) !important;
+}
+
+#contact-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+#blog-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-limit-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.select-box {
+  position: relative;
+  width: 250px;
+  /* یا 100% */
+}
+
+@media (max-width: 1200px) {
+  #weblogs .wrapper {
+    width: 100% !important;
+  }
+}
+#st-blog-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
+#descriotion-blog .image-blog {
+  aspect-ratio: 2/1;
+}
+
+#descriotion-blog .number {
+  width: 30px;
+  height: 29px;
+}
+
+#stProject .overview img {
+  aspect-ratio: 16/7;
+}
+
+#stProject hr {
+  background-color: var(--bs-divider);
+  width: 10%;
+  margin: 0;
+  height: 2px;
+}
+
+#stProject .hero::after {
+  content: "";
+  bottom: 0px;
+  right: 0%;
+  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%, 15px 17px;
+  width: 40%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, transparent 20%, rgb(0, 0, 0) 75% 100%), radial-gradient(rgba(254, 191, 1, 0.368627451) 10%, rgba(254, 191, 1, 0) 10% 100%);
+}
+
+#stProject .list-group li {
+  transition: all 300ms ease-in-out;
+}
+
+#stProject .list-group li i {
+  transition: all 300ms ease-in-out;
+}
+
+#stProject .list-group li:hover {
+  background-color: var(--bs-specific);
+}
+
+#stProject .list-group li:hover i {
+  color: var(--bs-primary);
+}
+
+#stProject .feature .container {
+  background-color: #F4F4F4;
+}
+
+#stProject .project-gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+#stProject .project-gallery img {
+  min-height: 160px;
+}
+
+#Reviews div:has(> img) {
+  height: 250px;
+}
+
+#Reviews ul li:checked {
+  background-color: red;
+}
+
+#Reviews .hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/Reviews/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#Reviews .project-cta > .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=style.min.css.map */

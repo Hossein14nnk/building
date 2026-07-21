@@ -1,0 +1,276 @@
+<%- include('../layouts/page/head.ejs' , {title: "st-blog", addCount: 0}); -%>
+
+
+    <main>
+        <section id="st-blog-hero" class="conainer-fluid bg-on-secondary d-flex align-items-center">
+            <div class="container d-flex gap-4 flex-column">
+                <span class="text-primary fw-bold fs-normal"><%- t.pages.stBlog.heroSubtitle %></span>
+                <h1 class="text-light fw-bold fs-big-title"><%- t.pages.stBlog.heroTitle1 %>
+                    <br><span class="text-primary"><%- t.pages.stBlog.heroTitle2 %></span>
+                </h1>
+                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+                <div class="small ">
+                    <a href="#" class="text-decoration-none text-secondary mt-2"><%- t.pages.stBlog.breadcromp1 %></a>
+
+                    <span class="text-secondary">&gt;</span>
+
+                    <a href="#" class="text-decoration-none text-secondary"><%- t.pages.stBlog.breadcromp2 %></a>
+
+                    <span class="text-secondary">&gt;</span>
+
+                    <span class="text-secondary"><%- t.pages.stBlog.breadcromp3 %></span>
+                </div>
+            </div>
+        </section>
+        <section id="descriotion-blog" class="container-fluid">
+            <div class="container">
+                <div class="row gx-xl-5 gx-0 gy-5">
+                    <div class="col-12 col-xl-9 g-2 m-0 pe-xl-10">
+                        <div class="d-flex flex-column gap-5 align-items-start justify-content-between h-100">
+                            <span class="fs-normal bg-primary rounded-1 p-2 text-button-text">
+                                <%- t.pages.stBlog.btnsectiontwo %></span>
+                            <h2 class="fs-mid-title fw-bold text-title-text mb-0"><%- t.pages.stBlog.sectiontwoTitle %>
+                            </h2>
+                            <div class="d-flex align-items-center gap-5">
+                                <div class="d-flex align-items-center gap-2 fs-normal">
+                                    <i class="fa-solid fa-calendar text-text"></i>
+                                    <span class="text-text fs-normal"> <%- t.pages.stBlog.date %></span>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 fs-normal">
+                                    <i class="fa-solid fa-user text-text"></i>
+                                    <span class="text-text fs-normal"><%- t.pages.stBlog.admin %></span>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 fs-normal">
+                                    <i class="fa-solid fa-comments text-text"></i>
+                                    <span class="text-text fs-normal"><%- t.pages.stBlog.comment %></span>
+                                </div>
+                            </div>
+                            <img src="<%= getMedia(lang, 'st-blog/ChatGPT Image Jul 12, 2026, 03_39_32 AM.webp', 'images'); %>" alt=""
+                                class="w-100 rounded-2 image-blog">
+                            <div class="d-flex flex-column gap-2">
+                                <p class="text-text"><%- t.pages.stBlog.description1 %></p>
+                                <h3 class="fs-mid-title fw-bold text-title-text"><%- t.pages.stBlog.title1 %></h3>
+                                <p class="text-text"><%- t.pages.stBlog.description2 %></p>
+                                <h3 class="fs-mid-title fw-bold text-title-text"><%- t.pages.stBlog.title2 %>
+                                </h3>
+                                <p class="text-text"><%- t.pages.stBlog.description3 %></p>
+                                <h3 class="fs-mid-title fw-bold text-title-text"><%- t.pages.stBlog.title3 %></h3>
+                                <p class="text-text"><%- t.pages.stBlog.description4 %></p>
+                                <p class="text-text"><%- t.pages.stBlog.description5 %>
+                                </p>
+                            </div>
+                            <div class="bg-icon d-flex align-items-center p-5 gap-3 rounded-1 w-100">
+                                <i class="fa-solid fa-quote-left fs-high-title text-primary"></i>
+                                <span class="fs-title fw-bold text-title-text">
+                                    <%- t.pages.stBlog.point %>
+                                </span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <span class="fs-title fw-bold text-title-text"><%- t.pages.stBlog.share %></span>
+                                <div class="social gap-2 d-flex align-items-center">
+
+                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
+                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                                        <i class="fab fa-facebook-f "></i>
+                                    </a>
+
+                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
+                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                                        <i class="fab fa-linkedin-in "></i>
+                                    </a>
+
+                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
+                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset bg-secondary">
+                                        <i class="fab fa-instagram "></i>
+                                    </a>
+
+                                    <a href="./output/en/pages/" style="width: 30px; height: 30px;"
+                                        class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none text-reset ibg-secondary">
+                                        <i class="fab fa-youtube "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <span class="fs-title fw-bold text-title-text"><%- t.pages.stBlog.tag %></span>
+                                <div class="d-flex flex-wrap gap-4">
+                                    <span class="fs-normal border rounded-1 p-2 text-button-text">
+                                        <%- t.pages.stBlog.filter1 %></span>
+                                    <span class="fs-normal border rounded-1 p-2 text-button-text">
+                                        <%- t.pages.stBlog.filter2 %></span>
+                                    <span class="fs-normal border rounded-1 p-2 text-button-text">
+                                        <%- t.pages.stBlog.filter3 %></span>
+                                    <span class="fs-normal border rounded-1 p-2 text-button-text">
+                                        <%- t.pages.stBlog.filter4 %></span>
+                                    <span class="fs-normal border rounded-1 p-2 text-button-text">
+                                        <%- t.pages.stBlog.filter5 %></span>
+                                </div>
+
+                            </div>
+                            <div class="d-flex w-100">
+                                <div class="d-flex flex-column align-items-start w-50 border ps-3 ps-xl-10 py-4">
+                                    <div>
+                                        <i class="fas fa-arrow-left-long"></i>
+                                        <span class="fs-title fw-bold text-title-text text-start"><%- t.pages.stBlog.previus %></span>
+                                    </div>
+                                    <p class="fs-subtitle fw-bold text-title-text text-start"><%- t.pages.stBlog.previusDescription1 %><br> <%- t.pages.stBlog.previusDescription2 %></p>
+                                </div>
+                                <div class="d-flex flex-column align-items-end w-50 border pe-3 pe-xl-10 py-4">
+                                    <div>
+                                        <span class="fs-title fw-bold text-title-text text-end"><%- t.pages.stBlog.next %></span>
+                                        <i class="fas fa-arrow-right-long"></i>
+                                    </div>
+                                    <p class="fs-subtitle fw-bold text-title-text text-end"><%- t.pages.stBlog.nextDescription1 %> <br>
+                                       <%- t.pages.stBlog.nextDescription2 %></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-3 m-0 pt-5 pt-xl-0">
+                        <div class="d-flex flex-column gap-5 justify-content-between h-100">
+                            <div class="w-100 d-flex flex-row justify-content-between bg-white rounded-2 p-3">
+                                <input type="text" placeholder="<%- t.pages.stBlog.searchpalceholder %>">
+                                <button>
+                                    <i class="fa-light fa-search fs-normal p-2 bg-primary rounded-1"></i>
+                                </button>
+                            </div>
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-4 bg-white">
+
+                                <h4 class="fw-bold fs-title"><%- t.pages.stBlog.Categories %></h4>
+
+                                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+
+                                <ul class="list-group d-flex flex-column gap-3">
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center ">
+                                            <%- t.pages.stBlog.category1 %>
+                                            <span class="number bg-background">(8)</span>
+                                        </a>
+                                    </li>
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                           <%- t.pages.stBlog.category2 %>
+                                            <span class="number bg-background">(5)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                           <%- t.pages.stBlog.category3 %>
+                                            <span class="number bg-background">(4)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                           <%- t.pages.stBlog.category4 %>
+                                            <span class="number bg-background">(8)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.stBlog.category5 %>
+                                            <span class="number bg-background">(3)</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.stBlog.category6 %>
+                                            <span class="number bg-background">(2)</span>
+                                        </a>
+                                    </li>
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.stBlog.category7 %>
+                                            <span class="number bg-background">(1)</span>
+                                        </a>
+                                    </li>
+                                    <li class="rounded">
+                                        <a href="#" class="d-flex justify-content-between align-items-center">
+                                            <%- t.pages.stBlog.category8 %>
+                                            <span class="number bg-background">(1)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div
+                                class="card-body px-4 py-8 order-0 shadow-sm rounded-2 d-flex flex-column gap-4 bg-white">
+                                <h4 class="fw-bold fs-title"><%- t.pages.stBlog.PopularBlog %></h4>
+                                <div class="border-bottom border-primary border-3" style="width:50px"></div>
+                                <div class="d-flex flex-column gap-5">
+                                    <div class="pooular-post d-flex align-items-stretch gap-3">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/news.jpg', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.stBlog.blog1 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.stBlog.date1 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-3">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/projects.jpg', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.stBlog.blog2 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"><%- t.pages.stBlog.date2 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/ChatGPT2.png', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.stBlog.blog3 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.stBlog.date3 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="<%= getMedia(lang, 'st-blog/ChatGPT3.png', 'images'); %>"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.stBlog.blog4 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"> <%- t.pages.stBlog.date4 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pooular-post d-flex align-items-stretch gap-2">
+                                        <div class="image-post"> <img src="./assets/media/images/en/components/news.jpg"
+                                                alt="" class="h-100 rounded-1 object-fit-cover"> </div>
+                                        <div class="d-flex gap-2 flex-column">
+                                            <a href="#" class="fs-big fw-bold text-title-text mb-0"><%- t.pages.stBlog.blog5 %></a>
+                                            <div class="d-flex align-items-center gap-2 fs-normal">
+                                                <i class="fa-solid fa-calendar text-primary"></i>
+                                                <span class="text-text fs-normal"><%- t.pages.stBlog.date5 %></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <%- include('../components/subscribe/content.ejs', {subscribe: t.components.subscribe}); -%>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>
