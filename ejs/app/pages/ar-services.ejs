@@ -1,0 +1,115 @@
+<%- include('../layouts/page/head.ejs' , {title: "ar-services", addCount: 0}); -%>
+
+    <main class="d-flex flex-column" id="ar-services">
+
+        <section class="hero bg-dark text-secondary position-relative position-relative">
+            <div class="container py-10">
+
+                <div class="row col-11 col-xxl-6 col-xl-7 col-lg-8 col-md-10 ">
+
+                    <div class=" d-flex flex-column gap-5">
+
+                        <span class="text-primary fw-bold text-uppercase">OUR SERVICES</span>
+
+                        <h1 class="fs-big-title fw-bold">
+
+                            Comprehensive Solutions For
+                            <span class="text-primary">Every Build</span>
+                        </h1>
+
+                        <div class="bg-primary" style="width:60px;height:3px;"></div>
+
+                        <p class="text-secondary ">
+                            From concept to completion, we provide end-to-end construction services tailored to your needs.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="items py-0">
+                <%- include('../components/statistics/content.ejs', {statistics: t.components.statistics}); -%>
+        </section>
+        
+        <section class="experts ">
+            <div class="container d-flex flex-column align-items-center gap-10">
+
+                <div class="row align-items-stretch justify-content-center gap-6">
+
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    <div class="p-1 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-5 flex-grow-1">
+                        <%- include('../components/services-card/content.ejs', {servicesCard: t.components.servicesCard}); -%>
+                    </div>
+                    
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="feature d-flex">
+            <div class="container d-flex rounded-4 py-8 px-4 align-items-center flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
+
+                <div class="col-11 col-xxl-3 col-xl-3 col-lg-3 col-md-4 second-feature-card container-fluid d-flex flex-column gap-4 justify-content-start py-4" >
+                    
+                    <span class="text-primary fw-bold text-uppercase small">Our Process</span>
+
+                    <h2 class="fs-mid-title fw-bold">How We Work</h2>
+
+                    <div class="bg-primary" style="width:70px;height:4px;"></div>
+
+                    <p class="text-secondary fs-5 text-text">
+                        A clear and proven process that ensures your project is delivered
+                        with excellence from start to finish.
+                    </p>
+                    
+                    <a href="#" class="bg-primary py-2 fw-bold text-uppercase rounded d-flex gap-5 justify-content-center align-items-center px-4 w-fit-content">
+                        <span class="fs-small text-uppercase">start YOUR PRIJECT</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-9">
+                    <%- include('../components/cycle-cards/content.ejs', {cycleCards: t.components.cycleCards}); -%> 
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="view py-8">
+            <div class="container">
+                <%- include('../components/quote-card/content.ejs'); -%>
+            </div>
+        </section>
+
+    </main>
+
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+    
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>
