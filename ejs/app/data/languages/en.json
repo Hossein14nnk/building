@@ -675,6 +675,27 @@
       "sectionEndDescription":"We're here to help you turn your ideas into reality with quality and precision.",
       "sectionEnbtn":"GET A QUOTE"
     },
+    "Plan":{
+      "breadcromp1":"Home",
+      "breadcromp2":"Pages",
+      "breadcromp3":"Plans",
+      "heroTitle1":" Transparent Pricing.",
+      "heroTitle2":"Exceptional Value.",
+      "heroDescription":" Explore our gallery to see the quality, craftsmanship, and attention to detail that define every project we build.",
+      "filter1":"All Reviews",
+      "filter2":"Residential",
+      "filter3":"Commercial",
+      "filter4":"Industrial",
+      "filter5":"Interior",
+      "filter6":"Infrastructure",
+      "option1":"Latest First",
+      "option2":"Oldest First",
+      "btnLoud":"LOAD MORE IMAGES",
+      "sectionEndsubtitle":"LET'S BUILD TOGETHER",
+      "sectionEndtitle":"Have A Project In Mind?",
+      "sectionEndDescription":"We're here to help you turn your ideas into reality with quality and precision.",
+      "sectionEnbtn":"GET A QUOTE"
+    },
     "homeOne":{
       "subtitleslider":"WE BUILD FUTURE",
       "sliderTitle1":"Build.",
