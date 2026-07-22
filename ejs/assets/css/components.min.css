@@ -650,8 +650,8 @@
     border-bottom: 0;
   }
 }
-.image-post {
-  width: 100px;
+.pooular-post .image-post {
+  width: 100px !important;
 }
 
 .line {
