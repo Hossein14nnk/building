@@ -1,0 +1,145 @@
+<%- include('../layouts/page/head.ejs' , {title: "ar-project", addCount: 0}); -%>
+    <main class="d-flex flex-column" id="ar-project">
+
+        <section id="" class="conainer-fluid bg-on-secondary d-flex align-items-center">
+            <div class="container d-flex gap-4 flex-column">
+                <span class="text-primary fw-bold fs-normal"><%- t.pages.arProject.heroSubtitle %></span>
+                <h1 class="text-light fw-bold fs-big-title"><%- t.pages.arProject.heroTitle1 %>
+                    <br><span class="text-primary"><%- t.pages.arProject.heroTitle2 %></span>
+                </h1>
+                <p class="text-text fw-medium fs-title"><%- t.pages.arProject.heroDescription %></p>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between w-100 mb-5">
+                    <ul class="d-flex align-items-center fw-semibold fs-small">
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 bg-primary rounded-1 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal active" href="#">
+                                 <%- t.pages.arProject.filter1 %>
+                            </a>
+                        </li>
+
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal" href="#">
+                                  <%- t.pages.arProject.filter2 %>
+                            </a>
+                        </li>
+
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal" href="#">
+                                <%- t.pages.arProject.filter3 %>
+                            </a>
+                        </li>
+
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal" href="#">
+                                  <%- t.pages.arProject.filter4 %>
+                            </a>
+                        </li>
+
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal" href="#">
+                                 <%- t.pages.arProject.filter5 %>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <select class="form-select w-auto rounded-0 border rounded-1 px-4 py-1 fs-normal">
+                        <option><%- t.pages.arProject.option1 %></option>
+                        <option><%- t.pages.arProject.option2 %></option>
+                        <option> <%- t.pages.arProject.option3 %></option>
+                    </select>
+                </div>
+                <div class="col-xl-12 g-2">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+            
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                           <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                           <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                        <div class="col-md-6 col-xl-4 d-flex">
+                            <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row gap-5 justify-content-center mt-5 mb-5">
+                        <span class="number rounded-1 bg-primary">1</span>
+                        <span class="number rounded-1 bg-white">2</span>
+                        <span class="number rounded-1 bg-white">3</span>
+                        <span class="number rounded-1 bg-white">...</span>
+                        <span class="number rounded-1 bg-white">8</span>
+                        <a href="">
+                            <i class="fa-light fa-arrow-right fs-normal p-2 bg-primary rounded-1 bg-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="process-section py-7">
+            <div class="container">
+                <div class="row align-items-start gy-5">
+                    <aside class="col-lg-4">
+                        <span class="fs-big fw-bold text-primary text-uppercase">
+                            <%- t.pages.arProject.sectiontreeSubtitle %>
+                        </span>
+                        <h2 class="fs-high-title fw-bold mt-3 mb-0">
+                           <%- t.pages.arProject.sectiontreetitle %>
+                        </h2>
+                        <span class="section-divider d-block mt-4"></span>
+                        <p class="fs-normal text-text mt-4 mb-5">
+                          <%- t.pages.arProject.sectiontreedescription %>
+                        </p>
+                        <a id="btnCTA"
+                            class="bg-primary text-black d-flex align-items-center gap-4 rounded-1 btn-hover fw-bold"
+                            href="#">
+                            <span class="fs-normal"><%- t.pages.arProject.sectiontreebtn %></span>
+                            <i class="fas fa-arrow-right-long fs-small"></i>
+                        </a>
+
+                    </aside>
+
+                    <div class="col-lg-8">
+                       
+                        <%- include('../components/second-feature-cards/content.ejs', {secondFeatureCards: t.components.secondFeatureCards}); -%>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="container-fluid">
+            <div class="container">
+                <%- include('../components/quote-card/content.ejs', {quoteCode: t.components.quoteCode}); -%>
+            </div>
+        </section>
+
+    </main>
+
+
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>
