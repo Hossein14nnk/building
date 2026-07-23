@@ -31,6 +31,27 @@ section {
   padding-bottom: 2rem;
 }
 
+.section-hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+  position: relative;
+  background-color: var(--bs-dark) !important;
+  z-index: 10;
+}
+
+.section-hero::after {
+  content: "";
+  bottom: 0px;
+  right: 0%;
+  position: absolute;
+  background-repeat: repeat;
+  background-size: 100% 100%, 15px 17px;
+  width: 40%;
+  height: 100%;
+  background-image: linear-gradient(-45deg, transparent 20%, rgb(0, 0, 0) 75% 100%), radial-gradient(rgba(254, 191, 1, 0.368627451) 10%, rgba(254, 191, 1, 0) 10% 100%);
+  z-index: -1;
+}
+
 .hossein {
   background-image: url("../media/images/logo.png");
   color: var(--primary);
@@ -307,14 +328,20 @@ section {
   height: 250px;
 }
 
+#gallery .hero {
+  min-height: 500px !important;
+  margin-bottom: 2rem;
+}
+
 #gallery ul li:checked {
   background-color: red;
 }
 
 #gallery .hero {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), transparent), url("../media/images/en/gallery/photo-1486406146926-c627a92ad1ab.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.45)), url("../media/images/en/gallery/photo-1486406146926-c627a92ad1ab.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 #gallery .project-cta > .container {

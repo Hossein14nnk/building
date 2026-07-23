@@ -79,7 +79,7 @@
     right: 10px;
     bottom: 20px;
     width: 360px;
-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     color: #fff;
     padding: 50px;
     z-index: 4;
@@ -104,10 +104,11 @@ backdrop-filter: blur(5px);
     width: 60px;
     height: 60px;
 }
+
 .signature {
-  width: 200px;
-  height: 100px;
-  object-fit: cover;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .image-box {
@@ -157,11 +158,11 @@ backdrop-filter: blur(5px);
 
 
 
-.mission-btn:hover{
-    background:var(--bs-primary);
+.mission-btn:hover {
+    background: var(--bs-primary);
 }
 
-.mission-btn:hover .fa-solid.fa-arrow-right{
-    color:var(--bs-dark) !important;
+.mission-btn:hover .fa-solid.fa-arrow-right {
+    color: var(--bs-dark) !important;
     transform: rotate(-45deg);
 }
