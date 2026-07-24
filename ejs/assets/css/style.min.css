@@ -36,10 +36,10 @@ section {
   color: var(--primary);
 }
 
-#home-one .hero {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.26)), url("../media/images/en/home-one/photo-1486406146926-c627a92ad1ab.jpg");
-  background-repeat: no-repeat;
+#home-one #main-hero {
+  background-image: linear-gradient(to right, rgba(15, 18, 22, 0.78) 0%, rgba(15, 18, 22, 0.52) 35%, rgba(15, 18, 22, 0.18) 65%, rgba(15, 18, 22, 0) 100%), url("../media/images/en/single/herohomepage.png");
   background-size: 100% 100%;
+  min-height: 500px !important;
 }
 
 .btn-hover i {
@@ -72,7 +72,7 @@ section {
 }
 
 .image-wrapper {
-  min-height: 650px;
+  min-height: 570px;
 }
 
 .dots {
@@ -99,7 +99,7 @@ section {
   right: 10px;
   bottom: 20px;
   width: 360px;
-  background: #151515;
+  backdrop-filter: blur(5px);
   color: #fff;
   padding: 50px;
   z-index: 4;
@@ -116,6 +116,68 @@ section {
   border: 1px solid #FFC107;
   width: 35px;
   height: 35px;
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+}
+
+.signature {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  max-height: 350px;
+}
+
+.image-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
+#testimonials .comment > div {
+  background: #232323 !important;
+}
+
+#testimonials .slider-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.client-logo {
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.client-logo:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  #main-hero .card-play {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+.mission-btn:hover {
+  background: var(--bs-primary);
+}
+
+.mission-btn:hover .fa-solid.fa-arrow-right {
+  color: var(--bs-dark) !important;
+  transform: rotate(-45deg);
 }
 
 .hossein {
@@ -456,6 +518,95 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.811)), url("../media/images/en/gallery/ChatGPT3.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.services-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+}
+
+.services-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  height: 3px;
+  background-color: #ffc107;
+}
+
+.services-card {
+  border-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.services-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--bs-primary) !important;
+}
+
+.img-size {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.services-card a i {
+  transition: transform 0.3s ease;
+}
+
+.services-card:hover a i {
+  transform: translateX(0.4rem);
+}
+
+.process-section {
+  background: #f8f8f8;
+}
+
+.section-divider {
+  width: 48px;
+  height: 2px;
+  background: var(--bs-primary);
+}
+
+.cycle-icon icon {
+  width: 35px;
+}
+
+.cycle-icon {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
+#cycleCards {
+  position: relative;
+}
+
+.cycle-card .line {
+  top: 30px;
+  z-index: -1;
+  right: 0px;
+  width: 100%;
+}
+
+.cycle-card:first-child .line {
+  width: 50%;
+}
+
+.cycle-card:last-child .line {
+  right: unset;
+  left: 0px;
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .line {
+    display: none;
+  }
+  #cycleCards {
+    gap: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.min.css.map */
