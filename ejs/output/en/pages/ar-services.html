@@ -18,15 +18,10 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="./output/en/pages/index.html">
-                <div class="logo-icon">
-                    <i class="fa-solid fa-cube"></i>
-                </div>
+            <a class="navbar-brand" href="./output/en/pages/home-one.html">
 
-                <div class="brand-text">
-                    <h2 class="brand-title">BUILDEX</h2>
-                    <span class="brand-subtitle">Construction</span>
-                </div>
+                <img class="logo" src="./assets/media/images/en/footer/logo.png">
+
             </a>
 
             <!-- Mobile Button -->
@@ -38,57 +33,71 @@
             <div class="collapse navbar-collapse" id="mainMenu">
 
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./output/en/pages/index.html">Home</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="./output/en/pages/home-one.html">Demo1</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/home-two.html">Demo2</a></li> 
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./output/en/pages/about-us.html"> About Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="./output/en/pages/ar-services.html">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./output/en/pages/ar-project.html">Projects</a>
+                        </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                           href="#"
-                           data-bs-toggle="dropdown">
-                            Pages
-                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">buildex</a>
+                         <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="./output/en/pages/gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/teams.html">Teams</a></li> 
+                            <li><a class="dropdown-item" href="./output/en/pages/contact-us.html">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="./output/en/pages/about-us.html">About Us</a></li> 
+                            <li><a class="dropdown-item" href="./output/en/pages/register.html">Register</a></li> 
+                            <li><a class="dropdown-item" href="./output/en/pages/reviews.html">Reviews</a></li> 
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
 
                         <ul class="dropdown-menu">
                             
-                            <li><a class="dropdown-item" href="./output/en/pages/st-project.html">homeTwo</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/st-services.html">service</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/st-services.html">Service</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/ar-services.html">Services Archive</a></li> 
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
+
+                         <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="./output/en/pages/st-project.html">Project</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/ar-project.html">Projects Archive</a></li> 
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+
+                        <ul class="dropdown-menu">
+                            
                             <li><a class="dropdown-item" href="./output/en/pages/st-blog.html">weblog</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/gallery.html">gallery</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/plans.html">plans</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/register.html">register</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/reviews.html">Reviews</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/teams.html">teams</a></li>
-                            <li><a class="dropdown-item" href="./output/en/pages/home-two.html">project</a></li> 
-                             
+                            <li><a class="dropdown-item" href="./output/en/pages/our-blog.html">weblogs Archive</a></li> 
+
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./output/en/pages/our-blog.html">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="./output/en/pages/contact-us.html">Contact</a>
+                        <a class="nav-link" href="./output/en/pages/plans.html">PLANS</a>
                     </li>
                 </ul>
 
                 <div class="quote-wrapper">
-                    <button class="quote-btn">
+                    <a class="quote-btn" href="./output/en/pages/plans.html">
                         Get A Quote
-                    </button>
+                    </a>
                 </div>
 
             </div>
@@ -106,105 +115,122 @@ const menu = document.getElementById("mainMenu");
 menuBtn.addEventListener("click", () => {
     menu.classList.toggle("show");
 });
-</script>    <main>
-        <section id="servicesHero" class="bg-dark text-white py-5">
+
+const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", function () {
+
+        navLinks.forEach(item => {
+            item.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+    });
+
+});
+</script>    <main id="ar-services" class="d-flex flex-column pt-20">
+        <section id="servicesHero" class="bg-dark text-white pt-20">
             <div class="container d-flex flex-column py-lg-5">
 
-                <span class="text-warning text-uppercase fw-semibold fs-small mb-3">
+                <span class="text-primary text-uppercase fw-bold fs-small mb-3">
                      Our Services
                 </span>
 
                 <h1 class="services-title fs-high-title fw-bold mb-4">
-                  Every Build<br>For <span class="text-warning"> Comprehensive Solutions</span>
+                  Every Build<br>For <span class="text-primary"> Comprehensive Solutions</span>
                 </h1>
+                
 
-                <p class="text-secondary fs-normal col-lg-6">
+                <p class="text-secondary col-lg-6">
                   From concept to completion, we provide end-to-end construction services tailored to your needs.
                 </p>
 
             </div>
         </section>
 
-        <section class="services-section py-7">
+        <section class="services-section">
             <div class="container">
                 <div class="row g-4">
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector1.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
 
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector2.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
 
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector3.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
 
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector4.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
 
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector5.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
 
                     <article class="col-md-6 col-xl-4">
                         <div class="services-card d-flex flex-column align-items-start gap-3 bg-card shadow rounded-1 px-6 py-6">
-    <img src="./assets/media/images/en/components/card1_construction_management.png" class="img-size">
-    <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
-    <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
-    <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
-        <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
-        <i class="fa-solid fa-arrow-right-long text-primary"></i>
-    </a>
-</div>
+                            <img src="./assets/media/images/en/demo1/vector6.png" class="img-size">
+                            <h3 class="fs-mid-title fw-semibold">Construction Management</h3>
+                            <span class="fs-title">We oversee every phase of construction to ensure your project is completed on time, on budget, and to the highest quality standards.</span>
+                            <a href="" class="d-flex align-items-center gap-2 mt-4 text-decoration-none">
+                                <span class="fs-big fw-bold text-button-text">LEARN MORE</span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
                     </article>
                 </div>
             </div>
 
         </section>
 
-        <section class="process-section py-7">
+        <section class="process-section">
             <div class="container">
                 <div class="row align-items-start gy-5">
                     <aside class="col-lg-4">
@@ -290,22 +316,62 @@ menuBtn.addEventListener("click", () => {
             </div>
 
         </section>
+
+        <section class="">
+            <div class="container">
+                
+
+
+    <div class="quote-card text-secondary bg-dark rounded-3 shadow-lg gap-2 px-5 py-3 d-flex flex-column align-items-center justify-content-between flex-sm-column flex-md-column flex-lg-row ">
+
+        <div class="d-flex align-items-center gap-5">
+                
+            <i class=" fa-solid fa-city text-primary fs-mid-title"></i>
+
+            <div class="d-flex flex-column gap-1">
+
+                <p class="fw-bold small text-uppercase text-primary">Have A Project In Mind?</p>
+
+                <h4 class="fw-bold">Let&#39;s Build Something Great Together</h4>
+
+                <p class="text-text fw-semibold">Share your vision with us and we&#39;ll bring it to life.</p>
+
+            </div>
+
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center">
+
+            <a href="#" class="quote-btn bg-primary fw-bold px-4 py-3 rounded-2 text-decoration-none text-reset d-flex align-items-center gap-3 text-nowrap">
+
+                <span class="text-dark">GET A FREE QUOTE</span>
+
+                <i class="fa-solid fa-arrow-right text-dark"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+            </div>
+        </section>
+
     </main>
 
     
     <footer class="footer bg-dark text-secondary py-5 ">
-        <div class="mx-12 container">
+        <div class="container">
 
-            <div class="row gap-6 gap-lg-0 gap-md-3">
+            <div class="row row-gap-8 row-gap-lg-0">
 
                 
-                <div class="d-flex flex-column gap-3 col-10 col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                <div class="d-flex flex-column gap-4 col-12 col-lg-3 col-sm-6">
 
                     <img src="./assets/media/images/en/footer/logo.png" class="" width="210">
 
                     <p  class="">We are a leading construction company providing high-quality services across residential, commercial and industrial sectors worldwide.</p>
 
-                    <div class="social d-none gap-2 d-xxl-flex d-xl-flex d-lg-flex align-items-center">
+                    <div class="social d-none gap-2 d-xxl-flex d-xl-flex d-lg-flex align-items-center mt-2">
 
                         <a  href="./output/en/pages/" style="width: 30px; background: #28292A; height: 30px;" class="rounded d-flex justify-content-center align-items-center text-decoration-none text-reset">
                             <i class="fab fa-facebook-f "></i>
@@ -328,33 +394,33 @@ menuBtn.addEventListener("click", () => {
                 </div>
 
                 
-                <div class="px-0 col-lg-2 col-md-5">
+                <div class="col-12 col-lg-2 col-sm-6 d-flex flex-column gap-4">
 
-                    <h6 class="d-flex flex-column gap-1 fw-bold mb-4">QUICK LINKS</h6>
+                    <h6 class="fw-bold">QUICK LINKS</h6>
 
                     <ul class="list-unstyled d-flex flex-column gap-1">
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Home</a>
                         </li>
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">About Us</a>
                         </li>
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Services</a>
                         </li>
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Projects</a>
                         </li>
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Blog</a>
                         </li>
 
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Contact Us</a>
                         </li>
 
@@ -363,24 +429,24 @@ menuBtn.addEventListener("click", () => {
                 </div>
 
                 
-                <div class="px-0 col-lg-2 col-md-6">
+                <div class="col-12 col-lg-2 col-sm-6 d-flex flex-column gap-4">
 
-                    <h6 class="d-flex flex-column gap-1 fw-bold mb-4">OUR SERVICES</h6>
+                    <h6 class="fw-bold">OUR SERVICES</h6>
 
                     <ul class="list-unstyled d-flex flex-column gap-1">
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Construction Management</a>
                         </li>
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Design &amp; Build</a>
                         </li>
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Renovation</a>
                         </li>
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Interior Design</a>
                         </li>
-                        <li>
+                        <li class="w-fit-content">
                             <a href="./output/en/pages/" class="text-decoration-none text-reset">Project Consulting</a>
                         </li>
                     </ul>
@@ -388,27 +454,27 @@ menuBtn.addEventListener("click", () => {
                 </div>
 
                 
-                <div class="px-0 col-lg-3 col-md-5">
+                <div class="col-12 col-lg-3 col-sm-6 d-flex flex-column gap-4">
 
-                    <h6 class="d-flex flex-column gap-1 fw-bold mb-4">CONTACT INFO</h6>
+                    <h6 class="fw-bold">CONTACT INFO</h6>
 
                     <ul class="list-unstyled d-flex flex-column gap-2">
-                        <li class="d-flex gap-2 align-items-baseline">
+                        <li class="d-flex gap-2 align-items-baseline w-fit-content">
                             <i class="fa-solid fa-location text-primary"></i>
                             <div class="d-flex flex-column justify-content-start">
                                 <span class="">123 Construction Ave,</span>
                                 <span class="">New York, NY 10001, USA</span>
                             </div>
                         </li>
-                        <li class="d-flex gap-2 align-items-baseline">
+                        <li class="d-flex gap-2 align-items-baseline w-fit-content">
                             <i class="fa-solid fa-light fa-phone text-primary"></i>
                             <span class="">+1 212 555 7890</span>
                         </li>
-                        <li class="d-flex gap-2 align-items-baseline">
+                        <li class="d-flex gap-2 align-items-baseline w-fit-content">
                             <i class="fa-solid fa-envelope text-primary"></i>
                             <span class="">info@buildex.com</span>
                         </li>
-                        <li class="d-flex gap-2 align-items-baseline">
+                        <li class="d-flex gap-2 align-items-baseline w-fit-content">
                             <i class="fa-solid fa-clock text-primary"></i>
                             <span  class="">Mon – Sat: 8:00 AM – 6:00 PM</span>
                         </li>
@@ -438,33 +504,33 @@ menuBtn.addEventListener("click", () => {
                 </div>
 
             
-                <div class="px-0 col-10 col-xxl-2 col-xl-2 col-lg-2 col-md-10 ">
+                <div class="col-12 col-lg-2 gap-4 d-flex flex-column">
 
-                    <h6 class="d-flex flex-column gap-1 fw-bold mb-4">RECENT PROJECTS</h6>
+                    <h6 class="fw-bold text-nowrap">RECENT PROJECTS</h6>
 
-                    <div class="px-0 row g-1">
+                    <div class="row g-1">
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT1.png" class="img-fluid rounded w-100">
                         </a>
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT2.png" class="img-fluid rounded w-100">
                         </a>
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT3.png" class="img-fluid rounded w-100">
                         </a>
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT4.png" class="img-fluid rounded w-100">
                         </a>
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT5.png" class="img-fluid rounded w-100">
                         </a>
 
-                        <a href="./output/en/pages/" class="col-4">
+                        <a href="./output/en/pages/" class="col-2 col-xxl-4 col-lg-6">
                             <img src="./assets/media/images/en/footer/ChatGPT6.png" class="img-fluid rounded w-100">
                         </a>
 

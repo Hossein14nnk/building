@@ -1,6 +1,6 @@
 <%- include('../layouts/page/head.ejs' , {title: "plans", addCount: 0}); -%>
     <%- include('../components/header/content.ejs', ); -%>
-    <main class="d-flex flex-column" id="plans">
+    <main class="d-flex flex-column pt-20" id="plans">
 
         <section class="hero text-white d-flex flex-column w-100 gap-20">
 
@@ -73,7 +73,11 @@
                 <div class="row text-center align-items-center gap-2">
 
                     <div class="col-md-2">
-                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                        <div class="pricing-area d-flex align-items-center flex-column">
+                            <span class="rounded-circle border-border-color border d-flex align-items-center justify-content-center"><%- t.components.pricingArea.number1 %></span>
+                            <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.components.pricingArea.title1 %></h3>
+                            <p class="fs-big text-text lh-lg mb-0"><%- t.components.pricingArea.subtitle1 %></p>
+                        </div>
                     </div>
 
                     <div class="col-md-1 d-none d-md-flex justify-content-center">
@@ -81,7 +85,11 @@
                     </div>
 
                     <div class="col-md-2">
-                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                        <div class="pricing-area d-flex align-items-center flex-column">
+                            <span class="rounded-circle border-border-color border d-flex align-items-center justify-content-center"><%- t.components.pricingArea.number2 %></span>
+                            <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.components.pricingArea.title2 %></h3>
+                            <p class="fs-big text-text lh-lg mb-0"><%- t.components.pricingArea.subtitle2 %></p>
+                        </div>
                     </div>
 
                     <div class="col-md-1 d-none d-md-flex justify-content-center">
@@ -89,7 +97,11 @@
                     </div>
 
                     <div class="col-md-2">
-                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                        <div class="pricing-area d-flex align-items-center flex-column">
+                            <span class="rounded-circle border-border-color border d-flex align-items-center justify-content-center"><%- t.components.pricingArea.number3 %></span>
+                            <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.components.pricingArea.title3 %></h3>
+                            <p class="fs-big text-text lh-lg mb-0"><%- t.components.pricingArea.subtitle3 %></p>
+                        </div>
                     </div>
 
                     <div class="col-md-1 d-none d-md-flex justify-content-center">
@@ -97,7 +109,11 @@
                     </div>
 
                     <div class="col-md-2">
-                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                        <div class="pricing-area d-flex align-items-center flex-column">
+                            <span class="rounded-circle border-border-color border d-flex align-items-center justify-content-center"><%- t.components.pricingArea.number4 %></span>
+                            <h3 class="fs-title fw-bold text-title-text mb-0"><%- t.components.pricingArea.title4 %></h3>
+                            <p class="fs-big text-text lh-lg mb-0"><%- t.components.pricingArea.subtitle4 %></p>
+                        </div>
                     </div>
 
                 </div>
@@ -115,7 +131,7 @@
                     <p class=""><%- t.pages.plans.sectionfiveDescription %></p>
                 </div>
 
-                <a href="#" class="service px-4 py-2 fw-bold rounded-1 bg-primary text-dark fs-big d-flex justify-content-center align-items-center gap-2 border-primary border text-uppercase">
+                <a href="#" class="btn-hover px-4 py-2 fw-bold rounded-1 bg-primary text-dark fs-big d-flex justify-content-center align-items-center gap-2 border-primary border text-uppercase">
                     <%- t.pages.plans.sextionfivebtn %>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>

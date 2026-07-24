@@ -1,47 +1,48 @@
 <%- include('../layouts/page/head.ejs' , {title: "ar-project", addCount: 0}); -%>
 
     <%- include('../components/header/content.ejs', ); -%>
-    <main class="d-flex flex-column" id="ar-project">
+    <main class="d-flex flex-column pt-20" id="ar-project">
 
-        <section id="" class="conainer-fluid bg-on-secondary d-flex align-items-center">
+        <section id="" class="pt-20 conainer-fluid bg-on-secondary d-flex align-items-center">
             <div class="container d-flex gap-4 flex-column">
                 <span class="text-primary fw-bold fs-normal"><%- t.pages.arProject.heroSubtitle %></span>
                 <h1 class="text-light fw-bold fs-big-title"><%- t.pages.arProject.heroTitle1 %>
                     <br><span class="text-primary"><%- t.pages.arProject.heroTitle2 %></span>
                 </h1>
+                <div class="bg-primary" style="width:60px;height:3px;"></div>
                 <p class="text-text fw-medium fs-title"><%- t.pages.arProject.heroDescription %></p>
             </div>
         </section>
-        <section class="container-fluid">
+        <section class="container-fluid bg-section">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between w-100 mb-5">
                     <ul class="d-flex align-items-center fw-semibold fs-small">
-                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 bg-primary rounded-1 px-sm-2 py-2 d-flex align-items-center">
-                            <a class="fs-normal active" href="#">
+                        <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 rounded-1 px-sm-2 py-2 d-flex align-items-center">
+                            <a class="fs-normal text-dark" href="#">
                                  <%- t.pages.arProject.filter1 %>
                             </a>
                         </li>
 
                         <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
-                            <a class="fs-normal" href="#">
+                            <a class="fs-normal text-dark" href="#">
                                   <%- t.pages.arProject.filter2 %>
                             </a>
                         </li>
 
                         <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
-                            <a class="fs-normal" href="#">
+                            <a class="fs-normal text-dark" href="#">
                                 <%- t.pages.arProject.filter3 %>
                             </a>
                         </li>
 
                         <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
-                            <a class="fs-normal" href="#">
+                            <a class="fs-normal text-dark" href="#">
                                   <%- t.pages.arProject.filter4 %>
                             </a>
                         </li>
 
                         <li class="px-1 px-xxl-5 px-xl-5 px-lg-5 px-md-5 px-sm-2 py-2 d-flex align-items-center">
-                            <a class="fs-normal" href="#">
+                            <a class="fs-normal text-dark" href="#">
                                  <%- t.pages.arProject.filter5 %>
                             </a>
                         </li>
@@ -53,7 +54,7 @@
                         <option> <%- t.pages.arProject.option3 %></option>
                     </select>
                 </div>
-                <div class="col-xl-12 g-2">
+                <div class="wrapper col-xl-12 g-2">
                     <div class="row g-4">
                         <div class="col-md-6 col-xl-4 d-flex">
                             <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
@@ -84,51 +85,59 @@
                             <%- include('../components/project-card/content.ejs', {projectCard: t.components.projectCard}); -%>
                         </div>
                     </div>
-                    <div class="d-flex flex-row gap-5 justify-content-center mt-5 mb-5">
-                        <span class="number rounded-1 bg-primary">1</span>
-                        <span class="number rounded-1 bg-white">2</span>
-                        <span class="number rounded-1 bg-white">3</span>
-                        <span class="number rounded-1 bg-white">...</span>
-                        <span class="number rounded-1 bg-white">8</span>
-                        <a href="">
-                            <i class="fa-light fa-arrow-right fs-normal p-2 bg-primary rounded-1 bg-white"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
-        <section class="process-section py-7">
-            <div class="container">
-                <div class="row align-items-start gy-5">
-                    <aside class="col-lg-4">
-                        <span class="fs-big fw-bold text-primary text-uppercase">
-                            <%- t.pages.arProject.sectiontreeSubtitle %>
-                        </span>
-                        <h2 class="fs-high-title fw-bold mt-3 mb-0">
-                           <%- t.pages.arProject.sectiontreetitle %>
-                        </h2>
-                        <span class="section-divider d-block mt-4"></span>
-                        <p class="fs-normal text-text mt-4 mb-5">
-                          <%- t.pages.arProject.sectiontreedescription %>
-                        </p>
-                        <a id="btnCTA"
-                            class="bg-primary text-black d-flex align-items-center gap-4 rounded-1 btn-hover fw-bold"
-                            href="#">
-                            <span class="fs-normal"><%- t.pages.arProject.sectiontreebtn %></span>
-                            <i class="fas fa-arrow-right-long fs-small"></i>
-                        </a>
+        <section class="feature d-flex">
+            <div class="container d-flex rounded-4 py-2 px-4 align-items-center flex-column flex-xxl-row flex-xl-row flex-lg-row flex-md-row">
 
-                    </aside>
+                <div class="col-11 col-xxl-3 col-xl-3 col-lg-3 col-md-4 container-fluid d-flex flex-column gap-4 justify-content-start border-end border-1">
+                    
+                    <span class="text-primary fw-bold text-uppercase fs-big">WHY CLIENTS CHOOSE US</span>
 
-                    <div class="col-lg-8">
-                       
-                        <%- include('../components/second-feature-cards/content.ejs', {secondFeatureCards: t.components.secondFeatureCards}); -%>
-                    </div>
+                    <h2 class="fw-bold fs-mid-title">
+                          Delivering Quality
+                            In Every Detail
+                    </h2>
 
+                    <p class="text-text">We combine expert craftsmanship, innovative solutions, and a client-first approach to deliver projects that stand the test of time</p>
+                    
+                    
+                    <a href="<%- navigation(lang , 'home-one.html') %>" class="bg-primary text-dark py-2 fw-bold text-uppercase rounded d-flex gap-5 justify-content-center align-items-center px-4 w-fit-content">
+                        <span class="fs-small text-uppercase ">WORK WITH US</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
                 </div>
-
+                <div class="col-9">
+                    <div id="secondFeatureCard" class="container-fluid d-flex px-5 rounded-1">
+                        <div class="second-feature-card container-fluid d-flex flex-column gap-2 align-items-center justify-content-start py-4 col-lg-3 col-md-6">
+                            <img class="feature-icon" src="./assets/media/images/en/components/second-feature-card-icon-1.png" alt="">
+                            <div class="line"></div>
+                            <h3 class="fs-title text-center">Expert Team</h3>
+                            <p class="fs-subtitle text-text text-center fw-medium">Skilled professionals dedicated to excellence.</p>
+                        </div>
+                        <div class="second-feature-card container-fluid d-flex flex-column gap-2 align-items-center justify-content-start py-4 col-lg-3 col-md-6">
+                            <img class="feature-icon" src="./assets/media/images/en/components/second-feature-card-icon-2.png" alt="">
+                            <div class="line"></div>
+                            <h3 class="fs-title text-center">Quality Materials</h3>
+                            <p class="fs-subtitle text-text text-center ">We use only the best materials for lasting durability.</p>
+                        </div>
+                        <div class="second-feature-card container-fluid d-flex flex-column gap-2 align-items-center justify-content-start py-4 col-lg-3 col-md-6">
+                            <img class="feature-icon" src="./assets/media/images/en/components/second-feature-card-icon-3.png" alt="">
+                            <div class="line"></div>
+                            <h3 class="fs-title text-center">On-Time Delivery</h3>
+                            <p class="fs-subtitle text-text text-center fw-medium">We value your time and deliver projects on schedule.</p>
+                        </div>
+                        <div class="second-feature-card container-fluid d-flex flex-column gap-2 align-items-center justify-content-start py-4 col-lg-3 col-md-6">
+                            <img class="feature-icon" src="./assets/media/images/en/components/second-feature-card-icon-4.png" alt="">
+                            <div class="line"></div>
+                            <h3 class="fs-title text-center">Client Satisfaction</h3>
+                            <p class="fs-subtitle text-text text-center fw-medium">Your satisfaction is our goal, every step of the way.</p>
+                        </div>
+                    </div> 
+                </div>
+                
             </div>
-
         </section>
         <section class="container-fluid">
             <div class="container">

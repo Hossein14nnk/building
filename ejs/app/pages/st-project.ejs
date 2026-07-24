@@ -1,15 +1,15 @@
 <%- include('../layouts/page/head.ejs' , {title: "st-project", addCount: 0}); -%>
     <%- include('../components/header/content.ejs', ); -%>
-    <main class="d-flex flex-column bg-background " id="stProject">
+    <main class="d-flex flex-column bg-background pt-20" id="stProject">
 
         <section class="hero bg-dark text-secondary position-relative py-8 position-relative">
 
             <div class="container py-4 d-flex flex-column gap-6">
 
                 <div class="small gap-3 d-flex">
-                    <a href="#" class="text-decoration-none text-secondary"><%- t.pages.stProject.breadcromp1 %></a>
+                    <a href="#" class="text-decoration-none "><%- t.pages.stProject.breadcromp1 %></a>
                     <span class="text-secondary">></span>
-                    <a href="#" class="text-decoration-none text-secondary"><%- t.pages.stProject.breadcromp2 %></a>
+                    <a href="#" class="text-decoration-none"><%- t.pages.stProject.breadcromp2 %></a>
                     <span class="text-secondary">></span>
                     <span class="text-secondary"><%- t.pages.stProject.breadcromp3 %></span>
                 </div>
@@ -85,12 +85,12 @@
                     <h2 class="fw-bold"><%- t.pages.stProject.sectiontreetitle %></h2>
                     <hr>
                     <div class="project-gallery gap-2 d-grid"> 
+                        <img src="<%= getMedia(lang, 'services/photo-1486406146926-c627a92ad1ab.jpg', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
+                        <img src="<%= getMedia(lang, 'services/ChatGPT6.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
+                        <img src="<%= getMedia(lang, 'services/ChatGPT4.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
                         <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
-                        <img src="<%= getMedia(lang, 'services/ChatGPT Image Jul 12, 2026, 03_39_32 AM.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
+                        <img src="<%= getMedia(lang, 'services/homepage-section2.jpg', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
+                        <img src="<%= getMedia(lang, 'services/building.png', 'images'); %>" class="img-fluid rounded-3 shadow-sm " alt="">
                     </div>
                 </section>
             </div>

@@ -3,15 +3,10 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="<%- navigation(lang , 'index.html') %>">
-                <div class="logo-icon">
-                    <i class="fa-solid fa-cube"></i>
-                </div>
+            <a class="navbar-brand" href="<%- navigation(lang , 'home-one.html') %>">
 
-                <div class="brand-text">
-                    <h2 class="brand-title"><%- t.header.logotitle %></h2>
-                    <span class="brand-subtitle"><%- t.header.logoDescription %></span>
-                </div>
+                <img class="logo" src="<%= getMedia(lang, 'footer/logo.png', 'images'); %>">
+
             </a>
 
             <!-- Mobile Button -->
@@ -23,57 +18,71 @@
             <div class="collapse navbar-collapse" id="mainMenu">
 
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<%- navigation(lang , 'index.html') %>"><%- t.header.home %></a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><%- t.header.home %></a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'home-one.html') %>">Demo1</a></li>
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'home-two.html') %>">Demo2</a></li> 
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="<%- navigation(lang , 'about-us.html') %>"> <%- t.header.item1 %></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="<%- navigation(lang , 'ar-services.html') %>"><%- t.header.item2 %></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<%- navigation(lang , 'ar-project.html') %>"><%- t.header.item3 %></a>
+                        </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                           href="#"
-                           data-bs-toggle="dropdown">
-                            <%- t.header.item4 %>
-                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">buildex</a>
+                         <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'gallery.html') %>">Gallery</a></li>
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'teams.html') %>">Teams</a></li> 
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'contact-us.html') %>">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'about-us.html') %>">About Us</a></li> 
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'register.html') %>">Register</a></li> 
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'reviews.html') %>">Reviews</a></li> 
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><%- t.header.item2 %></a>
 
                         <ul class="dropdown-menu">
                             
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-project.html') %>"><%- t.header.otherpage1 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-services.html') %>"><%- t.header.otherpage2 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-blog.html') %>"><%- t.header.otherpage3 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'gallery.html') %>"><%- t.header.otherpage4 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'plans.html') %>"><%- t.header.otherpage5 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'register.html') %>"><%- t.header.otherpage6 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'reviews.html') %>"><%- t.header.otherpage7 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'teams.html') %>"><%- t.header.otherpage8 %></a></li>
-                            <li><a class="dropdown-item" href="<%- navigation(lang , 'home-two.html') %>"><%- t.header.otherpage9 %></a></li> 
-                             
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-services.html') %>">Service</a></li>
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'ar-services.html') %>">Services Archive</a></li> 
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><%- t.header.item3 %></a>
+
+                         <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-project.html') %>">Project</a></li>
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'ar-project.html') %>">Projects Archive</a></li> 
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><%- t.header.item5 %></a>
+
+                        <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'st-blog.html') %>">weblog</a></li>
+                            <li><a class="dropdown-item" href="<%- navigation(lang , 'our-blog.html') %>">weblogs Archive</a></li> 
+
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<%- navigation(lang , 'our-blog.html') %>"><%- t.header.item5 %></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="<%- navigation(lang , 'contact-us.html') %>"><%- t.header.item6 %></a>
+                        <a class="nav-link" href="<%- navigation(lang , 'plans.html') %>">PLANS</a>
                     </li>
                 </ul>
 
                 <div class="quote-wrapper">
-                    <button class="quote-btn">
+                    <a class="quote-btn" href="<%- navigation(lang , 'plans.html') %>">
                         <%- t.header.headerbtn %>
-                    </button>
+                    </a>
                 </div>
 
             </div>
@@ -90,5 +99,21 @@ const menu = document.getElementById("mainMenu");
 
 menuBtn.addEventListener("click", () => {
     menu.classList.toggle("show");
+});
+
+const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", function () {
+
+        navLinks.forEach(item => {
+            item.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+    });
+
 });
 </script>
