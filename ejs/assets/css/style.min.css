@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "primary";
   font-weight: 900;
@@ -441,7 +440,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.number {
+#weblogs .number {
   width: 30px;
   height: 30px;
   display: flex;
@@ -449,21 +448,20 @@ section {
   justify-content: center;
 }
 
-.text-limit-3 {
+#weblogs .text-limit-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.w-75 {
+#weblogs .w-75 {
   width: 75%;
 }
 
-.select-box {
+#weblogs .select-box {
   position: relative;
   width: 250px;
-  /* یا 100% */
 }
 
 @media (max-width: 1200px) {
@@ -483,6 +481,10 @@ section {
 #descriotion-blog .number {
   width: 30px;
   height: 29px;
+}
+
+ul {
+  list-style: none;
 }
 
 #stProject .overview img {
