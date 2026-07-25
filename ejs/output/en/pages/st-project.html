@@ -13,8 +13,100 @@
     <link rel="stylesheet" href="./assets/css/style.min.css">
 </head>
 
-<body class="font-primary">
-    <main class="d-flex flex-column bg-background " id="stProject">
+<body class="font-primary">    <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="./output/en/pages/index.html">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+
+                <div class="brand-text">
+                    <h2 class="brand-title">BUILDEX</h2>
+                    <span class="brand-subtitle">Construction</span>
+                </div>
+            </a>
+
+            <!-- Mobile Button -->
+            <button class="navbar-toggler" type="button" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainMenu">
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./output/en/pages/index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./output/en/pages/about-us.html"> About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./output/en/pages/ar-services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./output/en/pages/ar-project.html">Projects</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item" href="./output/en/pages/st-project.html">homeTwo</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/st-services.html">service</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/st-blog.html">weblog</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/gallery.html">gallery</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/plans.html">plans</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/register.html">register</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/reviews.html">Reviews</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/teams.html">teams</a></li>
+                            <li><a class="dropdown-item" href="./output/en/pages/home-two.html">project</a></li> 
+                             
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./output/en/pages/our-blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./output/en/pages/contact-us.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="quote-wrapper">
+                    <button class="quote-btn">
+                        Get A Quote
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<script src="./assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const menu = document.getElementById("mainMenu");
+
+menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("show");
+});
+</script>    <main class="d-flex flex-column bg-background " id="stProject">
 
         <section class="hero bg-dark text-secondary position-relative py-8 position-relative">
 

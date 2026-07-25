@@ -882,5 +882,28 @@
 		},
 		"recent" : "RECENT PROJECTS"
 
-	}
+	},
+  "header":{
+    "logotitle":"BUILDEX",
+    "logoDescription":"Construction",
+    "home":"Home",
+    "item1":"About Us",
+    "item2":"Services",
+    "item3":"Projects",
+    "item4":"Pages",
+    "item5":"Blog",
+    "item6":"Contact",
+    "headerbtn":"Get A Quote",
+    "otherpage1":"homeTwo",
+    "otherpage2":"service",
+    "otherpage3":"weblog",
+    "otherpage4":"gallery",
+    "otherpage5":"plans",
+    "otherpage6":"register",
+    "otherpage7":"Reviews",
+    "otherpage8":"teams",
+    "otherpage9":"project"
+    
+
+  }
 }
