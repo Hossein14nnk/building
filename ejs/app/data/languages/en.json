@@ -832,6 +832,24 @@
       "sectiontreetitle2":" Focused on People.",
       "sectiontreedescription":" We believe great projects start with a great team and strong values.",
       "sectiontreebtn":"join our team"
+    },
+    "arProject":{
+      "heroSubtitle":"OUR PROJECT",
+      "heroTitle1":"Insights, Ideas Inspiration",
+      "heroTitle2":"For Better Building",
+      "heroDescription":"Stay updated with the latest trends, expert insights, and practical tips from the construction industry.",
+      "filter1":"ALL PROJECTS",
+      "filter2":"RESIDENTIAL",
+      "filter3":"INTERIOR",
+      "filter4":"INDUSTRIAL",
+      "filter5":"INFRASTRUCTURE",
+      "option1":"Filter By",
+      "option2":"Newest",
+      "option3":"Oldest",
+      "sectiontreeSubtitle":"OUR PROCESS",
+      "sectiontreetitle":"  How We Work",
+      "sectiontreedescription":" We follow a structured process to ensure every project is delivered efficiently, on time,and to the highest quality standards.",
+      "sectiontreebtn":"START Your PROJECT"
     }
 	},
 	"footer": {
