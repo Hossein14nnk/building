@@ -1,0 +1,133 @@
+<%- include('../layouts/page/head.ejs' , {title: "plans", addCount: 0}); -%>
+
+    <main class="d-flex flex-column" id="plans">
+
+        <section class="hero text-white d-flex flex-column w-100 gap-20">
+
+            <div class="container d-flex flex-column gap-4 py-10">
+
+                <span class="text-primary text-uppercase fw-bold fs-title d-block"><%- t.pages.plans.heroSubtitle %></span>
+
+                <h1 class="fw-bold text-uppercase d-flex flex-column fs-mega-title">
+                    <%- t.pages.plans.heroTitle1 %>
+                    <span class="text-primary"><%- t.pages.plans.heroTitle2 %></span>
+                </h1>
+
+
+                <div style="width:60px;height:4px;" class="bg-primary rounded-4"></div>
+                <p class="text-secondary fw-semibold">
+                    <%- t.pages.plans.heroDescription %>
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="plans">
+            <div class="container d-flex flex-column gap-6">
+
+                <div class="">
+
+                </div>
+
+                <div class="row flex-row align-items-stretch">
+
+                    <div class="col-6 col-lg-3 ">
+                        <%- include('../components/pricing-table/default/content.ejs', {defaultStyle: t.components.pricingTable.defaultStyle}); -%>
+                    </div>
+                    <div class="col-6 col-lg-3 ">
+                        <%- include('../components/pricing-table/popular/content.ejs', {popularStyle: t.components.pricingTable.popularStyle}); -%>
+                    </div>
+                    <div class="col-6 col-lg-3 ">
+                        <%- include('../components/pricing-table/default/content.ejs', {defaultStyle: t.components.pricingTable.defaultStyle}); -%>
+                    </div>
+                    <div class="col-6 col-lg-3 ">
+                        <%- include('../components/pricing-table/default/content.ejs', {defaultStyle: t.components.pricingTable.defaultStyle}); -%>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="included">
+            <div class="container d-flex flex-column gap-8 rounded py-4">
+
+                <h2 class="fw-bold text-center fs-mid-title"><%- t.pages.plans.sectiontreetitle %></h2>
+
+                <div class="row text-center align-items-center gap-2">
+                    <%- include('../components/feature-cards/content.ejs', {featureCards: t.components.featureCards}); -%> 
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="pricing">
+            <div class="container d-flex flex-column gap-8">
+
+                <div class="d-flex flex-column gap-2 text-center">
+                    <h2 class="fw-bold fs-mid-title"><%- t.pages.plans.sectionfourtitle %></h2>
+
+                    <span class="fw-semibold"><%- t.pages.plans.sectionfourdescription %></span>
+                </div>
+
+                <div class="row text-center align-items-center gap-2">
+
+                    <div class="col-md-2">
+                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                    </div>
+
+                    <div class="col-md-1 d-none d-md-flex justify-content-center">
+                        <i class="fa-solid fa-arrow-right fs-1  opacity-50"></i>
+                    </div>
+
+                    <div class="col-md-2">
+                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                    </div>
+
+                    <div class="col-md-1 d-none d-md-flex justify-content-center">
+                        <i class="fa-solid fa-arrow-right fs-1  opacity-50"></i>
+                    </div>
+
+                    <div class="col-md-2">
+                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                    </div>
+
+                    <div class="col-md-1 d-none d-md-flex justify-content-center">
+                        <i class="fa-solid fa-arrow-right fs-1  opacity-50"></i>
+                    </div>
+
+                    <div class="col-md-2">
+                        <%- include('../components/pricing-area/content.ejs', {pricingArea: t.components.pricingArea}); -%>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="project-cta text-light">
+            <div class="container py-8 px-20 d-flex align-items-center justify-content-between flex-column flex-xxl-row  flex-xl-row gap-4">
+
+                <div class="d-flex flex-column gap-4">
+
+                    <h2 class="fw-bold fs-high-title"><%- t.pages.plans.sectionfivetitle %></h2>
+
+                    <p class=""><%- t.pages.plans.sectionfiveDescription %></p>
+                </div>
+
+                <a href="#" class="service px-4 py-2 fw-bold rounded-1 bg-primary text-dark fs-big d-flex justify-content-center align-items-center gap-2 border-primary border text-uppercase">
+                    <%- t.pages.plans.sextionfivebtn %>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <%- include('../components/footer/content.ejs', {accountFeatures: t.components.accountFeatures}); -%>
+    
+    <script src="./assets/js/mizchin.min.js"></script>
+</body>
+
+</html>

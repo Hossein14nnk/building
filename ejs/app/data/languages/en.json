@@ -806,6 +806,32 @@
       "sectiontwotitle":" How We Work",
       "sectiontwoDescription":"We follow a structured process to ensure every project is delivered efficiently, on time, and to the highest quality standards.",
       "sectiontwobtn":"START Your PROJECT"
+    },
+    "plans":{
+      "heroSubtitle":"PRICING PLANS",
+      "heroTitle1":"Transparent Pricing",
+      "heroTitle2":"Exceptional Value",
+      "heroDescription":"Choose the plan that best fits your project needs.All plans include quality, reliability, and professional support.",
+      "sectiontreetitle":"Whats Included In Every Plan",
+      "sectionfourtitle":"How Pricing Works",
+      "sectionfourdescription":"Our pricing is simple, transparent, and tailored to your needs.",
+      "sectionfivetitle":"Have a Unique Project ?",
+      "sectionfiveDescription":"Let's build something great together.",
+      "sextionfivebtn":"get a custom quote"
+    },
+    "teams":{
+      "heroSubtitle":"OUR TEAM",
+      "heroTitle1":"The People Behind",
+      "heroTitle2":"Every Great Build",
+      "heroDescription":" Our team of experienced professionals is dedicated to delivering exceptional results with integrity, innovation, and teamwork.",
+      "sectiontwosubtitle":"MEET OUR EXPERTS",
+      "sectiontwotitle":"Leadership That Builds Excellence",
+      "sectiontwoDescription":"Our leaders bring vision, expertise, and dedication to every project, ensuring the highest standards in construction and client satisfaction.",
+      "sectiontreeSubtitle":"Why We're Different",
+      "sectiontreetitle1":"  Built on Values.",
+      "sectiontreetitle2":" Focused on People.",
+      "sectiontreedescription":" We believe great projects start with a great team and strong values.",
+      "sectiontreebtn":"join our team"
     }
 	},
 	"footer": {
