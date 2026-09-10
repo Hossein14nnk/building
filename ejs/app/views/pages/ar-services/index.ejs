@@ -1,0 +1,101 @@
+<%- include('../../layouts/page/head.ejs', {pageName: "ar-services"}); -%>
+
+	<main class="section d-flex flex-column" id="ar-services">
+
+        <section id="topic" class="section bg-secondary-color position-relative gap-10">
+            <div class="container flex-column gap-10 align-items-start">
+                <%- include('../../components/composites/section-topic/content.ejs',
+					{
+						upTitle: t.pages.aboutUs.topic.upTitle,
+						firstPartTitle: t.pages.aboutUs.topic.firstPartTitle,
+						secondPartTitle: t.pages.aboutUs.topic.secondPartTitle,
+						text: t.components.description.text
+					}); -%>
+
+					<div class="block">
+						<a href="" class="btn btn-primary txt-size-subtitle txt-transform-uppercase">
+							<span><%= t.pages.aboutUs.topic.btn %></span>
+							<i class="fa-solid fa-arrow-right"></i>
+						</a>
+					</div>
+
+            </div>
+			
+			
+
+        </section>
+
+		<section id="services" class="section">
+			<div class="container">
+				<div class="block d-grid grid-1 grid-lg-3 w-100 grid-sm-2">
+					<% for(let i = 0 ; i < 6 ; i++){ %>
+						<%- include('../../components/composites/service-card/content.ejs', {
+							icon: t.pages.arServices.services[i].icon ,
+							title: t.pages.arServices.services[i].title ,
+							description: t.pages.arServices.services[i].description ,
+							link: t.pages.arServices.services[i].link ,
+							linkText: t.pages.arServices.services[i].linkText 
+						}); -%>
+					<% } %>
+				</div>
+			</div>
+		</section>
+		
+
+        <section id="values" class="section">
+			<div class="container d-grid gap-10 grid-1 align-items-center grid-xxl-2 bg-specific-color py-10 common-radius">
+
+				<div class="block gap-4 align-items-start">
+					<%- include('../../components/composites/topic-pattern/third/content.ejs',
+					{
+						upTitle: t.components.eyebrow.text,
+						title: t.components.eyebrow.text,
+						text: t.components.description.text
+					}); -%>
+
+					<a href="" class="btn btn-primary txt-size-subtitle txt-transform-uppercase">
+						<span><%= t.pages.aboutUs.topic.btn %></span>
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<%- include('../../components/composites/level-process-group/content.ejs',
+					{
+						number1: t.components.composites.levelProcessGroup[0].number,
+						title1: t.components.composites.levelProcessGroup[0].title,
+						text1: t.components.composites.levelProcessGroup[0].text,
+						number2: t.components.composites.levelProcessGroup[1].number,
+						title2: t.components.composites.levelProcessGroup[1].title,
+						text2: t.components.composites.levelProcessGroup[1].text,
+						number3: t.components.composites.levelProcessGroup[2].number,
+						title3: t.components.composites.levelProcessGroup[2].title,
+						text3: t.components.composites.levelProcessGroup[2].text,
+						number4: t.components.composites.levelProcessGroup[3].number,
+						title4: t.components.composites.levelProcessGroup[3].title,
+						text4: t.components.composites.levelProcessGroup[3].text
+					}); 
+				-%>
+
+
+            </div>
+        </section>
+
+		<section id="quote" class="section">
+			<div class="container">
+
+				<%- include('../../components/composites/section-card/content.ejs', {
+					link: navigation(lang, 'home-one.html'),
+					upTitle: t.components.composites.sectionCard.upTitle,
+					title: t.components.composites.sectionCard.title,
+					text: t.components.composites.sectionCard.subtitle,
+					btnText: t.components.composites.sectionCard.btn
+				}); -%>
+
+			</div>
+		</section>
+        
+
+
+    </main>
+
+<%- include('../../layouts/page/foot.ejs'); %>

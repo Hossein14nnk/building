@@ -317,6 +317,36 @@
 						"alt": "person5",
 						"name": "David Lee",
 						"job": "Site Supervisor"
+					},
+					{
+						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+						"alt": "person1",
+						"name": "Daniel Thomas",
+						"job": "Director of Construction"
+					},
+					{
+						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+						"alt": "person2",
+						"name": "Liam Wilson",
+						"job": "Project Manager"
+					},
+					{
+						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+						"alt": "person3",
+						"name": "Noah Brown",
+						"job": "Site Supervisor"
+					},
+					{
+						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+						"alt": "person4",
+						"name": "Ava Thompson",
+						"job": "Interior Designer"
+					},
+					{
+						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+						"alt": "person5",
+						"name": "David Lee",
+						"job": "Site Supervisor"
 					}
 				]
 			}
@@ -335,6 +365,76 @@
 			"content": {
 				"aboutProject" : "The construction industry is constantly evolving. New technologies, innovative materials, and a stronger focus on sustainability are reshaping the way we build. Here are the top trends that are defining the future of construction."
 			}
+		},
+		"teams":{
+			"team":[
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Experienced Team",
+					"text": "Skilled professionals with years of industry experience."
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Client-Focused",
+					"text": "We prioritize your goals and work closely with you."
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Transparent Communication",
+					"text": "Clear and open communication at every stage."
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Proven Track Record",
+					"text": "A history of successful projects and satisfied clients."
+				}
+			]
+		},
+		"arServices": {
+			"services":[
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				},
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				},
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				},
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				},
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				},
+				{
+					"icon": "building",
+					"title": "Construction Maintenance",
+					"description": "Our ongoing maintenance services ensure your property remains safe, efficient, and in optimal condition.",
+					"link": "navigation(lang, 'st-services')",
+					"linkText": "LEARN MORE"
+				}
+			]
 		}
 	}
 }

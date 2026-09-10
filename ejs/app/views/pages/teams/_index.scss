@@ -1,0 +1,15 @@
+#teams .counter-box {
+    margin-bottom: -100px;
+}
+
+
+
+
+
+@media screen and (width >= 992px) {
+
+    #teams #values .container {
+        grid-template-columns: 1fr 2.5fr;
+    }
+
+}

@@ -1,0 +1,21 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "feature-group"}); -%>
+
+<div class="d-flex align-items-center gap-4 justify-content-center w-fit-content w-100 bg-specific-color h-100 bg-specific-color d-grid grid-4">
+    <%- include('./content.ejs',
+    {
+        image1:  t.pages.teams.team[0].image ,
+        title1: t.pages.teams.team[0].title ,
+        text1: t.pages.teams.team[0].text,
+        image2:  t.pages.teams.team[1].image ,
+        title2: t.pages.teams.team[1].title ,
+        text2: t.pages.teams.team[1].text,
+        image3:  t.pages.teams.team[2].image ,
+        title3: t.pages.teams.team[2].title ,
+        text3: t.pages.teams.team[2].text,
+        image4:  t.pages.teams.team[3].image ,
+        title4: t.pages.teams.team[3].title ,
+        text4: t.pages.teams.team[3].text
+    }); -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>
