@@ -210,6 +210,25 @@
 			"content": {
 				"aboutProject" : "The construction industry is constantly evolving. New technologies, innovative materials, and a stronger focus on sustainability are reshaping the way we build. Here are the top trends that are defining the future of construction."
 			}
+		},
+		"homeOne":{
+			"hero":{
+				"components":{
+					"heroTopic":{
+						"upTitle":"WE BUILD FUTURE ",
+						"firstPartTitle":"Build.",
+						"secondPartTitle":"Invest.",
+						"thredPartTitle":"Innovate.",
+						"text":"we deliver exceptional construction services with a focus on quality,sefety and innovation. "
+					}
+				},
+				"btnPrimary":"OUR PROJECTS",
+				"btnsecondary":"GET A QUOTE ",
+				"cardtitle1":" Let's build ",
+				"cardtitle2":"together",
+				"cardDescription":"Trusted by 1500+ clients to bring their vision to life. ",
+				"cardbtn":"WATCH VIDEO "
+			}
 		}
 	}
 }

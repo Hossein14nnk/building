@@ -1,0 +1,53 @@
+<%- include('../../layouts/page/head.ejs', {pageName: "home-one"}); -%>
+
+	<main class=" d-flex flex-column" id="home-one">
+        <section id="main-hero" class="section h-100vh ">
+           <div class="container">
+            <div class="block gap-6">
+             <%- include('../../components/composites/hero-topic/content.ejs',
+            {
+                //upTitle: t.pages.homeOne.components.heroTopic.upTitle,
+                //firstPartTitle: t.pages.homeOne.components.heroTopic.firstPartTitle,
+                //secondPartTitle: t.pages.homeOne.components.heroTopic.secondPartTitle,
+                //thredPartTitle: t.pages.homeOne.components.heroTopic.thredPartTitle,
+                //text: t.pages.homeOne.components.heroTopic.text
+
+                "upTitle":"WE BUILD FUTURE ",
+                "firstPartTitle":"Build.",
+                "secondPartTitle":"Invest.",
+                "thredPartTitle":"Innovate.",
+                "text":"we deliver exceptional construction services with a focus on quality,sefety and innovation. "
+
+            }); -%>
+
+            <div class="d-flex gap-4">
+                <a href="#" class="btn btn-primary">
+                    <span><%= t.pages.homeOne.hero.btnPrimary %></span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#" class="btn btn-secondary">
+                    <span><%= t.pages.homeOne.hero.btnPrimary %></span>
+                </a>
+            </div>
+           </div>
+           <div class="block">
+                <div class="card-play">
+                    <h2 class="cardhero-title">
+                        <%= t.pages.homeOne.hero.cardtitle1 %>
+                        <br>
+                       <span class="cardhero-title highlight"><%= t.pages.homeOne.hero.cardtitle2 %> </span> 
+                    </h2>
+                    <p class="card-color"><%= t.pages.homeOne.hero.cardDescription %></p>
+                    <div class="d-flex align-items-center">
+                        <div class="border-play radius-all-full d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-play primary-color"></i>
+                        </div>
+                        <span class="card-color"><%= t.pages.homeOne.hero.cardbtn %></span>
+                    </div>
+                </div>
+           </div>
+           </div>
+        </section>
+    </main>
+
+<%- include('../../layouts/page/foot.ejs'); %>
