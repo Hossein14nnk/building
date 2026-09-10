@@ -680,7 +680,6 @@ h1 {
   align-items: center;
 }
 .view .view-value {
-  color: var(--on-primary);
   font-size: 2rem;
   font-weight: 700;
 }
@@ -695,6 +694,14 @@ h1 {
 
 textarea {
   resize: vertical;
+}
+
+.level-process .line-box > .little-line {
+  height: 2px;
+}
+
+.level-process .line-box > .long-line {
+  height: 2px;
 }
 
 .level-process .line-box > .little-line {
@@ -816,6 +823,26 @@ textarea {
 .group-dates {
   flex-direction: row;
   text-transform: capitalize;
+}
+
+.our-service {
+  max-width: 420px;
+}
+.our-service .our-service-item .txt-size-body, .our-service .our-service-item:hover i {
+  transition: 200ms linear;
+}
+.our-service .our-service-item:hover .txt-size-body, .our-service .our-service-item:hover i {
+  color: var(--primary);
+}
+
+.our-service {
+  max-width: 420px;
+}
+.our-service .our-service-item .txt-size-body, .our-service .our-service-item:hover i {
+  transition: 200ms linear;
+}
+.our-service .our-service-item:hover .txt-size-body, .our-service .our-service-item:hover i {
+  color: var(--primary);
 }
 
 /*# sourceMappingURL=style.min.css.map */

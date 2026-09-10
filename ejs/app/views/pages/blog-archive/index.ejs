@@ -1,0 +1,136 @@
+<%- include("../../layouts/page/head.ejs", { pageName: "blog-detail" }); %>
+
+<main>
+    <section id="hero" class="section bg-secondary-color">
+        <div class="container">
+            <%- include("../../components/composites/section-topic/content.ejs", {
+                // link1: navigation(lang, "home-one"),
+                // link2: navigation(lang, "ar-weblog"),
+                // upTitle: t.pages.blogArchive.hero.components.upTitle,
+                // firstPartTitle: t.pages.blogArchive.hero.components.heroTitle.title,
+                // secondPartTitle: `<br>${t.pages.blogArchive.hero.components.heroTitle.highlight}`,
+                // text: t.pages.blogArchive.hero.components.description
+
+                part1: "home",
+                part2: "blog",
+                part3: "detail",
+                link1: navigation(lang, "home-one"),
+                link2: navigation(lang, "ar-weblog"),
+                upTitle: t.pages.blogArchive.hero.components.upTitle,
+                firstPartTitle: t.pages.blogArchive.hero.components.heroTitle.title,
+                secondPartTitle: `<br>${t.pages.blogArchive.hero.components.heroTitle.highlight}`,
+                text: t.pages.blogArchive.hero.components.description
+            }); %>
+        </div>
+    </section>
+    <section id="content" class="section bg-color">
+        <div class="container flex-column flex-xxl-row gap-4">
+            <div class="block align-items-start gap-4 w-xxl-70">
+                <div class="block flex-row justify-content-space-between align-items-center w-100">
+                    <p class="description">Showing 1-9 of 24 results</p>
+                    <%- include("../../components/interactives/dropdown/content.ejs", {
+                        title: "Latest Posts",
+                        items: [
+                            {
+                                title: "dome 1",
+                                link: navigation(lang, "home-one")
+                            },
+                            {
+                                title: "dome 2",
+                                link: navigation(lang, "home-two")
+                            },
+                        ]
+                    }); -%>  
+                </div>
+                <div class="blog-cards mb-5">
+                    <%- include("../../components/composites/blog-card/content.ejs",{
+                        title: "Our Services",
+                        items: {
+                            label : "Construction",
+                            date : "May 12, 2024", 
+                            title : "10 Construction Trends Shaping the Future",
+                            image : "10 Construction Trends Shaping the Future",
+                        }
+                    }); -%>
+                    
+                </div>
+                <div class="block w-100 align-items-center justify-content-center">
+                    <%- include("../../components/interactives/pagination/content.ejs",{
+                        items: 7
+                    }); -%>
+                </div>
+            </div>
+            <aside class="block grow-1 common-radius gap-8">
+                <%- include("../../components/interactives/search-box/content.ejs", { placeholder: "Search blogs..." }); %>
+                <%- include("../../components/composites/categories/content.ejs", {
+                    title: "Categories",
+                    items: [
+                        {
+                            title: "Construction",
+                            count: 8,
+                            link: "#"
+                        },
+                        {
+                            title: "Project Management",
+                            count: 5,
+                            link: "#"
+                        },
+                        {
+                            title: "Interior Design",
+                            count: 4,
+                            link: "#"
+                        },
+                        {
+                            title: "Sustainability",
+                            count: 3,
+                            link: "#"
+                        },
+                        {
+                            title: "Safety",
+                            count: 2,
+                            link: "#"
+                        },
+                        {
+                            title: "Commercial",
+                            count: 1,
+                            link: "#"
+                        },
+                        {
+                            title: "Residential",
+                            count: 1,
+                            link: "#"
+                        }
+                    ]
+                }); %>
+
+                <div class="px-4 py-4 shadow-sm rounded-2 bg-white shadow radius-all-md">
+                    <h4 class="font-weight-bold mb-3"><%= "title" %></h4>
+                    <div class="horizontal-divider mb-3"></div>
+                    <ul class="list-unstyled d-flex flex-column m-0 px-3">
+                        <% for (let i = 1; i <= 3; i++) { %>
+                            <li class="categories-item justify-content-between">
+                                <a href="<%= "item.link" %>"class="categories-link d-flex justify-content-space-between align-items-center gap-5">
+                                    <%- include("../../components/composites/brief-news/content.ejs", {
+                                        image: getMedia(lang, `st-blog/building${i}.png`, "images"),
+                                        title: "asdfdasdf",
+                                        date: "asdfdasdf"
+                                    }); %>
+                                </a>
+                            </li>
+                        <% } %>
+                    </ul>
+                </div>
+
+                <%- include("../../components/composites/subscribe/content.ejs", {
+                    title: "aaa",
+                    description: "aaa",
+                    placeHolder: "aaa",
+                    link: "aaa",
+                    btn: "aaa"
+                }); %>
+            </aside>
+        </div>
+    </section>
+</main>
+
+<%- include("../../layouts/page/foot.ejs"); %>  
