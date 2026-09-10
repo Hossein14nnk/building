@@ -674,6 +674,14 @@ textarea {
   height: 2px;
 }
 
+.level-process .line-box > .little-line {
+  height: 2px;
+}
+
+.level-process .line-box > .long-line {
+  height: 2px;
+}
+
 .feature-item .line {
   width: 40px;
   height: 2px;

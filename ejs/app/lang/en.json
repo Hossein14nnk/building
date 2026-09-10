@@ -48,6 +48,32 @@
 				"text": "experiment",
 				"alt": "counter picture"
 			},
+			"counterBoxGroup": [
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Years Experience",
+					"value": "1",
+					"suffix": "+"
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Projects Completed",
+					"value": "530",
+					"suffix": "+"
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Happy Customers",
+					"value": "1000",
+					"suffix": "+"
+				},
+				{
+					"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
+					"title": "Professional Awards",
+					"value": "50",
+					"suffix": "+"
+				}
+			],
 			"briefNews":{
 				"alt": "article picture",
 				"title": "10 construction treands shaping the future",
@@ -98,11 +124,32 @@
 				"title": "Let's Build It Together"
 			},
 			"levelProcess": {
-				"icon" : "fa-soli fa-check" ,
 				"number1": "01",
 				"title1": "1998 Company Founded",
 				"description1": "Buildora Construction was established with a vision for excellence."
 			},
+			"levelProcessGroup": [
+					{
+						"number": "01",
+						"title": "1998 Company Founded",
+						"text": "Buildora Construction was established with a vision for excellence."
+					},
+					{
+						"number": "02",
+						"title": "2005 Expanded Services",
+						"text": "We expanded our services to include commercial and Industrial projects."
+					},
+					{
+						"number": "03",
+						"title": "2012 National Recognition",
+						"text": "Received multiple awards for quality and construction excellence."
+					},
+					{
+						"number": "04",
+						"title": "2020 Sustainable Future",
+						"text": "We embraced sustainable building practices for a better future."
+					}
+			],
 			"features": {
 				"title": "Expert Team",
 				"description": "Skilled professionals dedicated to excellence.",
@@ -112,11 +159,6 @@
 				"alt": "article picture",
 				"title": "10 construction treands shaping the future",
 				"date": "may 12, 2026"
-			},
-			"sectionTopic":{
-				"part1": "Home",
-				"part2": " Project",
-				"part3": "Page name"
 			},
 			"tickList": {
 				"text": "Client-focused approach"
@@ -213,33 +255,7 @@
 			},
 			"journey": {
 				"upTitle": "OUR JOURNEY",
-				"title": "Milstones That Define Our Path",
-				"group":[
-					{
-						"icon": "fa-solid fa-building",
-						"number": "01",
-						"title": "1998 Company Founded",
-						"text": "Buildora Construction was established with a vision for excellence."
-					},
-					{
-						"icon": "fa-solid fa-building",
-						"number": "02",
-						"title": "2005 Expanded Services",
-						"text": "We expanded our services to include commercial and Industrial projects."
-					},
-					{
-						"icon": "fa-solid fa-building",
-						"number": "03",
-						"title": "2012 National Recognition",
-						"text": "Received multiple awards for quality and construction excellence."
-					},
-					{
-						"icon": "fa-solid fa-building",
-						"number": "04",
-						"title": "2020 Sustainable Future",
-						"text": "We embraced sustainable building practices for a better future."
-					}
-				]
+				"title": "Milstones That Define Our Path"
 			},
 			"values":{
 				"upTitle": "OUR VALUES",
@@ -264,34 +280,6 @@
 						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
 						"title": "Teamwork",
 						"text": "We believe in collaboration and shared success."
-					}
-				]
-			},
-			"introduction":{
-				"group":[
-					{
-						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
-						"title": "Years Experience",
-						"value": "1",
-						"suffix": "+"
-					},
-					{
-						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
-						"title": "Projects Completed",
-						"value": "530",
-						"suffix": "+"
-					},
-					{
-						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
-						"title": "Happy Customers",
-						"value": "1000",
-						"suffix": "+"
-					},
-					{
-						"image": "getMedia(lang, 'components/second-feature-card-icon-1.png', 'images')",
-						"title": "Professional Awards",
-						"value": "50",
-						"suffix": "+"
 					}
 				]
 			},

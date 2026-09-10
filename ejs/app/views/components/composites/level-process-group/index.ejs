@@ -1,0 +1,21 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "level-process"}); -%>
+
+<div class="d-flex align-items-center gap-4 justify-content-center bg-specific-color h-100 w-100">
+    <%- include('./content.ejs',
+    {
+        number1: t.components.composites.levelProcessGroup[0].number,
+        title1: t.components.composites.levelProcessGroup[0].title,
+        text1: t.components.composites.levelProcessGroup[0].text,
+        number2: t.components.composites.levelProcessGroup[1].number,
+        title2: t.components.composites.levelProcessGroup[1].title,
+        text2: t.components.composites.levelProcessGroup[1].text,
+        number3: t.components.composites.levelProcessGroup[2].number,
+        title3: t.components.composites.levelProcessGroup[2].title,
+        text3: t.components.composites.levelProcessGroup[2].text,
+        number4: t.components.composites.levelProcessGroup[3].number,
+        title4: t.components.composites.levelProcessGroup[3].title,
+        text4: t.components.composites.levelProcessGroup[3].text
+    }); -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>

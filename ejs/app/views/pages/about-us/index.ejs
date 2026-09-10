@@ -5,11 +5,6 @@
             <div class="container flex-column gap-10 align-items-start">
                 <%- include('../../components/composites/section-topic/content.ejs',
 					{
-						part1: t.components.composites.sectionTopic.part1,
-						link1: navigation(lang, "ar-project"),
-						part2: t.components.composites.sectionTopic.part2,
-						link2: navigation(lang, "ar-project"),
-						part3: t.components.composites.sectionTopic.part3,
 						upTitle: t.pages.aboutUs.topic.upTitle,
 						firstPartTitle: t.pages.aboutUs.topic.firstPartTitle,
 						secondPartTitle: t.pages.aboutUs.topic.secondPartTitle,
@@ -90,22 +85,23 @@
 						title: t.pages.aboutUs.journey.title ,
 					}); -%>
 				</div>
-				
-				<div class="block d-grid grid-2 grid-md-4 group">
 
 					
-					<% for(let i = 0 ; i < 4; i++ ){ %>
-						<%- include('../../components/composites/level-process/content.ejs',
-							{
-								icon: t.pages.aboutUs.journey.group[i].icon ,
-								number: t.pages.aboutUs.journey.group[i].number ,
-								title: t.pages.aboutUs.journey.group[i].title ,
-								text: t.pages.aboutUs.journey.group[i].text
-							}); 
-						-%>
-					<% } %>
-
-				</div>
+				<%- include('../../components/composites/level-process-group/content.ejs',
+					{
+						number1: t.components.composites.levelProcessGroup[0].number,
+						title1: t.components.composites.levelProcessGroup[0].title,
+						text1: t.components.composites.levelProcessGroup[0].text,
+						number2: t.components.composites.levelProcessGroup[1].number,
+						title2: t.components.composites.levelProcessGroup[1].title,
+						text2: t.components.composites.levelProcessGroup[1].text,
+						number3: t.components.composites.levelProcessGroup[2].number,
+						title3: t.components.composites.levelProcessGroup[2].title,
+						text3: t.components.composites.levelProcessGroup[2].text,
+						number4: t.components.composites.levelProcessGroup[3].number,
+						title4: t.components.composites.levelProcessGroup[3].title,
+						text4: t.components.composites.levelProcessGroup[3].text
+					}); -%>
 
             </div>
         </section>
@@ -143,20 +139,25 @@
         <section id="introduction" class="section bg-specific-color">
             <div class="container bg-specific-color">
 
-				<div class="block d-grid grid-2 w-100 grid-md-4">
-
-					<% for( let i = 0 ; i < 4 ; i++ ){ %>
-						<%- include('../../components/composites/counter-box/content.ejs',
-							{
-								image: t.pages.aboutUs.introduction.group[i].image ,
-								title: t.pages.aboutUs.introduction.group[i].title ,
-								value: t.pages.aboutUs.introduction.group[i].value ,
-								suffix: t.pages.aboutUs.introduction.group[i].suffix
-							}); 
-						-%>
-					<% } %>
-						
-				</div>
+			<%- include('../../components/composites/counter-box-group/content.ejs',
+				{
+					image1: t.components.composites.counterBoxGroup[0].image ,
+					title1: t.components.composites.counterBoxGroup[0].title ,
+					value1: t.components.composites.counterBoxGroup[0].value ,
+					suffix1: t.components.composites.counterBoxGroup[0].suffix ,
+					image2: t.components.composites.counterBoxGroup[1].image ,
+					title2: t.components.composites.counterBoxGroup[1].title,
+					value2: t.components.composites.counterBoxGroup[1].value ,
+					suffix2: t.components.composites.counterBoxGroup[1].suffix ,
+					image3: t.components.composites.counterBoxGroup[2].image ,
+					title3: t.components.composites.counterBoxGroup[2].title,
+					value3: t.components.composites.counterBoxGroup[2].value ,
+					suffix3: t.components.composites.counterBoxGroup[2].suffix ,
+					image4: t.components.composites.counterBoxGroup[3].image ,
+					title4: t.components.composites.counterBoxGroup[3].title,
+					value4: t.components.composites.counterBoxGroup[3].value ,
+					suffix4: t.components.composites.counterBoxGroup[3].suffix 
+				}); -%>	
 
 			</div>
 
@@ -180,15 +181,17 @@
                 </div>
                 
                 <div class="block d-grid grid-2 grid-md-3 grid-lg-4 grid-xxl-5 gap-4">
-					<% for(let i = 0 ; i < 6 ; i++){ %>
-						<%#- include('../../components/composites/card-person/content.ejs',
+				
+					<% for(let i = 0 ; i < 5 ; i++){ %>
+						<%- include('../../components/composites/card-person/content.ejs',
 							{
 								image: t.pages.aboutUs.team.percons[i].image ,
-								alt: t.pages.aboutUs.team.percons[i].alt ,
+        						alt: t.pages.aboutUs.team.percons[i].alt ,
 								title: t.pages.aboutUs.team.percons[i].name ,
-								description: t.pages.aboutUs.team.percons[i].job
+        						description: t.pages.aboutUs.team.percons[i].job
 							}); -%>
 					<% } %>
+
 					
                 </div>
         </section>
