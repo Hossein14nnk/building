@@ -1,6 +1,6 @@
 <%- include('../../../layouts/component/head.ejs', {pageName: "tab"}); -%>
 
-<div class="bg-on-primary-color w-100 h-100 d-flex align-items-center justify-content-center">
+<div class="tab bg-on-primary-color w-100 h-100 d-flex align-items-center justify-content-center">
     <%- include('./content.ejs', {
         items: [
             {
@@ -25,6 +25,37 @@
             }
         ]
     }); -%>
+    <div class="tab-content">
+
+        <div class="tab-panel active" data-tab-content="all">
+            <h3>All Content</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod amet mollitia, dolorum reiciendis ipsam ipsa optio officia tempora dolore quo laudantium adipisci cumque, ab consequatur, vero eligendi animi natus veritatis.
+            </p>
+        </div>
+    
+        <div class="tab-panel" data-tab-content="residential">
+            <h3>Residential Content</h3>
+    
+            <div class="card">
+                Residential Content
+            </div>
+        </div>
+    
+        <div class="tab-panel" data-tab-content="commercial">
+            <h3>Commercial Content</h3>
+        </div>
+    
+        <div class="tab-panel" data-tab-content="industrial">
+            <h3>Industrial Content</h3>
+        </div>
+    
+        <div class="tab-panel" data-tab-content="interior">
+            <h3>Interior Content</h3>
+        </div>
+    
+    </div>
 </div>
+
 
 <%- include('../../../layouts/component/foot.ejs'); -%>

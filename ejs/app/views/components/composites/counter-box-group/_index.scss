@@ -3,12 +3,4 @@
 @use "../../../../system/sass/global-functions/_colors" as *;
 @use "../../../base/_commons" as *;
 
-.view {
-    display: inline-flex;
-    align-items: center;
 
-    .view-value {
-        font-size: get-font-size("title");
-        font-weight: 700;
-    }
-}

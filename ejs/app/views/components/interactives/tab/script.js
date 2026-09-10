@@ -4,37 +4,42 @@ class Tab {
     }
 
     init() {
-        document.querySelectorAll('.tab').forEach(tab => {
-            this.setupTab(tab);
+        document.querySelectorAll('.tab-list').forEach(tabList => {
+            this.setupTab(tabList);
         });
     }
 
-    setupTab(tab) {
-        const items = tab.querySelectorAll('.tab-item');
+    setupTab(tabList) {
+        const items = tabList.querySelectorAll('.tab-item');
 
         items.forEach(item => {
             item.addEventListener('click', () => {
-                this.activate(tab, item);
+                this.activate(tabList, item);
             });
         });
     }
 
-    activate(tab, activeItem) {
+    activate(tabList, activeItem) {
         const value = activeItem.dataset.tab;
 
-        // activate tab
-        tab.querySelectorAll('.tab-item').forEach(item => {
+        // Activate tab item
+        tabList.querySelectorAll('.tab-item').forEach(item => {
             const isActive = item === activeItem;
 
             item.classList.toggle('active', isActive);
-
             item.setAttribute(
                 'aria-selected',
                 isActive ? 'true' : 'false'
             );
         });
 
-        // activate content
+        // Find the closest parent that contains both
+        // the tab list and its content
+        const tab = tabList.parentElement;
+
+        if (!tab) return;
+
+        // Activate tab content
         tab.querySelectorAll('[data-tab-content]').forEach(content => {
             const isActive = content.dataset.tabContent === value;
 
@@ -43,4 +48,6 @@ class Tab {
     }
 }
 
-new Tab();
+document.addEventListener('DOMContentLoaded', () => {
+    new Tab();
+});
