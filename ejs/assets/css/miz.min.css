@@ -807,6 +807,10 @@ html {
   background-color: var(--menu);
 }
 
+.card-color {
+  color: var(--card);
+}
+
 .bg-card-color {
   background-color: var(--card);
 }
