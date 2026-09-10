@@ -160,6 +160,11 @@
 				"title": "10 construction treands shaping the future",
 				"date": "may 12, 2026"
 			},
+			"projectCard":{
+				"alt": "article picture",
+				"title": "10 construction treands shaping the future",
+				"date": "may 12, 2026"
+			},
 			"tickList": {
 				"text": "Client-focused approach"
 			}
@@ -187,6 +192,60 @@
 						"highlight": "shaping the future"
 					},
 					"description": "home > blog > 10 construction trends shaping the future"
+				}
+			},
+			"content": {
+				"components": {
+					"label": "congtruction",
+					"group": {
+						"dates": {
+							"date": "may 12, 2026",
+							"author": "admin",
+							"commentCount": "5"
+						}
+					},
+					"description": "The construction industry is constantly evolving. New technologies, innovative materials, and a stronger focus on sustainability are reshaping the way we build. Here are the top trends that are defining the future of construction."
+				},
+				"title": "10 construction trends shaping the future",
+				"imageAlt": "single-weblog"
+			}
+		},
+		"blogArchive": {
+			"hero": {
+				"components": {
+					"upTitle": "OUR blog",
+					"heroTitle": {
+						"title": "Insights, idea & Inspiration",
+						"highlight": "For Better Building "
+					},
+					"description": "home > blogs"
+				}
+			},
+			"content": {
+				"components": {
+					"label": "congtruction",
+					"group": {
+						"dates": {
+							"date": "may 12, 2026",
+							"author": "admin",
+							"commentCount": "5"
+						}
+					},
+					"description": "The construction industry is constantly evolving. New technologies, innovative materials, and a stronger focus on sustainability are reshaping the way we build. Here are the top trends that are defining the future of construction."
+				},
+				"title": "10 construction trends shaping the future",
+				"imageAlt": "single-weblog"
+			}
+		},
+		"projectArchive": {
+			"hero": {
+				"components": {
+					"upTitle": "OUR Projects",
+					"heroTitle": {
+						"title": "Building Excellence",
+						"highlight": "Tgrough Every project "
+					},
+					"description": "home > Projects"
 				}
 			},
 			"content": {
