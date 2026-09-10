@@ -1,0 +1,76 @@
+<%- include("../../layouts/page/head.ejs", { pageName: "blog-detail" }); %>
+
+<main>
+    <section id="hero" class="section bg-secondary-color">
+        <div class="container">
+            <%- include("../../components/composites/section-topic/content.ejs", {
+                // link1: navigation(lang, "home-one"),
+                // link2: navigation(lang, "ar-weblog"),
+                // upTitle: t.pages.projectArchive.hero.components.upTitle,
+                // firstPartTitle: t.pages.projectArchive.hero.components.heroTitle.title,
+                // secondPartTitle: `<br>${t.pages.projectArchive.hero.components.heroTitle.highlight}`,
+                // text: t.pages.projectArchive.hero.components.description
+
+                part1: "home",
+                part2: "blog",
+                part3: "detail",
+                link1: navigation(lang, "home-one"),
+                link2: navigation(lang, "ar-weblog"),
+                upTitle: t.pages.projectArchive.hero.components.upTitle,
+                firstPartTitle: t.pages.projectArchive.hero.components.heroTitle.title,
+                secondPartTitle: `<br>${t.pages.projectArchive.hero.components.heroTitle.highlight}`,
+                text: t.pages.projectArchive.hero.components.description
+            }); %>
+        </div>
+    </section>
+    <section id="content" class="section bg-color">
+        <div class="container flex-column flex-xxl-row gap-4">  
+            <div class="block tab align-items-start gap-4 w-100 gap-10">
+                <%- include("../../components/interactives/tab/content.ejs", {
+                    items: [
+                        {
+                            title: "ALL",
+                            value: "all"
+                        },
+                        {
+                            title: "RESIDENTIAL",
+                            value: "residential"
+                        },
+                        {
+                            title: "COMMERCIAL",
+                            value: "commercial"
+                        },
+                        {
+                            title: "INDUSTRIAL",
+                            value: "industrial"
+                        },
+                        {
+                            title: "INTERIOR",
+                            value: "interior"
+                        }
+                    ]
+                }); -%> 
+                <div class="blog-cards tab-content mb-5 mt-10">
+                    <%- include("../../components/composites/blog-card/content.ejs",{
+                        title: "Our Services",
+                        items: {
+                            label : "Construction",
+                            date : "May 12, 2024", 
+                            title : "10 Construction Trends Shaping the Future",
+                            image : "10 Construction Trends Shaping the Future",
+                        }
+                    }); -%>
+                    
+                </div>
+                <div class="block w-100 align-items-center justify-content-center">
+                    <%- include("../../components/interactives/pagination/content.ejs",{
+                        items: 7
+                    }); -%>
+                </div>
+            </div>
+      
+        </div>
+    </section>
+</main>
+
+<%- include("../../layouts/page/foot.ejs"); %>  
