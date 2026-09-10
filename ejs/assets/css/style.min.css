@@ -650,7 +650,6 @@ h1 {
   align-items: center;
 }
 .view .view-value {
-  color: var(--on-primary);
   font-size: 2rem;
   font-weight: 700;
 }
@@ -665,6 +664,14 @@ h1 {
 
 textarea {
   resize: vertical;
+}
+
+.level-process .line-box > .little-line {
+  height: 2px;
+}
+
+.level-process .line-box > .long-line {
+  height: 2px;
 }
 
 .level-process .line-box > .little-line {

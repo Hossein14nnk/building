@@ -1,0 +1,25 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "counter-box-group"}); -%>
+
+<div class="d-flex align-items-center gap-4 justify-content-center w-100 h-100">
+    <%- include('./content.ejs' ,
+    {
+        image1: t.components.composites.counterBoxGroup[0].image ,
+        title1: t.components.composites.counterBoxGroup[0].title ,
+        value1: t.components.composites.counterBoxGroup[0].value ,
+        suffix1: t.components.composites.counterBoxGroup[0].suffix ,
+        image2: t.components.composites.counterBoxGroup[1].image ,
+        title2: t.components.composites.counterBoxGroup[1].title,
+        value2: t.components.composites.counterBoxGroup[1].value ,
+        suffix2: t.components.composites.counterBoxGroup[1].suffix ,
+        image3: t.components.composites.counterBoxGroup[2].image ,
+        title3: t.components.composites.counterBoxGroup[2].title,
+        value3: t.components.composites.counterBoxGroup[2].value ,
+        suffix3: t.components.composites.counterBoxGroup[2].suffix ,
+        image4: t.components.composites.counterBoxGroup[3].image ,
+        title4: t.components.composites.counterBoxGroup[3].title,
+        value4: t.components.composites.counterBoxGroup[3].value ,
+        suffix4: t.components.composites.counterBoxGroup[3].suffix 
+    }); -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>
