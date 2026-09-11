@@ -36,10 +36,20 @@
   font-weight: 500;
 }
 
-.approach-items-list li:last-child .approach-item .vertical-dot-line {
-  display: none;
+#teams .counter-box {
+  margin-bottom: -100px;
 }
 
+@media screen and (width >= 992px) {
+  #teams #values .container {
+    grid-template-columns: 1fr 2.5fr;
+  }
+}
+@media screen and (width >= 992px) {
+  #ar-services #values .container {
+    grid-template-columns: 1fr 2.5fr;
+  }
+}
 .point-box {
   display: flex;
   align-items: center;
@@ -58,34 +68,36 @@
   display: none;
 }
 
-#main-hero {
-  background-image: linear-gradient(to right, rgba(15, 18, 22, 0.78) 0%, rgba(15, 18, 22, 0.52) 35%, rgba(15, 18, 22, 0.18) 65%, rgba(15, 18, 22, 0) 100%), url("../media/images/en/single/herohomepage.png");
-  background-size: 100% 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
+.point-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: color-mix(in srgb, var(--primary) 30%, transparent 100%);
+  padding-block: 1.25rem;
+  padding-inline: 1.75rem;
+  border-radius: 6px;
+}
+.point-box .description {
+  color: var(--section-title-text);
+  font-weight: 500;
 }
 
-.cardhero-title {
-  text-transform: capitalize;
-  color: var(--on-secondary);
-  font-weight: 700;
-  font-size: 2rem;
+.point-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: color-mix(in srgb, var(--primary) 30%, transparent 100%);
+  padding-block: 1.25rem;
+  padding-inline: 1.75rem;
+  border-radius: 6px;
+}
+.point-box .description {
+  color: var(--section-title-text);
+  font-weight: 500;
 }
 
-.highlight {
-  font-size: 2rem;
-  color: var(--primary);
-}
-
-#main-hero .border-play {
-  border: 1px solid var(--primary);
-  width: 65px;
-  height: 65px;
-}
-
-#main-hero .card-play {
-  max-width: 350px;
-  backdrop-filter: blur(5px);
+.approach-items-list li:last-child .approach-item .vertical-dot-line {
+  display: none;
 }
 
 /* components styles */

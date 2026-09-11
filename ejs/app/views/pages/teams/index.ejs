@@ -1,0 +1,135 @@
+<%- include('../../layouts/page/head.ejs', {pageName: "teams"}); -%>
+
+	<main class="section d-flex flex-column" id="teams">
+
+        <section id="topic" class="section bg-secondary-color position-relative gap-10">
+            <div class="container flex-column gap-10 align-items-start">
+                <%- include('../../components/composites/section-topic/content.ejs',
+					{
+						upTitle: t.pages.aboutUs.topic.upTitle,
+						firstPartTitle: t.pages.aboutUs.topic.firstPartTitle,
+						secondPartTitle: t.pages.aboutUs.topic.secondPartTitle,
+						text: t.components.description.text
+					}); -%>
+
+					<div class="block">
+						<a href="" class="btn btn-primary txt-size-subtitle txt-transform-uppercase">
+							<span><%= t.pages.aboutUs.topic.btn %></span>
+							<i class="fa-solid fa-arrow-right"></i>
+						</a>
+					</div>
+
+					<div class="block counter-box bg-specific-color py-6 px-10 common-radius align-self-center">
+						<%- include('../../components/composites/counter-box-group/content.ejs',
+						{
+							image1: t.components.composites.counterBoxGroup[0].image ,
+							title1: t.components.composites.counterBoxGroup[0].title ,
+							value1: t.components.composites.counterBoxGroup[0].value ,
+							suffix1: t.components.composites.counterBoxGroup[0].suffix ,
+							image2: t.components.composites.counterBoxGroup[1].image ,
+							title2: t.components.composites.counterBoxGroup[1].title,
+							value2: t.components.composites.counterBoxGroup[1].value ,
+							suffix2: t.components.composites.counterBoxGroup[1].suffix ,
+							image3: t.components.composites.counterBoxGroup[2].image ,
+							title3: t.components.composites.counterBoxGroup[2].title,
+							value3: t.components.composites.counterBoxGroup[2].value ,
+							suffix3: t.components.composites.counterBoxGroup[2].suffix ,
+							image4: t.components.composites.counterBoxGroup[3].image ,
+							title4: t.components.composites.counterBoxGroup[3].title,
+							value4: t.components.composites.counterBoxGroup[3].value ,
+							suffix4: t.components.composites.counterBoxGroup[3].suffix 
+						}); -%>	
+					</div>
+
+
+            </div>
+			
+			
+
+        </section>
+
+		<section id="team" class="section">
+            <div class="container gap-10 flex-column align-items-center pt-14">
+
+                <div class="block gap-6 flex-column flex-lg-row align-items-center justify-content-center txt-align-center w-50">
+					<%- include('../../components/composites/topic-pattern/third/content.ejs',
+						{
+							upTitle: t.pages.aboutUs.about.upTitle ,
+							title: t.pages.aboutUs.about.title ,
+							text: t.pages.aboutUs.about.firstParagraph
+						}); -%>
+                </div>
+                
+                <div class="block d-grid grid-2 grid-md-3 grid-lg-4 grid-xxl-5 gap-4">
+				
+					<% for(let i = 0 ; i < 10 ; i++){ %>
+						<%- include('../../components/composites/card-person/content.ejs',
+							{
+								image: t.pages.aboutUs.team.percons[i].image ,
+        						alt: t.pages.aboutUs.team.percons[i].alt ,
+								title: t.pages.aboutUs.team.percons[i].name ,
+        						description: t.pages.aboutUs.team.percons[i].job
+							}); -%>
+					<% } %>
+
+					
+                </div>
+        </section>
+
+        <section id="values" class="section">
+			<div class="container d-grid gap-10 grid-1 align-items-center grid-xxl-2 bg-specific-color py-10 common-radius">
+
+				<div class="block gap-4 align-items-start">
+					<%- include('../../components/composites/topic-pattern/third/content.ejs',
+					{
+						upTitle: t.components.eyebrow.text,
+						title: t.components.eyebrow.text,
+						text: t.components.description.text
+					}); -%>
+
+					<a href="" class="btn btn-primary txt-size-subtitle txt-transform-uppercase">
+						<span><%= t.pages.aboutUs.topic.btn %></span>
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<%- include('../../components/composites/feature-group/content.ejs',
+					{
+						image1: t.pages.teams.team[0].image ,
+						title1: t.pages.teams.team[0].title ,
+						text1: t.pages.teams.team[0].text,
+						image2:  t.pages.teams.team[1].image ,
+						title2: t.pages.teams.team[1].title ,
+						text2: t.pages.teams.team[1].text,
+						image3: t.pages.teams.team[2].image ,
+						title3: t.pages.teams.team[2].title ,
+						text3: t.pages.teams.team[2].text,
+						image4: t.pages.teams.team[3].image ,
+						title4: t.pages.teams.team[3].title ,
+						text4: t.pages.teams.team[3].text
+					}); 
+				-%>
+
+
+            </div>
+        </section>
+
+		<section id="quote" class="section">
+			<div class="container">
+
+				<%- include('../../components/composites/section-card/content.ejs', {
+					link: navigation(lang, 'home-one.html'),
+					upTitle: t.components.composites.sectionCard.upTitle,
+					title: t.components.composites.sectionCard.title,
+					text: t.components.composites.sectionCard.subtitle,
+					btnText: t.components.composites.sectionCard.btn
+				}); -%>
+
+			</div>
+		</section>
+        
+
+
+    </main>
+
+<%- include('../../layouts/page/foot.ejs'); %>
